@@ -3580,4 +3580,7 @@ font-size: 18px;
 .footer__blocks-wrapper .footer-block:nth-child(5) img{
   filter: invert(1);
 }
+.footer__blocks-wrapper{
+  row-gap:10px;
+}
 /* custome style Added */
