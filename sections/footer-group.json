@@ -38,16 +38,16 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/Footer-Badge-02_f7edda0d-12f0-4050-aafd-39b9b4a5ba1f.png",
-            "image_width": 80,
-            "alignment": "center"
+            "image_width": 550,
+            "alignment": ""
           }
         },
         "image_ReATLz": {
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/Footer-Badge-01_d52f0ca0-43c1-4bee-b2fe-abea77030bf5.png",
-            "image_width": 80,
-            "alignment": "center"
+            "image_width": 550,
+            "alignment": ""
           }
         }
       },
