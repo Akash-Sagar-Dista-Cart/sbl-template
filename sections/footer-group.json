@@ -1,1 +1,80 @@
-{"name":"t:sections.footer.name","type":"footer","sections":{"footer":{"type":"footer","blocks":{"brand_information_Fpxkz4":{"type":"brand_information","settings":{"show_social":true}},"link_list":{"type":"link_list","settings":{"heading":"","menu":"footer"}},"link_list_AfQyYt":{"type":"link_list","settings":{"heading":"","menu":"footer-2"}},"image_agLyR7":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/Footer-Badge-02_f7edda0d-12f0-4050-aafd-39b9b4a5ba1f.png","image_width":80,"alignment":""}},"image_ReATLz":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/Footer-Badge-01_d52f0ca0-43c1-4bee-b2fe-abea77030bf5.png","image_width":80,"alignment":""}}},"block_order":["brand_information_Fpxkz4","link_list","link_list_AfQyYt","image_agLyR7","image_ReATLz"],"settings":{"color_scheme":"scheme-4","newsletter_enable":false,"newsletter_heading":"Subscribe to our emails","enable_follow_on_shop":true,"show_social":false,"enable_country_selector":true,"enable_language_selector":true,"payment_enable":true,"show_policy":true,"margin_top":0,"padding_top":36,"padding_bottom":36}},"custom_liquid_yLqRDy":{"type":"custom-liquid","disabled":true,"settings":{"custom_liquid":"","color_scheme":"","padding_top":40,"padding_bottom":52}}},"order":["footer","custom_liquid_yLqRDy"]}
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
+{
+  "name": "t:sections.footer.name",
+  "type": "footer",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "brand_information_Fpxkz4": {
+          "type": "brand_information",
+          "settings": {
+            "show_social": true
+          }
+        },
+        "link_list": {
+          "type": "link_list",
+          "settings": {
+            "heading": "",
+            "menu": "footer"
+          }
+        },
+        "link_list_AfQyYt": {
+          "type": "link_list",
+          "settings": {
+            "heading": "",
+            "menu": "footer-2"
+          }
+        },
+        "image_agLyR7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Footer-Badge-02_f7edda0d-12f0-4050-aafd-39b9b4a5ba1f.png",
+            "image_width": 80,
+            "alignment": "center"
+          }
+        },
+        "image_ReATLz": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Footer-Badge-01_d52f0ca0-43c1-4bee-b2fe-abea77030bf5.png",
+            "image_width": 80,
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "brand_information_Fpxkz4",
+        "link_list",
+        "link_list_AfQyYt",
+        "image_agLyR7",
+        "image_ReATLz"
+      ],
+      "settings": {
+        "color_scheme": "scheme-4",
+        "newsletter_enable": false,
+        "newsletter_heading": "Subscribe to our emails",
+        "enable_follow_on_shop": true,
+        "show_social": false,
+        "enable_country_selector": true,
+        "enable_language_selector": true,
+        "payment_enable": true,
+        "show_policy": true,
+        "margin_top": 0,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}
