@@ -3570,6 +3570,13 @@ details-disclosure > details {
 /* custome style Added */
 .footer-block__details-content .list-menu__item--link{
 font-size: 18px;
+color:#fff;
+}
+.footer__blocks-wrapper .footer-block{
+  width:25% !important;
+}
+.footer__blocks-wrapper .footer-block:nth-child(1){
+  width:50% !important;
 }
 .footer__blocks-wrapper .footer-block:nth-child(4),
 .footer__blocks-wrapper .footer-block:nth-child(5){
