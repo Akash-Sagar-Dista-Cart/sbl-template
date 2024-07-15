@@ -3566,3 +3566,18 @@ details-disclosure > details {
     transform: translateX(100%) scaleX(0);
   }
 }
+
+/* custome style Added */
+.footer-block__details-content .list-menu__item--link{
+font-size: 18px;
+}
+.footer__blocks-wrapper .footer-block:nth-child(4),
+.footer__blocks-wrapper .footer-block:nth-child(5){
+  width: auto !important;
+  flex-grow: 0;
+}
+.footer__blocks-wrapper .footer-block:nth-child(4) img,
+.footer__blocks-wrapper .footer-block:nth-child(5) img{
+  filter: invert(1);
+}
+/* custome style Added */
