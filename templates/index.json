@@ -445,6 +445,20 @@
             "video_url": "https:\/\/youtu.be\/Q2Laivp84j0",
             "title": "Bhawana Got Relief From Seasonal Allergies And Skin Rashes"
           }
+        },
+        "youtube_video_xfTrci": {
+          "type": "youtube_video",
+          "settings": {
+            "video_url": "https:\/\/youtu.be\/tt1if_A2COU",
+            "title": "Vinita Solved Her Hand Numbness Problem"
+          }
+        },
+        "youtube_video_AQwrVY": {
+          "type": "youtube_video",
+          "settings": {
+            "video_url": "https:\/\/youtu.be\/tXy9BMfDBq4",
+            "title": "Leena's Weight Loss Journey"
+          }
         }
       },
       "block_order": [
@@ -452,7 +466,9 @@
         "youtube_video_UXEYhy",
         "youtube_video_zeJbA8",
         "youtube_video_JkAyLW",
-        "youtube_video_aA4BHk"
+        "youtube_video_aA4BHk",
+        "youtube_video_xfTrci",
+        "youtube_video_AQwrVY"
       ],
       "settings": {
         "heading": "<strong>How We Helped Our Customers<\/strong>",
