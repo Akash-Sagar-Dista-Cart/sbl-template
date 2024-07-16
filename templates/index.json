@@ -422,11 +422,18 @@
           "settings": {
             "video_url": "https:\/\/youtu.be\/DJmJSSeGSa8"
           }
+        },
+        "youtube_video_zeJbA8": {
+          "type": "youtube_video",
+          "settings": {
+            "video_url": "https:\/\/youtu.be\/ybM2e0tjjyE"
+          }
         }
       },
       "block_order": [
         "youtube_video_UXEYhy",
-        "youtube_video_PV9Yeh"
+        "youtube_video_PV9Yeh",
+        "youtube_video_zeJbA8"
       ],
       "settings": {
       }
