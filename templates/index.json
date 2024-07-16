@@ -428,12 +428,26 @@
           "settings": {
             "video_url": "https:\/\/youtu.be\/ybM2e0tjjyE"
           }
+        },
+        "youtube_video_JkAyLW": {
+          "type": "youtube_video",
+          "settings": {
+            "video_url": "https:\/\/youtu.be\/14tv4q7vUcI"
+          }
+        },
+        "youtube_video_aA4BHk": {
+          "type": "youtube_video",
+          "settings": {
+            "video_url": "https:\/\/youtu.be\/Q2Laivp84j0"
+          }
         }
       },
       "block_order": [
         "youtube_video_UXEYhy",
         "youtube_video_PV9Yeh",
-        "youtube_video_zeJbA8"
+        "youtube_video_zeJbA8",
+        "youtube_video_JkAyLW",
+        "youtube_video_aA4BHk"
       ],
       "settings": {
       }
