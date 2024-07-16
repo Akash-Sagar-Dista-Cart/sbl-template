@@ -44,8 +44,10 @@
         "button"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/32170.jpg",
+        "image_2": "shopify:\/\/shop_images\/com.png",
         "image_overlay_opacity": 40,
-        "image_height": "small",
+        "image_height": "medium",
         "desktop_content_position": "middle-left",
         "show_text_box": false,
         "desktop_content_alignment": "left",
