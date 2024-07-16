@@ -283,6 +283,8 @@
         document.documentElement.classList.add('shopify-design-mode');
       }
     </script>
+    {{ 'custom.css' | asset_url | stylesheet_tag }}
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
   </head>
 
   <body class="gradient{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %}">
