@@ -351,33 +351,37 @@
         "column11": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/1_Advantages_USP.png",
             "title": "Add educational content",
             "text": "<p>Provide content for your customers that sets their business up for success<\/p>",
-            "link_label": "Read now",
+            "link_label": "",
             "link": ""
           }
         },
         "column12": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/3_Advantages_USP.png",
             "title": "Add educational content",
             "text": "<p>Provide content for your customers that sets their business up for success<\/p>",
-            "link_label": "Read now",
+            "link_label": "",
             "link": ""
           }
         },
         "column13": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/custom_resized_0a928d0e-fc6d-4c3e-9098-4cc7533f037e_1.png",
             "title": "Add educational content",
             "text": "<p>Provide content for your customers that sets their business up for success<\/p>",
-            "link_label": "Read now",
+            "link_label": "",
             "link": ""
           }
         },
         "column14": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/4_Advantages_USP.png",
             "title": "Add educational content",
             "text": "<p>Provide content for your customers that sets their business up for success<\/p>",
             "link_label": "Read now",
@@ -395,7 +399,7 @@
         "title": "You're set up for success",
         "heading_size": "h2",
         "image_width": "full",
-        "image_ratio": "adapt",
+        "image_ratio": "square",
         "columns_desktop": 4,
         "column_alignment": "left",
         "background_style": "primary",
