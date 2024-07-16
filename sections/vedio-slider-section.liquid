@@ -1,6 +1,73 @@
+<section class="videos-section">
+  <div class="page-width">
+    <div class="videos-main-block">
+      {%- for block in section.blocks -%}
+        {%- case block.type -%}
+          {%- when 'youtube_video' -%}
+            <div class="video_wrap">
+              <div class="video-inner-block">
+                {%- if block.settings.video_url != blank -%}
+                  <iframe
+                    width="100%;"
+                    height="400px;"
+                    src="https://www.youtube.com/embed/{{ block.settings.video_url.id }}"
+                  ></iframe>
+                {%- endif -%}
+              </div>
+            </div>
+          {% when 'local_video' %}
+            <div class="video_wrap">
+              {% assign poster = block.settings.poster_img | img_url: 'master' %}
+              {%- if block.settings.video != blank -%}
+                {{
+                  block.settings.video
+                  | video_tag: autoplay: true, loop: true, muted: true, class: 'video-items', controls: false
+                }}
+              {%- endif -%}
+            </div>
+        {%- endcase -%}
+      {%- endfor -%}
+    </div>
+  </div>
+</section>
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
+{
+  "name": "Video Slider",
+  "settings": [],
+  "blocks": [
+    {
+      "type": "local_video",
+      "name": "Shopify video",
+      "settings": [
+        {
+          "type": "video",
+          "id": "video",
+          "label": "Select Video"
+        },
+        {
+          "type": "image_picker",
+          "id": "poster_img",
+          "label": "Select video poster"
+        }
+      ]
+    },
+    {
+      "type": "youtube_video",
+      "name": "Youtube video",
+      "settings": [
+        {
+          "type": "video_url",
+          "id": "video_url",
+          "accept": ["vimeo","youtube"],
+          "label": "Select Video"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Video Slider"
+    }
+  ]
+}
 {% endschema %}
