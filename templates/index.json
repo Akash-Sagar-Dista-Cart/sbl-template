@@ -411,40 +411,45 @@
     "vedio_slider_section_hJERAb": {
       "type": "vedio-slider-section",
       "blocks": {
-        "youtube_video_UXEYhy": {
-          "type": "youtube_video",
-          "settings": {
-            "video_url": "https:\/\/youtu.be\/yGRXCFk9S1k"
-          }
-        },
         "youtube_video_PV9Yeh": {
           "type": "youtube_video",
           "settings": {
-            "video_url": "https:\/\/youtu.be\/DJmJSSeGSa8"
+            "video_url": "https:\/\/youtu.be\/DJmJSSeGSa8",
+            "title": "Anu Got Help In Dark Spots & Wrinkles"
+          }
+        },
+        "youtube_video_UXEYhy": {
+          "type": "youtube_video",
+          "settings": {
+            "video_url": "https:\/\/youtu.be\/yGRXCFk9S1k",
+            "title": "Bela Got Relief From Mood Swings, Hot Flashes, And Blood Clots"
           }
         },
         "youtube_video_zeJbA8": {
           "type": "youtube_video",
           "settings": {
-            "video_url": "https:\/\/youtu.be\/ybM2e0tjjyE"
+            "video_url": "https:\/\/youtu.be\/ybM2e0tjjyE",
+            "title": "Anu Got Help In Dark Spots & Wrinkles"
           }
         },
         "youtube_video_JkAyLW": {
           "type": "youtube_video",
           "settings": {
-            "video_url": "https:\/\/youtu.be\/14tv4q7vUcI"
+            "video_url": "https:\/\/youtu.be\/14tv4q7vUcI",
+            "title": "Blog posts"
           }
         },
         "youtube_video_aA4BHk": {
           "type": "youtube_video",
           "settings": {
-            "video_url": "https:\/\/youtu.be\/Q2Laivp84j0"
+            "video_url": "https:\/\/youtu.be\/Q2Laivp84j0",
+            "title": "Blog posts"
           }
         }
       },
       "block_order": [
-        "youtube_video_UXEYhy",
         "youtube_video_PV9Yeh",
+        "youtube_video_UXEYhy",
         "youtube_video_zeJbA8",
         "youtube_video_JkAyLW",
         "youtube_video_aA4BHk"
@@ -452,14 +457,7 @@
       "settings": {
         "heading": "<strong>How We Helped Our Customers<\/strong>",
         "heading_size": "h2",
-        "blog": "",
-        "post_limit": 3,
-        "columns_desktop": 3,
         "color_scheme": "",
-        "show_image": true,
-        "show_date": true,
-        "show_author": false,
-        "show_view_all": true,
         "padding_top": 36,
         "padding_bottom": 36
       }
