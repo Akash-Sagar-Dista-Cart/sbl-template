@@ -56,7 +56,7 @@ $(document).ready(function(){
         slidesToShow: 4,
         slidesToScroll: 1,
         infinite: true,
-        dots: false
+        dots: true
       }
     },
     {
