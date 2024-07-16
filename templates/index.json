@@ -407,6 +407,22 @@
         "padding_top": 44,
         "padding_bottom": 48
       }
+    },
+    "vedio_slider_section_hJERAb": {
+      "type": "vedio-slider-section",
+      "blocks": {
+        "youtube_video_UXEYhy": {
+          "type": "youtube_video",
+          "settings": {
+            "video_url": "https:\/\/youtu.be\/yGRXCFk9S1k"
+          }
+        }
+      },
+      "block_order": [
+        "youtube_video_UXEYhy"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
@@ -417,6 +433,7 @@
     "collection_list",
     "multicolumn1",
     "featured_collection2",
-    "multicolumn2"
+    "multicolumn2",
+    "vedio_slider_section_hJERAb"
   ]
 }
