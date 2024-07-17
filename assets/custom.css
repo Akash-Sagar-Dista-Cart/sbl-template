@@ -68,6 +68,9 @@ button.video-slider-arrow svg path {
 }
 
 /*.charity-block  */
+.charity-block .row > div{
+  flex:1;
+}
 .charity-block .row{
   display:flex;
   gap:15px;;
