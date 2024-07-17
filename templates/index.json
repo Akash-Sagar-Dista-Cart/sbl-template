@@ -260,7 +260,7 @@
     "featured_blog_EmCUba": {
       "type": "featured-blog",
       "settings": {
-        "heading": "Blog posts",
+        "heading": "<strong>Our Blogs<\/strong>",
         "heading_size": "h1",
         "blog": "news",
         "post_limit": 4,
