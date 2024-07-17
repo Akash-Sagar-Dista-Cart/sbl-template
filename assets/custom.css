@@ -54,3 +54,7 @@ button.video-slider-arrow svg path {
 .video-inner-block iframe{
   border: none;
 }
+/* home page shopify-section-template--17056210583733__multicolumn_FMXnRJ */
+#shopify-section-template--17056210583733__multicolumn_FMXnRJ .slider-buttons{
+  display:none;
+}
