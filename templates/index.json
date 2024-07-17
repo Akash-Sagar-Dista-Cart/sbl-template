@@ -308,6 +308,59 @@
         "padding_bottom": 36
       }
     },
+    "multicolumn_FMXnRJ": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_WdJe9R": {
+          "type": "column",
+          "settings": {
+            "title": "50+",
+            "text": "<p>HEALTH EXPERTS<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_PkPRz7": {
+          "type": "column",
+          "settings": {
+            "title": "80%",
+            "text": "<p>RETURNING CUSTOMERS<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_HFERK3": {
+          "type": "column",
+          "settings": {
+            "title": "3Lakh",
+            "text": "<p>USERS HELPED<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_WdJe9R",
+        "column_PkPRz7",
+        "column_HFERK3"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "newsletter_FbFWQy": {
       "type": "newsletter",
       "blocks": {
@@ -341,59 +394,6 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
-    },
-    "multicolumn_FMXnRJ": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_WdJe9R": {
-          "type": "column",
-          "settings": {
-            "title": "50+",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_PkPRz7": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_HFERK3": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_WdJe9R",
-        "column_PkPRz7",
-        "column_HFERK3"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "hxl",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "Button label",
-        "button_link": "",
-        "color_scheme": "",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -404,7 +404,7 @@
     "multirow_VTtPLi",
     "featured_blog_EmCUba",
     "multirow_EeR9qY",
-    "newsletter_FbFWQy",
-    "multicolumn_FMXnRJ"
+    "multicolumn_FMXnRJ",
+    "newsletter_FbFWQy"
   ]
 }
