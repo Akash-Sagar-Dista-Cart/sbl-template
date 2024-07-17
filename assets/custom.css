@@ -75,3 +75,9 @@ button.video-slider-arrow svg path {
   display:flex;
   gap:15px;;
 }
+
+@media (max-width:640px){
+  .charity-block .row{
+flex-direction:column;
+}
+}
