@@ -71,13 +71,17 @@ button.video-slider-arrow svg path {
   display:flex !important;
   flex-direction:column;
 }
+
 .menu-container-last{
-  display:flex;
+  display:none;
   flex-wrap:wrap;
   position:absolute;
   right:0;
   
 }
+.mega-menu__list> li:hover .menu-container-last{
+  display:flex !important;
+} 
 .menu-container-last li{
   max-width:150px;
   width:100%;
