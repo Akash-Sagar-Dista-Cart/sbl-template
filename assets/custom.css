@@ -70,6 +70,9 @@ button.video-slider-arrow svg path {
 .mega-menu__list{
   display:flex !important;
   flex-direction:column;
+      max-width: 300px;
+    position: relative;
+  margin:0;
 }
 
 .menu-container-last{
