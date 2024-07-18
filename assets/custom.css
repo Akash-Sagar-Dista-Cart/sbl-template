@@ -71,7 +71,17 @@ button.video-slider-arrow svg path {
   display:flex;
   flex-direction:column;
 }
-
+.menu-container-last{
+  display:flex;
+  flex-wrap:wrap;
+  position:absolute;
+  right:0;
+  
+}
+.menu-container-last li{
+  max-width:150px;
+  width:100%;
+}
 /*.charity-block  */
 .charity-block .row > div{
   flex:1;
