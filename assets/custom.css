@@ -80,7 +80,7 @@ button.video-slider-arrow svg path {
   flex-wrap:wrap;
   position:absolute;
     right: 0;
-  top:0
+  top:0;
     left: 100%;
     width: 600px;
 }
