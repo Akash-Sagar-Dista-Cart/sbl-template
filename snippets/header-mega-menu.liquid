@@ -51,7 +51,11 @@
                           {%- for grandchildlink in childlink.links -%}
                             <li>
                               {% if grandchildlink.object != blank %}
-                                <img src="{{ grandchildlink.object.featured_image.src }}" width="80" height="80">
+                                <img
+                                  src="{{ grandchildlink.object.featured_image.src | img_url:'80x' }}"
+                                  width="80"
+                                  height="80"
+                                >
                               {% endif %}
                               <a
                                 id="HeaderMenu-{{ link.handle }}-{{ childlink.handle }}-{{ grandchildlink.handle }}"
