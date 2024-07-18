@@ -68,7 +68,7 @@ button.video-slider-arrow svg path {
 }
 /* mega menu  */
 .mega-menu__list{
-  display:flex;
+  display:flex !important;
   flex-direction:column;
 }
 .menu-container-last{
