@@ -12,11 +12,14 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "text_Eb3V9m": {
-          "type": "text",
+        "product_text_badge_Fda6RA": {
+          "type": "product-text-badge",
           "settings": {
-            "text": "{{ product.metafields.custom.abc | metafield_text }}",
-            "text_style": "body"
+            "heading_1": "Heading",
+            "heading_2": "Heading",
+            "heading_3": "Heading",
+            "heading_4": "Heading",
+            "heading_5": "Heading"
           }
         },
         "title": {
@@ -69,7 +72,7 @@
         }
       },
       "block_order": [
-        "text_Eb3V9m",
+        "product_text_badge_Fda6RA",
         "title",
         "price",
         "description",

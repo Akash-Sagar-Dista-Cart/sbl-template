@@ -654,6 +654,24 @@
                     <script src="{{ 'quick-add.js' | asset_url }}" defer="defer"></script>
                   {%- endif -%}
                 </product-recommendations>
+              {%- when 'product-text-badge' -%}
+           <div class="text-badge-wrapper">
+            {% if block.settings.heading_1 != blank %}
+              <span>{{block.settings.heading_1}}</span>
+            {% endif %}
+            {% if block.settings.heading_2 != blank %}
+              <span>{{block.settings.heading_2}}</span>
+            {% endif %}
+            {% if block.settings.heading_3 != blank %}
+              <span>{{block.settings.heading_3}}</span>
+            {% endif %}
+            {% if block.settings.heading_4 != blank %}
+              <span>{{block.settings.heading_4}}</span>
+            {% endif %}
+            {% if block.settings.heading_5 != blank %}
+              <span>{{block.settings.heading_5}}</span>
+            {% endif %}
+           </div>
               {%- when 'icon-with-text' -%}
                 {% render 'icon-with-text', block: block %}
             {%- endcase -%}
@@ -2067,6 +2085,52 @@
           "id": "heading_3",
           "default": "t:sections.main-product.blocks.icon_with_text.settings.heading_3.default",
           "label": "t:sections.main-product.blocks.icon_with_text.settings.heading_3.label",
+          "info": "t:sections.main-product.blocks.icon_with_text.settings.heading.info"
+        }
+      ]
+    },
+    {
+      "type": "product-text-badge",
+      "name": "product-text-badge",
+      "settings": [
+        {
+          "type": "header",
+          "content": "t:sections.main-product.blocks.icon_with_text.settings.content.label",
+          "info": "t:sections.main-product.blocks.icon_with_text.settings.content.info"
+        },
+        {
+          "type": "inline_richtext",
+          "id": "heading_1",
+          "default": "t:sections.main-product.blocks.icon_with_text.settings.heading_1.default",
+          "label": "t:sections.main-product.blocks.icon_with_text.settings.heading_1.label",
+          "info": "t:sections.main-product.blocks.icon_with_text.settings.heading.info"
+        },
+        {
+          "type": "inline_richtext",
+          "id": "heading_2",
+          "default": "t:sections.main-product.blocks.icon_with_text.settings.heading_2.default",
+          "label": "t:sections.main-product.blocks.icon_with_text.settings.heading_2.label",
+          "info": "t:sections.main-product.blocks.icon_with_text.settings.heading.info"
+        },
+        {
+          "type": "inline_richtext",
+          "id": "heading_3",
+          "default": "t:sections.main-product.blocks.icon_with_text.settings.heading_3.default",
+          "label": "t:sections.main-product.blocks.icon_with_text.settings.heading_3.label",
+          "info": "t:sections.main-product.blocks.icon_with_text.settings.heading.info"
+        },
+         {
+          "type": "inline_richtext",
+          "id": "heading_4",
+          "default": "t:sections.main-product.blocks.icon_with_text.settings.heading_3.default",
+          "label": "heading 4",
+          "info": "t:sections.main-product.blocks.icon_with_text.settings.heading.info"
+        },
+        {
+          "type": "inline_richtext",
+          "id": "heading_5",
+          "default": "t:sections.main-product.blocks.icon_with_text.settings.heading_3.default",
+          "label": "heading 5",
           "info": "t:sections.main-product.blocks.icon_with_text.settings.heading.info"
         }
       ]

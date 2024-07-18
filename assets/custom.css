@@ -106,3 +106,17 @@ button.video-slider-arrow svg path {
 flex-direction:column;
 }
 }
+/* product page text-badge-wrapper */
+.text-badge-wrapper{
+  display: flex;
+  flex-wrap:wrap;
+}
+.text-badge-wrapper span{
+  background-color: #e2edef;
+  padding: 8px 12px;
+  border-radius: 8px;
+  display: inline-block;
+  margin: 5px;
+
+}
+/* product page text-badge-wrapper */
