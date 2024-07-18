@@ -49,7 +49,7 @@
                       {%- if childlink.links != blank -%}
                         <ul class="list-unstyled" role="list">
                           {%- for grandchildlink in childlink.links -%}
-                            <li>
+                            <li class="mega-menu__link--level-3">
                               {% if grandchildlink.object != blank %}
                                 <img
                                   src="{{ grandchildlink.object.featured_image.src | img_url:'120x' }}"
