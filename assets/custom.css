@@ -81,6 +81,8 @@ button.video-slider-arrow svg path {
   position:absolute;
     right: 0;
   top:0;
+      z-index: 11;
+    left: 84%;
     left: 100%;
     width: 600px;
 }
