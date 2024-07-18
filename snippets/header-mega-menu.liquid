@@ -50,6 +50,9 @@
                         <ul class="list-unstyled" role="list">
                           {%- for grandchildlink in childlink.links -%}
                             <li>
+                              {% if grandchildlink.object != blank %}
+                                <img src="{{ grandchildlink.object.featured_image }}" width="80" height="80">
+                              {% endif %}
                               <a
                                 id="HeaderMenu-{{ link.handle }}-{{ childlink.handle }}-{{ grandchildlink.handle }}"
                                 href="{{ grandchildlink.url }}"
