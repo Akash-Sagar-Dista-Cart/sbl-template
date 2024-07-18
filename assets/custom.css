@@ -76,7 +76,7 @@ button.video-slider-arrow svg path {
   display:none;
   flex-wrap:wrap;
   position:absolute;
-  right:0;
+  left:0;
   
 }
 .mega-menu__list> li:hover .menu-container-last{
