@@ -204,7 +204,6 @@
 
   .image-with-text--overlap .image-with-text__text-item {
     display: flex;
-    padding: 3rem 0;
   }
 
   .image-with-text--overlap .image-with-text__content {
@@ -217,7 +216,7 @@
 
   .image-with-text--overlap .image-with-text__grid--reverse .image-with-text__content {
     margin-left: 0;
-    margin-right: -4rem;
+   
   }
 
   .image-with-text--overlap .image-with-text__grid--reverse .image-with-text__text-item {
@@ -332,7 +331,8 @@
 
 @media screen and (min-width: 990px) {
   .image-with-text__content {
-    padding: 6rem 7rem 7rem;
+    padding: 2rem;
+    padding-top:0 !important;
   }
 }
 

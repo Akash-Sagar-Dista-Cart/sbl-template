@@ -8,9 +8,6 @@ button.video-slider-arrow {
     transform: translateY(-50%);
     cursor: pointer;
 }
-section.videos-section {
-    padding: 60px 0;
-}
 .video-inner-block {
     margin: 5px;
 }
@@ -113,10 +110,15 @@ flex-direction:column;
 }
 .text-badge-wrapper span{
   background-color: #e2edef;
-  padding: 8px 12px;
-  border-radius: 8px;
+  padding: 1px 9px;
+  border-radius: 4px;
   display: inline-block;
-  margin: 5px;
-
+  margin: 2px;
+  font-size: 12px;
 }
 /* product page text-badge-wrapper */
+/* product page vedio slider */
+.video-inner-block iframe{
+  width: 100%;
+}
+/* product page vedio slider */

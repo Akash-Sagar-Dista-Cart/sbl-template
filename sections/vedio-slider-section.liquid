@@ -54,6 +54,16 @@
                 <h3>{{ block.settings.title }}</h3>
               </div>
             </div>
+          {%- when 'product_video' -%}
+            <div class="video_wrap">
+              <div class="video-inner-block">
+                {%- if block.settings.video_url_1 != blank -%}
+                {{block.settings.video_url_1}}
+                  
+                {%- endif -%}
+                <h3>{{ block.settings.title_1 }}</h3>
+              </div>
+            </div>
           {% when 'local_video' %}
             <div class="video_wrap">
               {% assign poster = block.settings.poster_img | img_url: 'master' %}
@@ -171,7 +181,26 @@
       "id": "title",
       "default": "t:sections.featured-blog.settings.heading.default",
       "label": "Title"
+    },
+    
+      ]
+    },
+    {
+      "type": "product_video",
+      "name": "Product video",
+      "settings": [
+        {
+          "type": "liquid",
+          "id": "video_url_1",
+          "label": "Select Video"
+        },
+        {
+      "type": "inline_richtext",
+      "id": "title_1",
+      "default": "t:sections.featured-blog.settings.heading.default",
+      "label": "Product Page Vedio Title "
     }
+    
       ]
     }
   ],

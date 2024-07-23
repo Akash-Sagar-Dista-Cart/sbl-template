@@ -1,0 +1,841 @@
+{% comment %}
+  This is a Shopify theme section called "Horizontal Tabs Product Description".
+  It displays a section with horizontal tabs for different product descriptions.
+{% endcomment %}
+
+<div id="{{section.id}}" class="">
+  <section class="horizontal-tabs-description">
+    <div class="container desktop-tab">
+      <div class="tab-container">
+        <div class="color-{{ section.settings.color_scheme }} gradient">
+          <ul class="tab-navigation">
+            {% for block in section.blocks %}
+              <li class="tab-item">
+                <a href="#{{ block.id }}" class="{% if forloop.first %}active{% endif %}">{{ block.settings.title }}</a>
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+        <div class="tab-content page-width">
+          {% for block in section.blocks %}
+            <div
+              id="{{ block.id }}"
+              class="{{ block.id }} tab-pane {% if block.type == 'benefits' %} tab-benefits{% endif %}"
+            >
+              {% if block.type == 'description' %}
+                {{ product.description }}
+              {% elsif block.type == 'img-text-block' %}
+              {% render 'img-text-block' block:block %}              
+              {% elsif block.type == 'Faq' %}
+                {%- for i in (1..10) -%}
+                {%- assign block_heading = 'heading-' | append: i -%}
+                      {%- assign block_text = 'row_content-' | append: i  -%}
+                      {%- assign block_Q_heading = block.settings[block_heading] -%}
+                      {%- assign block_A_text = block.settings[block_text] -%}
+                {% if block_Q_heading != blank %}
+                <div
+                    class="accordion{% if section.settings.layout == 'row' %} content-container color-{{ section.settings.container_color_scheme }} gradient{% endif %}"
+                    {{ block.shopify_attributes }}
+                >
+                    <details
+                    id="Details-{{ block.id }}-{{ section.id }}"
+                    {% if forloop.first %}
+                        open
+                    {% endif %}
+                    >
+                    <summary id="Summary-{{ block.id }}-{{ section.id }}">
+                        <h3 class="accordion__title inline-richtext h3">
+                        {{ block_Q_heading | escape }}
+                        </h3>
+                        {% render 'icon-caret' %}
+                    </summary>
+                    <div
+                        class="accordion__content rte"
+                        id="CollapsibleAccordion-{{ block.id }}-{{ section.id }}"
+                        role="region"
+                        aria-labelledby="Summary-{{ block.id }}-{{ section.id }}"
+                    >
+                        {{block_A_text}}
+                    </div>
+                    </details>
+                </div>
+               
+                {% endif %}
+                {%- endfor -%}  
+              {% elsif block.type == 'benefits' and block.settings['content-title'] != blank %}
+                <h3>{{ block.settings['content-title'] }}</h3>
+                <span>{{ block.settings['content-sub-title'] }}</span>
+                <div class="benefits-container">
+                  {%- for i in (1..4) -%}
+                    <div class="icon-wrapper">
+                      {%- assign block_icon_id = 'icon-' | append: i -%}
+                      {%- assign block_text_id = 'icon-' | append: i | append: '-text' -%}
+                      {%- assign block_icon = block.settings[block_icon_id] | img_url: '100x' -%}
+                      {%- assign block_text = block.settings[block_text_id] -%}
+
+                      <div class="img-wrapper"><img src="{{block_icon}}"></div>
+                      <span>{{ block_text }}</span>
+                    </div>
+                  {%- endfor -%}
+                </div>
+              {% else %}
+                {{ block.settings.content }}
+              {% endif %}
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+    <div class="container mobile-tab">
+      <div class="tab-container">
+        <div class="color-{{ section.settings.color_scheme }} gradient">
+          <ul class="tab-navigation page-width">
+            {% for block in section.blocks %}
+              <li class="tab-item">
+                <a href="#{{ block.id }}" class="">{{ block.settings.title }}</a>
+              </li>
+
+              <div
+                id="{{ block.id }}"
+                class="{{ block.id }} tab-pane {% if block.type == 'benefits' %} tab-benefits{% endif %}"
+              >
+                {% if block.type == 'description' %}
+                  {{ product.description }}
+                {% elsif block.type == 'Faq' %}
+                {%- for i in (1..4) -%}
+                {%- assign block_heading = 'heading-' | append: i -%}
+                      {%- assign block_text = 'row_content-' | append: i  -%}
+                      {%- assign block_Q_heading = block.settings[block_heading] -%}
+                      {%- assign block_A_text = block.settings[block_text] -%}
+                {% if block_Q_heading != blank %}
+                <div
+                    class="accordion{% if section.settings.layout == 'row' %} content-container color-{{ section.settings.container_color_scheme }} gradient{% endif %}"
+                    {{ block.shopify_attributes }}
+                >
+                    <details
+                    id="Details-{{ block.id }}-{{ section.id }}"
+                    {% if forloop.first %}
+                        open
+                    {% endif %}
+                    >
+                    <summary id="Summary-{{ block.id }}-{{ section.id }}">
+                        <h3 class="accordion__title inline-richtext h3">
+                        {{ block_Q_heading | escape }}
+                        </h3>
+                        {% render 'icon-caret' %}
+                    </summary>
+                    <div
+                        class="accordion__content rte"
+                        id="CollapsibleAccordion-{{ block.id }}-{{ section.id }}"
+                        role="region"
+                        aria-labelledby="Summary-{{ block.id }}-{{ section.id }}"
+                    >
+                        {{block_A_text}}
+                    </div>
+                    </details>
+                </div>
+               
+                {% endif %}
+                {%- endfor -%}  
+                {% elsif block.type == 'benefits' and block.settings['content-title'] != blank %}
+                  <h3>{{ block.settings['content-title'] }}</h3>
+                  <span>{{ block.settings['content-sub-title'] }}</span>
+                  <div class="benefits-container">
+                    {%- for i in (1..4) -%}
+                      <div class="icon-wrapper">
+                        {%- assign block_icon_id = 'icon-' | append: i -%}
+                        {%- assign block_text_id = 'icon-' | append: i | append: '-text' -%}
+                        {%- assign block_icon = block.settings[block_icon_id] | img_url: '100x' -%}
+                        {%- assign block_text = block.settings[block_text_id] -%}
+
+                        <div class="img-wrapper"><img src="{{block_icon}}"></div>
+                        <span>{{ block_text }}</span>
+                      </div>
+                    {%- endfor -%}
+                  </div>
+                {% else %}
+                  {{ block.settings.content }}
+                {% endif %}
+              </div>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+<script>
+ 
+
+document.addEventListener('DOMContentLoaded', function() {
+    const tabInstance = new Tabs('#{{section.id}}'); // Replace '.tab-container' with your actual container selector
+
+    // If you need multiple instances, create them with different selectors
+    // const anotherTabInstance = new Tabs('.another-tab-container');
+});
+
+</script>
+<style>
+  .tab-benefits {
+      text-align: center;
+  }
+  .tab-benefits h3{
+    margin:0;
+  }
+  .tab-container .accordion__title{
+    font-weight:bold;
+  }
+  .tab-benefits .icon-wrapper {
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+  }
+
+  .benefits-container {
+      display: flex;
+      margin-top:15px;
+  }
+
+  .tab-benefits .icon-wrapper img {
+         width: 100px;
+      height: 100px;
+      object-fit: contain;
+  }
+
+  .horizontal-tabs-description {
+      width: 100%;
+  }
+
+  .tab-container {
+      overflow: hidden;
+      background:#bbd7dc40;
+  }
+
+  .tab-navigation {
+      display: flex;
+      list-style: none;
+      padding: 0;
+  }
+
+  .tab-item {
+      display: inline-block;
+      padding: 20px 15px;
+      line-height: 1;
+      transition: all 0.3s;
+        border: 1px solid;
+        border-top: 0 !important;
+        border-bottom: 0 !important;
+  }
+ .tab-item:first-child{
+        border-left: 2px solid;
+  }
+  .tab-item:last-child {
+        border-right: 2px solid;
+  }
+  .tab-item a {
+      text-decoration: none;
+          font-size: 20px;
+
+  }
+
+  .tab-item a.active,
+  .tab-item a:hover {
+      border-bottom: 1px solid;
+      color:#fff;
+  }
+  .tab-pane *{
+    border:0;
+    box-shadow:unset !important;
+  }
+  .tab-content {
+      clear: both;
+      padding: 20px;
+  }
+
+  .tab-pane {
+      display: none;
+  }
+
+  .tab-pane:first-child {
+      display: block;
+  }
+  @media (max-width:768px){
+  .benefits-container{
+    flex-wrap:wrap;
+  }
+  .tab-benefits .icon-wrapper {
+      flex-basis: 50%;
+  }
+  }
+  @media (min-width:481px){
+      .mobile-tab{
+      display:none;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .desktop-tab{
+    display:none;
+  }
+  .tab-pane.active{
+    padding:15px;
+    background:#fff;
+  }
+      .tab-navigation {
+          display: flex;
+          flex: 1;
+          flex-direction: column;
+          width: 100%;
+          align-items: flex-start;
+          border-bottom: none;
+      }
+
+      .tab-item {
+          display: block;
+          width: 100%;
+          margin-right: 0;
+          border-bottom: 1px solid #000;
+      }
+
+      .tab-content {
+          flex: 2;
+      }
+
+
+
+      .tab-pane > p {
+          margin: 0;
+      }
+  }
+  @media (min-width:768px){
+    .tab-navigation{
+    justify-content: center;
+    }
+    .tab-item{
+        flex:1;
+        text-align:center;
+    }
+  }
+</style>
+{% schema %}
+{
+  "name": "Product Description",
+  "settings": [
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:sections.all.colors.label",
+      "default": "scheme-4"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "text",
+      "name": "Tab",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Tab Title",
+          "default": "Tab Title"
+        },
+        {
+          "type": "richtext",
+          "id": "content",
+          "label": "Tab Content"
+        }
+      ]
+    },
+    {
+      "type": "description",
+      "name": "description",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Tab Title",
+          "default": "Tab Title"
+        },
+        {
+          "type": "html",
+          "id": "content",
+          "label": "Tab Content"
+        }
+      ]
+    },
+    {
+      "type": "benefits",
+      "name": "benefits",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Tab Title",
+          "default": "Tab Title"
+        },
+        {
+          "type": "text",
+          "id": "content-title",
+          "label": "Tab Content Title"
+        },
+        {
+          "type": "text",
+          "id": "content-sub-title",
+          "label": "Tab Content Sub Title"
+        },
+        {
+          "type": "image_picker",
+          "id": "icon-1",
+          "label": "icon 1"
+        },
+        {
+          "type": "text",
+          "id": "icon-1-text",
+          "label": "Icon 1 Text"
+        },
+        {
+          "type": "image_picker",
+          "id": "icon-2",
+          "label": "icon 2"
+        },
+        {
+          "type": "text",
+          "id":"icon-2-text",
+          "label": "Icon 2 Text"
+        },
+        {
+          "type": "image_picker",
+          "id": "icon-3",
+          "label": "icon 3"
+        },
+        {
+          "type": "text",
+          "id": "icon-3-text",
+          "label": "Icon 3 Text"
+        },
+        {
+          "type": "image_picker",
+          "id": "icon-4",
+          "label": "icon 4"
+        },
+        {
+          "type": "text",
+          "id": "icon-4-text",
+          "label": "Icon 4 Text"
+        }
+
+      ]
+    },
+    {
+      "type": "Faq",
+      "name": "Faq",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Tab Title",
+          "default": "Tab Title"
+        },
+        {
+          "type": "html",
+          "id": "content",
+          "label": "Tab Content"
+        },
+        {
+          "type": "text",
+          "id": "heading-1",
+          "label": "question-1"
+        },
+        {
+          "type": "text",
+          "id": "heading-2",
+          "label": "question-2"
+        },
+        {
+          "type": "text",
+          "id": "heading-3",
+          "label": "question-3"
+        },
+        {
+          "type": "text",
+          "id": "heading-4",
+          "label": "question-4"
+        },
+        {
+          "type": "text",
+          "id": "heading-5",
+          "label": "question-5"
+        },
+        {
+          "type": "text",
+          "id": "heading-6",
+          "label": "question-6"
+        },
+        {
+          "type": "text",
+          "id": "heading-7",
+          "label": "question-7"
+        },
+        {
+          "type": "text",
+          "id": "heading-8",
+          "label": "question-8"
+        },
+        {
+          "type": "text",
+          "id": "heading-9",
+          "label": "question-9"
+        },
+        {
+          "type": "text",
+          "id": "heading-10",
+          "label": "question-10"
+        },
+        {
+          "type": "text",
+          "id": "row_content-1",
+          "label": "Answer-1"
+        },
+        {
+          "type": "text",
+          "id": "row_content-2",
+          "label": "Answer-2"
+        },
+        {
+          "type": "text",
+          "id": "row_content-3",
+          "label": "Answer-3"
+        },
+        {
+          "type": "text",
+          "id": "row_content-4",
+          "label": "Answer-4"
+        },
+        {
+          "type": "text",
+          "id": "row_content-5",
+          "label": "Answer-5"
+        },
+        {
+          "type": "text",
+          "id": "row_content-6",
+          "label": "Answer-6"
+        },
+        {
+          "type": "text",
+          "id": "row_content-7",
+          "label": "Answer-7"
+        },
+        {
+          "type": "text",
+          "id": "row_content-8",
+          "label": "Answer-8"
+        },
+        {
+          "type": "text",
+          "id": "row_content-9",
+          "label": "Answer-9"
+        },
+        {
+          "type": "text",
+          "id": "row_content-10",
+          "label": "Answer-10"
+        }
+      ]
+    },
+    {
+      "type": "img-text-block",
+      "name": "img-text-block",
+      "settings": [
+        {
+      "type": "image_picker",
+      "id": "image",
+      "label": "t:sections.image-with-text.settings.image.label"
+    },
+    {
+          "type": "text",
+          "id": "title",
+          "label": "Tab Title",
+          "default": "Tab Title"
+        },
+     {
+          "type": "inline_richtext",
+          "id": "heading",
+          "default": "t:sections.image-with-text.blocks.heading.settings.heading.default",
+          "label": "t:sections.image-with-text.blocks.heading.settings.heading.label"
+        },
+        {
+          "type": "select",
+          "id": "heading_size",
+          "options": [
+            {
+              "value": "h2",
+              "label": "t:sections.all.heading_size.options__1.label"
+            },
+            {
+              "value": "h1",
+              "label": "t:sections.all.heading_size.options__2.label"
+            },
+            {
+              "value": "h0",
+              "label": "t:sections.all.heading_size.options__3.label"
+            },
+            {
+              "value": "hxl",
+              "label": "t:sections.all.heading_size.options__4.label"
+            },
+            {
+              "value": "hxxl",
+              "label": "t:sections.all.heading_size.options__5.label"
+            }
+          ],
+          "default": "h1",
+          "label": "t:sections.all.heading_size.label"
+        },
+        {
+          "type": "text",
+          "id": "caption",
+          "default": "t:sections.image-with-text.blocks.caption.settings.text.default",
+          "label": "t:sections.image-with-text.blocks.caption.settings.text.label"
+        },
+        {
+          "type": "select",
+          "id": "text_style",
+          "options": [
+            {
+              "value": "subtitle",
+              "label": "t:sections.image-with-text.blocks.caption.settings.text_style.options__1.label"
+            },
+            {
+              "value": "caption-with-letter-spacing",
+              "label": "t:sections.image-with-text.blocks.caption.settings.text_style.options__2.label"
+            }
+          ],
+          "default": "caption-with-letter-spacing",
+          "label": "t:sections.image-with-text.blocks.caption.settings.text_style.label"
+        },
+        {
+          "type": "select",
+          "id": "text_size",
+          "options": [
+            {
+              "value": "small",
+              "label": "t:sections.image-with-text.blocks.caption.settings.caption_size.options__1.label"
+            },
+            {
+              "value": "medium",
+              "label": "t:sections.image-with-text.blocks.caption.settings.caption_size.options__2.label"
+            },
+            {
+              "value": "large",
+              "label": "t:sections.image-with-text.blocks.caption.settings.caption_size.options__3.label"
+            }
+          ],
+          "default": "medium",
+          "label": "t:sections.image-with-text.blocks.caption.settings.caption_size.label"
+        },
+          {
+          "type": "richtext",
+          "id": "text",
+          "default": "t:sections.image-with-text.blocks.text.settings.text.default",
+          "label": "t:sections.image-with-text.blocks.text.settings.text.label"
+        },
+         {
+          "type": "text",
+          "id": "button_label",
+          "default": "t:sections.image-with-text.blocks.button.settings.button_label.default",
+          "label": "t:sections.image-with-text.blocks.button.settings.button_label.label",
+          "info": "t:sections.image-with-text.blocks.button.settings.button_label.info"
+        },
+        {
+          "type": "url",
+          "id": "button_link",
+          "label": "t:sections.image-with-text.blocks.button.settings.button_link.label"
+        },
+        {
+          "type": "checkbox",
+          "id": "button_style_secondary",
+          "default": false,
+          "label": "t:sections.image-with-text.blocks.button.settings.outline_button.label"
+        },
+    {
+      "type": "select",
+      "id": "height",
+      "options": [
+        {
+          "value": "adapt",
+          "label": "t:sections.image-with-text.settings.height.options__1.label"
+        },
+        {
+          "value": "small",
+          "label": "t:sections.image-with-text.settings.height.options__2.label"
+        },
+        {
+          "value": "medium",
+          "label": "t:sections.image-with-text.settings.height.options__3.label"
+        },
+        {
+          "value": "large",
+          "label": "t:sections.image-with-text.settings.height.options__4.label"
+        }
+      ],
+      "default": "adapt",
+      "label": "t:sections.image-with-text.settings.height.label"
+    },
+    {
+      "type": "select",
+      "id": "desktop_image_width",
+      "options": [
+        {
+          "value": "small",
+          "label": "t:sections.image-with-text.settings.desktop_image_width.options__1.label"
+        },
+        {
+          "value": "medium",
+          "label": "t:sections.image-with-text.settings.desktop_image_width.options__2.label"
+        },
+        {
+          "value": "large",
+          "label": "t:sections.image-with-text.settings.desktop_image_width.options__3.label"
+        }
+      ],
+      "default": "medium",
+      "label": "t:sections.image-with-text.settings.desktop_image_width.label",
+      "info": "t:sections.image-with-text.settings.desktop_image_width.info"
+    },
+    {
+      "type": "select",
+      "id": "layout",
+      "options": [
+        {
+          "value": "image_first",
+          "label": "t:sections.image-with-text.settings.layout.options__1.label"
+        },
+        {
+          "value": "text_first",
+          "label": "t:sections.image-with-text.settings.layout.options__2.label"
+        }
+      ],
+      "default": "image_first",
+      "label": "t:sections.image-with-text.settings.layout.label",
+      "info": "t:sections.image-with-text.settings.layout.info"
+    },
+    {
+      "type": "select",
+      "id": "desktop_content_position",
+      "options": [
+        {
+          "value": "top",
+          "label": "t:sections.image-with-text.settings.desktop_content_position.options__1.label"
+        },
+        {
+          "value": "middle",
+          "label": "t:sections.image-with-text.settings.desktop_content_position.options__2.label"
+        },
+        {
+          "value": "bottom",
+          "label": "t:sections.image-with-text.settings.desktop_content_position.options__3.label"
+        }
+      ],
+      "default": "top",
+      "label": "t:sections.image-with-text.settings.desktop_content_position.label"
+    },
+    {
+      "type": "select",
+      "id": "desktop_content_alignment",
+      "options": [
+        {
+          "value": "left",
+          "label": "t:sections.image-with-text.settings.desktop_content_alignment.options__1.label"
+        },
+        {
+          "value": "center",
+          "label": "t:sections.image-with-text.settings.desktop_content_alignment.options__2.label"
+        },
+        {
+          "value": "right",
+          "label": "t:sections.image-with-text.settings.desktop_content_alignment.options__3.label"
+        }
+      ],
+      "default": "left",
+      "label": "t:sections.image-with-text.settings.desktop_content_alignment.label"
+    },
+    {
+      "type": "select",
+      "id": "content_layout",
+      "options": [
+        {
+          "value": "no-overlap",
+          "label": "t:sections.image-with-text.settings.content_layout.options__1.label"
+        },
+        {
+          "value": "overlap",
+          "label": "t:sections.image-with-text.settings.content_layout.options__2.label"
+        }
+      ],
+      "default": "no-overlap",
+      "label": "t:sections.image-with-text.settings.content_layout.label"
+    },{
+      "type": "header",
+      "content": "t:sections.all.animation.content"
+    },
+    {
+      "type": "select",
+      "id": "image_behavior",
+      "options": [
+        {
+          "value": "none",
+          "label": "t:sections.all.animation.image_behavior.options__1.label"
+        },
+        {
+          "value": "ambient",
+          "label": "t:sections.all.animation.image_behavior.options__2.label"
+        },
+        {
+          "value": "zoom-in",
+          "label": "t:sections.all.animation.image_behavior.options__4.label"
+        }
+      ],
+      "default": "none",
+      "label": "t:sections.all.animation.image_behavior.label"
+    },
+    {
+      "type": "header",
+      "content": "Mobile layout"
+    },
+    {
+      "type": "select",
+      "id": "mobile_content_alignment",
+      "options": [
+        {
+          "value": "left",
+          "label": "t:sections.image-with-text.settings.mobile_content_alignment.options__1.label"
+        },
+        {
+          "value": "center",
+          "label": "t:sections.image-with-text.settings.mobile_content_alignment.options__2.label"
+        },
+        {
+          "value": "right",
+          "label": "t:sections.image-with-text.settings.mobile_content_alignment.options__3.label"
+        }
+      ],
+      "default": "left",
+      "label": "t:sections.image-with-text.settings.mobile_content_alignment.label"
+    }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Product Description",
+      "category": "Products"
+    }
+  ]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}

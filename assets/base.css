@@ -1374,7 +1374,8 @@ button.shopify-payment-button__button--unbranded {
 }
 
 .share-button__button {
-  font-size: 1.4rem;
+  font-size: 1.8rem;
+  font-weight: 600;
   display: flex;
   align-items: center;
   color: rgb(var(--color-link));
@@ -1400,7 +1401,6 @@ details[open] > .share-button__fallback {
 }
 
 .share-button__button .icon-share {
-  height: 1.2rem;
   margin-right: 1rem;
   min-width: 1.3rem;
 }
@@ -3138,7 +3138,7 @@ details-disclosure > details {
 }
 
 .rte li {
-  list-style: inherit;
+  list-style: disc;
 }
 
 .rte li:last-child {
@@ -3567,5 +3567,8 @@ details-disclosure > details {
   }
 }
 
-
+.tab-item a {
+  text-decoration: none;
+  color:var(--color-foreground);
+}
 /* custome style Added */

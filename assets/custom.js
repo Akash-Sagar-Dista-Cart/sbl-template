@@ -35,5 +35,79 @@ $(document).ready(function(){
   ]
 });
 });
+// tabbed description section
+class Tabs {
+  constructor(selector) {
+      this.selector = selector;
+      this.tabs = document.querySelectorAll(`${selector} .tab-item a`);
+      this.previouslyActiveTab = null;
 
+      this.init();
+  }
+
+  init() {
+      this.tabs.forEach(tab => {
+          tab.addEventListener('click', this.handleClick.bind(this));
+      });
+  }
+
+  handleClick(event) {
+      event.preventDefault();
+      const target = event.currentTarget.getAttribute('href').substring(1);
+      const tabPanes = document.querySelectorAll(`${this.selector} .tab-pane`);
+      const activeTabs = document.querySelectorAll(`#${target}`);
+
+      if (window.innerWidth <= 480) {
+          // Check if the clicked tab is the same as the previously active tab
+          if (this.previouslyActiveTab === event.currentTarget) {
+              // If so, close the tab
+              this.deactivateTab(event.currentTarget);
+              this.previouslyActiveTab = null; // Reset previously active tab
+              return; // Exit the function early
+          }
+      }
+
+      // Otherwise, activate the clicked tab
+      this.deactivateAllTabs();
+      this.activateTab(event.currentTarget, activeTabs);
+
+      // Set the previously active tab to the current tab
+      this.previouslyActiveTab = event.currentTarget;
+  }
+
+  deactivateAllTabs() {
+      document.querySelectorAll(`${this.selector} .tab-item`).forEach(item => {
+          item.classList.remove('active');
+      });
+
+      this.tabs.forEach(tab => {
+          tab.classList.remove('active');
+      });
+
+      document.querySelectorAll(`${this.selector} .tab-pane`).forEach(pane => {
+          pane.classList.remove('active');
+          pane.style.display = 'none';
+      });
+  }
+
+  deactivateTab(tab) {
+      tab.classList.remove('active');
+      tab.parentElement.classList.remove('active');
+      const target = tab.getAttribute('href').substring(1);
+      document.querySelectorAll(`#${target}`).forEach(tab => {
+          tab.style.display = 'none';
+          tab.classList.remove('active');
+      });
+  }
+
+  activateTab(tab, activeTabs) {
+      tab.classList.add('active');
+      tab.parentElement.classList.add('active');
+
+      activeTabs.forEach(tab => {
+          tab.style.display = 'block';
+          tab.classList.add('active');
+      });
+  }
+}
 // test
