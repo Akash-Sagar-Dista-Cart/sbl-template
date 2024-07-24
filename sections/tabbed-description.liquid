@@ -101,6 +101,8 @@
               >
                 {% if block.type == 'description' %}
                   {{ product.description }}
+                {% elsif block.type == 'img-text-block' %}
+                {% render 'img-text-block' block:block %}  
                 {% elsif block.type == 'Faq' %}
                 {%- for i in (1..4) -%}
                 {%- assign block_heading = 'heading-' | append: i -%}
@@ -246,6 +248,13 @@ document.addEventListener('DOMContentLoaded', function() {
   .tab-pane *{
     border:0;
     box-shadow:unset !important;
+    color:#000;
+  }
+  .tab-pane .accordion{
+    margin:0;
+  }
+  .tab-pane summary{
+    padding-top:0;
   }
   .tab-content {
       clear: both;
@@ -254,6 +263,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   .tab-pane {
       display: none;
+      width: 100%;
   }
 
   .tab-pane:first-child {

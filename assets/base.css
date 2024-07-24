@@ -3571,4 +3571,26 @@ details-disclosure > details {
   text-decoration: none;
   color:var(--color-foreground);
 }
+/* pages blog */
+.blog-filter ul{
+  display: flex;
+  list-style: none;
+  gap: 15px;
+  text-align: center;
+  padding: 0;
+}
+.blog-menu a{
+  min-width: 110px;
+  background: #fff;
+  padding: 8px 15px;
+  color: #222;
+  font-size: 16px;
+  display: block;
+  text-align: center;
+  border-radius: 6px;
+}
+.blog-menu a.active{
+  background: #1c2c3a;
+    color: #fff;
+}
 /* custome style Added */

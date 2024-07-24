@@ -1,0 +1,47 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "custom_liquid_zpewQ3": {
+      "type": "custom-liquid",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "custom_liquid": "<div class=\"page-width\">\n  <h1 class=\"main-page-title page-title h0 scroll-trigger animate--fade-in\">\n    Miduty Blogs\n  <\/h1>\n<\/div>\n<nav class=\"blog-filter page-width\" role=\"navigation\">\n  <ul>\n    {%- for link in linklists.blog-menu.links -%}\n      <li class=\"blog-menu\">\n        <a href=\"{{ link.url }}\" {% if link.active %} class=\"active\" aria-current=\"page\"{% endif %}>\n          {{ link.title }}\n        <\/a>\n      <\/li>\n    {%- endfor -%}\n  <\/ul>\n<\/nav>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "custom_liquid_HYRLwf": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{{ 'component-article-card.css' | asset_url | stylesheet_tag }}\n{{ 'component-card.css' | asset_url | stylesheet_tag }}\n{{ 'section-main-blog.css' | asset_url | stylesheet_tag }}\n{% assign blogs_linklist_handle = \"blog-menu\" %}\n\n{% liquid \n  assign blogs_linklist = linklists[blogs_linklist_handle]\n  assign articles = \"\" | split: \",\"\n  for blog_link in blogs_linklist.links\n    assign articles = articles | concat: blog_link.object.articles\n  endfor\n  assign articles = articles | uniq | sort: \"published_at\" | reverse\n%} \n\n <div class=\"blog-articles page-width\">\n      {%- for article in articles  -%}\n        <div\n          class=\"blog-articles__article article{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}\"\n          {% if settings.animations_reveal_on_scroll %}\n            data-cascade\n            style=\"--animation-order: {{ forloop.index }};\"\n          {% endif %}\n        >\n          {%- render 'article-card',\n            article: article,\n            media_height: 'medium',\n            media_aspect_ratio: article.image.aspect_ratio,\n            show_image: true,\n            show_date: true,\n            show_author: true,\n            show_excerpt: true\n          -%}\n        <\/div>\n      {%- endfor -%}\n    <\/div>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "custom_liquid_zpewQ3",
+    "custom_liquid_HYRLwf"
+  ]
+}
