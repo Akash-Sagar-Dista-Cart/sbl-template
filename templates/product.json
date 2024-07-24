@@ -148,6 +148,52 @@
         "padding_bottom": 36
       }
     },
+    "vedio_slider_section_hc7JKE": {
+      "type": "vedio-slider-section",
+      "blocks": {
+        "product_video_bzTMXH": {
+          "type": "product_video",
+          "settings": {
+            "video_url_1": "{{ product.metafields.custom.vedio_slider.value.vedio_13.value }}",
+            "title_1": "Blog posts"
+          }
+        },
+        "product_video_4B7Bnc": {
+          "type": "product_video",
+          "settings": {
+            "video_url_1": "{{ product.metafields.custom.vedio_slider.value.vedio_13.value }}",
+            "title_1": "{{ product.metafields.custom.vedio_slider.value.heading_1.value }}"
+          }
+        },
+        "product_video_BA4Mfb": {
+          "type": "product_video",
+          "settings": {
+            "video_url_1": "{{ product.metafields.custom.vedio_slider.value.vedio_13.value }}",
+            "title_1": "Blog posts"
+          }
+        },
+        "product_video_XiWqGw": {
+          "type": "product_video",
+          "settings": {
+            "video_url_1": "{{ product.metafields.custom.vedio_slider.value.vedio_13.value }}",
+            "title_1": "Blog posts"
+          }
+        }
+      },
+      "block_order": [
+        "product_video_bzTMXH",
+        "product_video_4B7Bnc",
+        "product_video_BA4Mfb",
+        "product_video_XiWqGw"
+      ],
+      "settings": {
+        "heading": "How We Helped Our Customers",
+        "heading_size": "h2",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
     "tabbed_description_yYgzty": {
       "type": "tabbed-description",
       "blocks": {
@@ -346,52 +392,6 @@
         "color_scheme": ""
       }
     },
-    "vedio_slider_section_hc7JKE": {
-      "type": "vedio-slider-section",
-      "blocks": {
-        "product_video_bzTMXH": {
-          "type": "product_video",
-          "settings": {
-            "video_url_1": "{{ product.metafields.custom.vedio_slider.value.vedio_13.value }}",
-            "title_1": "Blog posts"
-          }
-        },
-        "product_video_4B7Bnc": {
-          "type": "product_video",
-          "settings": {
-            "video_url_1": "{{ product.metafields.custom.vedio_slider.value.vedio_13.value }}",
-            "title_1": "{{ product.metafields.custom.vedio_slider.value.heading_1.value }}"
-          }
-        },
-        "product_video_BA4Mfb": {
-          "type": "product_video",
-          "settings": {
-            "video_url_1": "{{ product.metafields.custom.vedio_slider.value.vedio_13.value }}",
-            "title_1": "Blog posts"
-          }
-        },
-        "product_video_XiWqGw": {
-          "type": "product_video",
-          "settings": {
-            "video_url_1": "{{ product.metafields.custom.vedio_slider.value.vedio_13.value }}",
-            "title_1": "Blog posts"
-          }
-        }
-      },
-      "block_order": [
-        "product_video_bzTMXH",
-        "product_video_4B7Bnc",
-        "product_video_BA4Mfb",
-        "product_video_XiWqGw"
-      ],
-      "settings": {
-        "heading": "How We Helped Our Customers",
-        "heading_size": "h2",
-        "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 36
-      }
-    },
     "new_description_addWX3": {
       "type": "new-description",
       "blocks": {
@@ -508,10 +508,10 @@
   },
   "order": [
     "main",
+    "vedio_slider_section_hc7JKE",
     "tabbed_description_yYgzty",
     "image_with_text_EEwMDe",
     "tabbed_description_zXGKxn",
-    "vedio_slider_section_hc7JKE",
     "new_description_addWX3",
     "related-products",
     "rich_text_pgB9rM",
