@@ -151,13 +151,6 @@
     "tabbed_description_yYgzty": {
       "type": "tabbed-description",
       "blocks": {
-        "text_iCRAb7": {
-          "type": "text",
-          "settings": {
-            "title": "Description",
-            "content": "{{ product.metafields.custom.new_long_description | metafield_tag }}"
-          }
-        },
         "faq_nEDdfy": {
           "type": "Faq",
           "settings": {
@@ -183,6 +176,13 @@
             "row_content-8": "",
             "row_content-9": "",
             "row_content-10": ""
+          }
+        },
+        "text_iCRAb7": {
+          "type": "text",
+          "settings": {
+            "title": "Description",
+            "content": "{{ product.metafields.custom.new_long_description | metafield_tag }}"
           }
         },
         "img_text_block_MMhgXg": {
@@ -211,8 +211,8 @@
         }
       },
       "block_order": [
-        "text_iCRAb7",
         "faq_nEDdfy",
+        "text_iCRAb7",
         "img_text_block_MMhgXg"
       ],
       "settings": {
