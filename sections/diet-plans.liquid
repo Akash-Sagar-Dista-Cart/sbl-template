@@ -1,0 +1,154 @@
+{%- comment -%}
+  This is a Shopify section named "Feature Blocks".
+  It will display a set of feature blocks with icons, titles, and short descriptions.
+{%- endcomment -%}
+<style>
+  /* Basic styling */
+  .feature-blocks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  .feature-block {
+    text-align: center;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: calc(25% - 20px);
+  }
+  .feature-block img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+  }
+  .feature-block h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+
+  /* Responsive styles */
+  @media screen and (max-width: 768px) {
+    .feature-block {
+      width: calc(100% - 20px);
+    }
+  }
+</style>
+
+<div class="page-width">
+  <div>
+    <h2 class="title inline-richtext {{ section.settings.heading_size }} {{ section.settings.alignment }}">
+      {{ section.settings.title }}
+    </h2>
+  </div>
+  <div class="feature-blocks">
+    {%- for block in section.blocks -%}
+      <div class="feature-block">
+        <h3>{{ block.settings.title }}</h3>
+        <div class="rich-text__buttons scroll-trigger animate--slide-in" data-cascade="" style="--animation-order: 0;">
+          <div class="diet-plan-image">
+          <img src="{{ block.settings.image | image_url: width: 1500 }}">
+          </div>
+          <a href="{{ block.settings.btn-link }}" target="blank" class="button button--primary">
+            {{- block.settings['btn-tile'] -}}
+            <span class="icon-wrap"
+              >&nbsp;
+              <svg
+                viewBox="0 0 14 10"
+                fill="none"
+                aria-hidden="true"
+                focusable="false"
+                class="icon icon-arrow"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M8.537.808a.5.5 0 01.817-.162l4 4a.5.5 0 010 .708l-4 4a.5.5 0 11-.708-.708L11.793 5.5H1a.5.5 0 010-1h10.793L8.646 1.354a.5.5 0 01-.109-.546z" fill="currentColor">
+                </path>
+              </svg>
+            </span>
+          </a>
+        </div>
+      </div>
+    {%- endfor -%}
+  </div>
+</div>
+
+{%- schema -%}
+{
+  "name": "Diet Plan",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title",
+      "default": "Why Choose Us"
+    },
+    {
+   "type": "text_alignment",
+   "id": "alignment",
+   "label": "Title alignment",
+   "default": "center"
+},
+
+    {
+      "type": "select",
+      "id": "heading_size",
+      "options": [
+        {
+          "value": "h2",
+          "label": "t:sections.all.heading_size.options__1.label"
+        },
+        {
+          "value": "h1",
+          "label": "t:sections.all.heading_size.options__2.label"
+        },
+        {
+          "value": "h0",
+          "label": "t:sections.all.heading_size.options__3.label"
+        }
+      ],
+      "default": "h1",
+      "label": "t:sections.all.heading_size.label"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "feature_block",
+      "name": "Feature Block",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title",
+          "default": "Feature Title"
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "btn-tile",
+          "label": "button text",
+          "default": "Download"
+        },
+        {
+          "type": "url",
+          "id": "btn-link",
+          "label": "button link"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "category": "Features",
+      "name": "Diet Plan",
+      "settings": {
+        "title": "Diet Plan"
+      }
+    }
+  ]
+}
+{%- endschema -%}

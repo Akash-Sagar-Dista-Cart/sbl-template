@@ -166,11 +166,15 @@
   align-self: center;
   text-align: center;
 }
+.page.contact .image-with-text__grid{
+  border:1px solid #ccc;
+  border-radius: 4px;
+}
 
-.image-with-text--overlap .image-with-text__content {
+/* .image-with-text--overlap .image-with-text__content {
   width: 90%;
   margin: -3rem auto 0;
-}
+} */
 
 @media screen and (min-width: 750px) {
   .image-with-text__grid--reverse .image-with-text__content {
@@ -208,10 +212,10 @@
 
   .image-with-text--overlap .image-with-text__content {
     height: auto;
-    width: calc(100% + 4rem);
-    min-width: calc(100% + 4rem);
+    width: 100% ;
+    /* min-width: calc(100% + 4rem);
     margin-top: 0;
-    margin-left: -4rem;
+    margin-left: -4rem; */
   }
 
   .image-with-text--overlap .image-with-text__grid--reverse .image-with-text__content {

@@ -1,0 +1,134 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
+{
+  "sections": {
+    "diet_plans_3mmRx9": {
+      "type": "diet-plans",
+      "blocks": {
+        "feature_block_7FWBzj": {
+          "type": "feature_block",
+          "settings": {
+            "title": "WEIGHT LOSS WITH HYPOTHYROID Diet Plan",
+            "image": "shopify:\/\/shop_images\/facts_f261567f-e0cf-4736-bab1-e1f9374843f7.png",
+            "btn-tile": "Download",
+            "btn-link": ""
+          }
+        },
+        "feature_block_3b7QMm": {
+          "type": "feature_block",
+          "settings": {
+            "title": "Feature Title",
+            "image": "shopify:\/\/shop_images\/Talk_To_Our_Experts_v2_fc3419de-14f5-4a09-bf6c-6b0f954ec7fb-632x1024.png",
+            "btn-tile": "Download",
+            "btn-link": ""
+          }
+        },
+        "feature_block_KLUQc6": {
+          "type": "feature_block",
+          "settings": {
+            "title": "Feature Title",
+            "image": "shopify:\/\/shop_images\/facts_f261567f-e0cf-4736-bab1-e1f9374843f7.png",
+            "btn-tile": "Download",
+            "btn-link": ""
+          }
+        },
+        "feature_block_GpBbxB": {
+          "type": "feature_block",
+          "settings": {
+            "title": "Feature Title",
+            "image": "shopify:\/\/shop_images\/facts_f261567f-e0cf-4736-bab1-e1f9374843f7.png",
+            "btn-tile": "Download",
+            "btn-link": ""
+          }
+        },
+        "feature_block_M37yTg": {
+          "type": "feature_block",
+          "settings": {
+            "title": "Feature Title",
+            "btn-tile": "Download",
+            "btn-link": ""
+          }
+        },
+        "feature_block_Qgkrzz": {
+          "type": "feature_block",
+          "settings": {
+            "title": "Feature Title",
+            "image": "shopify:\/\/shop_images\/facts_f261567f-e0cf-4736-bab1-e1f9374843f7.png",
+            "btn-tile": "Download",
+            "btn-link": ""
+          }
+        },
+        "feature_block_9pDmjX": {
+          "type": "feature_block",
+          "settings": {
+            "title": "Feature Title",
+            "btn-tile": "Download",
+            "btn-link": ""
+          }
+        },
+        "feature_block_TciBfy": {
+          "type": "feature_block",
+          "settings": {
+            "title": "Feature Title",
+            "btn-tile": "Download",
+            "btn-link": ""
+          }
+        },
+        "feature_block_nNKAdB": {
+          "type": "feature_block",
+          "settings": {
+            "title": "Feature Title",
+            "btn-tile": "Download",
+            "btn-link": ""
+          }
+        }
+      },
+      "block_order": [
+        "feature_block_7FWBzj",
+        "feature_block_3b7QMm",
+        "feature_block_KLUQc6",
+        "feature_block_GpBbxB",
+        "feature_block_M37yTg",
+        "feature_block_Qgkrzz",
+        "feature_block_9pDmjX",
+        "feature_block_TciBfy",
+        "feature_block_nNKAdB"
+      ],
+      "settings": {
+        "title": "Diet Plan",
+        "alignment": "center",
+        "heading_size": "h1"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 28
+      }
+    },
+    "contact_form_FzzMpF": {
+      "type": "contact-form",
+      "settings": {
+        "heading": "OR Contact Us to help you in your plan",
+        "heading_size": "h1",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "diet_plans_3mmRx9",
+    "main",
+    "contact_form_FzzMpF"
+  ]
+}
