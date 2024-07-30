@@ -79,10 +79,11 @@
         "row_GiTYnq": {
           "type": "row",
           "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
+            "image": "shopify:\/\/shop_images\/Why_Miduty.png",
+            "caption": "",
+            "heading": "<strong>Why choose Miduty?<\/strong>",
+            "text": "<p><em><strong>We believe in being there for you right from the start of your health journey.<\/strong><\/em>We do it by offering you a personalized FREE consultation to understand your existing health condition and recommend a nutritious diet and a healthy lifestyle to support your journey to optimal health.<br\/><br\/>And that’s done by merging the wisdom of Ayurveda with Modern Scientific Knowledge that not only alleviates disease symptoms but also works toward reversing them.<br\/><br\/>Apart from that, we use<em><strong>patented liposomal technology, which ensures 16 times better absorption rates by directly reaching the target site in the body<\/strong><\/em>.<\/p>",
+            "button_label": "",
             "button_link": ""
           }
         },
