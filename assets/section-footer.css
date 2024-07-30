@@ -513,6 +513,10 @@
   .footer *{
     color: rgba(var(--color-foreground), 1);
   } 
+  .list-social__item .icon{
+    width: 3.2rem;
+    height: 3.2rem;
+  }
   .footer__blocks-wrapper .footer-block:nth-child(4),
   .footer__blocks-wrapper .footer-block:nth-child(5){
     width: auto !important;
