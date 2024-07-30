@@ -510,7 +510,9 @@
   color:#fff !important;
   }
   
-  
+  .footer *{
+    color: rgba(var(--color-foreground), 1);
+  } 
   .footer__blocks-wrapper .footer-block:nth-child(4),
   .footer__blocks-wrapper .footer-block:nth-child(5){
     width: auto !important;
