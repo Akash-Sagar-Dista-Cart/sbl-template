@@ -534,3 +534,8 @@
     }
     
   }
+  @media (max-width:480px) {
+    .footer__blocks-wrapper{
+      text-align: -webkit-center;
+    }
+  }
