@@ -509,7 +509,9 @@
   font-size: 18px!important;
   color:#fff !important;
   }
-  
+  .footer-block__brand-info{
+    max-width: 450px;
+  }
   .footer *{
     color: rgba(var(--color-foreground), 1);
   } 
