@@ -540,4 +540,7 @@
     .footer-block__brand-info .footer__list-social.list-social{
       justify-content: center;
     }
+    .footer .list-menu__item{
+      justify-content: center;
+    }
   }
