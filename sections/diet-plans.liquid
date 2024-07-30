@@ -10,24 +10,35 @@
     justify-content: center;
     gap: 20px;
   }
+  .feature-block a:not(.button){
+    line-height:1;
+    text-decoration:none;
+    display:block;
+  }
   .feature-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
     background-color: #f7f7f7;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: calc(25% - 20px);
   }
   .feature-block img {
-    width: 80px;
-    height: 80px;
-    margin-bottom: 10px;
+    width: 100%;
+    max-height: 200px;
+    object-fit:cover;
+    
   }
-  .feature-block h3 {
-    font-size: 1.2em;
-    margin-bottom: 10px;
-  }
-
+.block-title{
+    text-decoration:none;
+    display:block;
+    font-size:1.4rem;
+    margin-top:10px;
+    margin-bottom:5px;
+}
   /* Responsive styles */
   @media screen and (max-width: 768px) {
     .feature-block {
@@ -45,11 +56,16 @@
   <div class="feature-blocks">
     {%- for block in section.blocks -%}
       <div class="feature-block">
-        <h3>{{ block.settings.title }}</h3>
+       
         <div class="rich-text__buttons scroll-trigger animate--slide-in" data-cascade="" style="--animation-order: 0;">
           <div class="diet-plan-image">
+          <a href="{{block.setting.page-link}}">
+          {% if block.settings.image != blank %}
           <img src="{{ block.settings.image | image_url: width: 1500 }}">
+          {% endif %}
+          </a>
           </div>
+         <a href="{{block.setting.page-link}}" class="block-title">  <span>{{ block.settings.title }}</span></a>
           <a href="{{ block.settings.btn-link }}" target="blank" class="button button--primary">
             {{- block.settings['btn-tile'] -}}
             <span class="icon-wrap"
@@ -132,6 +148,11 @@
           "id": "btn-tile",
           "label": "button text",
           "default": "Download"
+        },
+        {
+          "type": "url",
+          "id": "page-link",
+          "label": "Page Link"
         },
         {
           "type": "url",

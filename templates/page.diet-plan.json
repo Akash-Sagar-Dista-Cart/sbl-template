@@ -18,41 +18,7 @@
             "title": "WEIGHT LOSS WITH HYPOTHYROID Diet Plan",
             "image": "shopify:\/\/shop_images\/facts_f261567f-e0cf-4736-bab1-e1f9374843f7.png",
             "btn-tile": "Download",
-            "btn-link": ""
-          }
-        },
-        "feature_block_3b7QMm": {
-          "type": "feature_block",
-          "settings": {
-            "title": "Feature Title",
-            "image": "shopify:\/\/shop_images\/Talk_To_Our_Experts_v2_fc3419de-14f5-4a09-bf6c-6b0f954ec7fb-632x1024.png",
-            "btn-tile": "Download",
-            "btn-link": ""
-          }
-        },
-        "feature_block_KLUQc6": {
-          "type": "feature_block",
-          "settings": {
-            "title": "Feature Title",
-            "image": "shopify:\/\/shop_images\/facts_f261567f-e0cf-4736-bab1-e1f9374843f7.png",
-            "btn-tile": "Download",
-            "btn-link": ""
-          }
-        },
-        "feature_block_GpBbxB": {
-          "type": "feature_block",
-          "settings": {
-            "title": "Feature Title",
-            "image": "shopify:\/\/shop_images\/facts_f261567f-e0cf-4736-bab1-e1f9374843f7.png",
-            "btn-tile": "Download",
-            "btn-link": ""
-          }
-        },
-        "feature_block_M37yTg": {
-          "type": "feature_block",
-          "settings": {
-            "title": "Feature Title",
-            "btn-tile": "Download",
+            "page-link": "",
             "btn-link": ""
           }
         },
@@ -62,6 +28,47 @@
             "title": "Feature Title",
             "image": "shopify:\/\/shop_images\/facts_f261567f-e0cf-4736-bab1-e1f9374843f7.png",
             "btn-tile": "Download",
+            "page-link": "",
+            "btn-link": ""
+          }
+        },
+        "feature_block_3b7QMm": {
+          "type": "feature_block",
+          "disabled": true,
+          "settings": {
+            "title": "Feature Title",
+            "image": "shopify:\/\/shop_images\/Talk_To_Our_Experts_v2_fc3419de-14f5-4a09-bf6c-6b0f954ec7fb-632x1024.png",
+            "btn-tile": "Download",
+            "page-link": "",
+            "btn-link": ""
+          }
+        },
+        "feature_block_KLUQc6": {
+          "type": "feature_block",
+          "settings": {
+            "title": "Feature Title",
+            "image": "shopify:\/\/shop_images\/facts_f261567f-e0cf-4736-bab1-e1f9374843f7.png",
+            "btn-tile": "Download",
+            "page-link": "",
+            "btn-link": ""
+          }
+        },
+        "feature_block_GpBbxB": {
+          "type": "feature_block",
+          "settings": {
+            "title": "Feature Title",
+            "image": "shopify:\/\/shop_images\/facts_f261567f-e0cf-4736-bab1-e1f9374843f7.png",
+            "btn-tile": "Download",
+            "page-link": "",
+            "btn-link": ""
+          }
+        },
+        "feature_block_M37yTg": {
+          "type": "feature_block",
+          "settings": {
+            "title": "Feature Title",
+            "btn-tile": "Download",
+            "page-link": "",
             "btn-link": ""
           }
         },
@@ -70,6 +77,7 @@
           "settings": {
             "title": "Feature Title",
             "btn-tile": "Download",
+            "page-link": "",
             "btn-link": ""
           }
         },
@@ -78,6 +86,7 @@
           "settings": {
             "title": "Feature Title",
             "btn-tile": "Download",
+            "page-link": "",
             "btn-link": ""
           }
         },
@@ -86,17 +95,18 @@
           "settings": {
             "title": "Feature Title",
             "btn-tile": "Download",
+            "page-link": "",
             "btn-link": ""
           }
         }
       },
       "block_order": [
         "feature_block_7FWBzj",
+        "feature_block_Qgkrzz",
         "feature_block_3b7QMm",
         "feature_block_KLUQc6",
         "feature_block_GpBbxB",
         "feature_block_M37yTg",
-        "feature_block_Qgkrzz",
         "feature_block_9pDmjX",
         "feature_block_TciBfy",
         "feature_block_nNKAdB"

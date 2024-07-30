@@ -70,7 +70,7 @@
                     <div class="icon-wrapper">
                       {%- assign block_icon_id = 'icon-' | append: i -%}
                       {%- assign block_text_id = 'icon-' | append: i | append: '-text' -%}
-                      {%- assign block_icon = block.settings[block_icon_id] | img_url: '100x' -%}
+                      {%- assign block_icon = block.settings[block_icon_id] | img_url: '150x' -%}
                       {%- assign block_text = block.settings[block_text_id] -%}
 
                       <div class="img-wrapper"><img src="{{block_icon}}"></div>
@@ -147,7 +147,7 @@
                       <div class="icon-wrapper">
                         {%- assign block_icon_id = 'icon-' | append: i -%}
                         {%- assign block_text_id = 'icon-' | append: i | append: '-text' -%}
-                        {%- assign block_icon = block.settings[block_icon_id] | img_url: '100x' -%}
+                        {%- assign block_icon = block.settings[block_icon_id] | img_url: '150x' -%}
                         {%- assign block_text = block.settings[block_text_id] -%}
 
                         <div class="img-wrapper"><img src="{{block_icon}}"></div>
@@ -199,8 +199,8 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 
   .tab-benefits .icon-wrapper img {
-         width: 100px;
-      height: 100px;
+         width: 150px;
+      height: 150px;
       object-fit: contain;
   }
 
