@@ -97,12 +97,24 @@
             "button_label": "",
             "button_link": ""
           }
+        },
+        "row_yGFeaL": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/wonder-woman_v2.png",
+            "caption": "",
+            "heading": "",
+            "text": "<h2>BUILDING A “30,000+ WONDER WOMEN COMMUNITY” to help you…<\/h2><p><strong>… Openly communicate about your experiences with Miduty and the world.<\/strong>We aim to empower and educate every home-living native lady, devoting her days to caring for her family.<br\/><br\/>But our commitment to your well-being doesn't stop there. We also offer a wealth of health-based activities, our treasured 'Sessions,' that are yours to explore for FREE. From refreshing Face Yoga sessions to empowering Personality Development classes - we've got it all tailored to nurture your mind, body, and spirit.<br\/><br\/><em><strong>And that's not all. We stand firm on our path to empower women and promote financial independence, which is reflected well in our 'I am Capable' project.<\/strong><\/em>So, if you're yearning for a life filled with good health and abundance, we have tailored groups based on your states, ensuring that our support and resources are accessible to every woman in need.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
         "row_ctyMkT",
         "row_GiTYnq",
-        "row_MKrQ4P"
+        "row_MKrQ4P",
+        "row_yGFeaL"
       ],
       "settings": {
         "image_height": "medium",
