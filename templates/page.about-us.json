@@ -90,10 +90,11 @@
         "row_MKrQ4P": {
           "type": "row",
           "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
+            "image": "shopify:\/\/shop_images\/Packaging.png",
+            "caption": "",
+            "heading": "Packaging",
+            "text": "<p><em><strong>Introducing 90% PCR (post-consumer plastics)<\/strong><\/em>We started our journey with an eco-friendly mindset and used bottles and jars that were wholly recyclable and reusable. And, from 2023 onwards, we switched to 80% post-consumer plastic for all our bottles and jars, while ensuring a soft-touch feel. <br\/><br\/>PCR refers to a material made from discarded items like plastic bottles. Our bottles are recyclable and reusable, highlighting our eco-conscious behaviour.<\/p>",
+            "button_label": "",
             "button_link": ""
           }
         }
