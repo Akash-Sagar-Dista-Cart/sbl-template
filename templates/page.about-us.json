@@ -15,9 +15,111 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "multicolumn_yrdtRA": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_kDYpNP": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/About_Palakv2.png",
+            "title": "Palak Midha",
+            "text": "<p>Palak Midha, the founder of Miduty and a German-based Health and Supplement advisor, uncovered her purpose and identity through Nutrition.<br\/><br\/>She passionately pursues her purpose of making others feel, live, and perform better while also inspiring them to overcome health-related setbacks and maximize their potential.<br\/><br\/>She firmly believes in reviewing market trends and seeking to transform the health and wellness standards of people through her well-researched and self-formulated supplements.<br\/><br\/>Palak believes in strengthening her voice and uplifting women, which she found through establishing a<em><strong>Wonder Woman community<\/strong><\/em>, and has been continuously coaching and mentoring the women in the spheres of physical, emotional, social, and spiritual well-being.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_EX7GW4": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/About_Us_Image.png",
+            "title": "Pranav Midha",
+            "text": "<p>Pranav Midha, the co-founder and the man behind it, gave a new face and shape to Miduty. It is his passion for helping others in a most generous way that made him achieve great heights at this age.<br\/><br\/>Pranav speaks:<br\/>\"First and foremost, I love picking up raw ideas and converting them into outcome-oriented projects. For me, Execution is all that matters. Anyone can come up with ideas but how those ideas are turned into reality, is what makes one successful.<br\/><br\/>He is focused on achieving the objectives of the firm and sailing the company’s effort towards attaining positive growth and development. He is best known for key planning and having an organized mindset to carry out various projects for the company apart from being responsible for providing leadership and directing the team of 100 efficient personnel operating at Miduty.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_kDYpNP",
+        "column_EX7GW4"
+      ],
+      "settings": {
+        "title": "Multicolumn",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multirow_ijmP6C": {
+      "type": "multirow",
+      "blocks": {
+        "row_ctyMkT": {
+          "type": "row",
+          "settings": {
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "row_GiTYnq": {
+          "type": "row",
+          "settings": {
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "row_MKrQ4P": {
+          "type": "row",
+          "settings": {
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_ctyMkT",
+        "row_GiTYnq",
+        "row_MKrQ4P"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "multicolumn_yrdtRA",
+    "multirow_ijmP6C"
   ]
 }
