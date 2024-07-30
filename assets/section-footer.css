@@ -13,12 +13,11 @@
 
 @media screen and (max-width: 749px) {
   .footer .grid {
-    display: block;
+    justify-content: center;
   }
 
   .footer-block.grid__item {
     padding: 0;
-    margin: 4rem 0;
     width: 100%;
   }
 
@@ -310,9 +309,9 @@
   }
 }
 
-.footer-block__details-content {
+/* .footer-block__details-content {
   margin-bottom: 4rem;
-}
+} */
 
 @media screen and (min-width: 750px) {
   .footer-block__details-content {
@@ -535,7 +534,10 @@
     
   }
   @media (max-width:480px) {
-    .footer__blocks-wrapper{
+    .footer__blocks-wrapper .footer-block__brand-info{
       text-align: -webkit-center;
+    }
+    .footer-block__brand-info .footer__list-social.list-social{
+      justify-content: center;
     }
   }
