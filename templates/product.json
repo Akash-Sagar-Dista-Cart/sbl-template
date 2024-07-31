@@ -81,6 +81,13 @@
             "page": "merchandising-tips"
           }
         },
+        "variant_picker_hVbQUR": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "square"
+          }
+        },
         "quantity_selector_93g6Uw": {
           "type": "quantity_selector",
           "settings": {
@@ -98,13 +105,6 @@
             "show_dynamic_checkout": false,
             "show_gift_card_recipient": true
           }
-        },
-        "variant_picker_hVbQUR": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "button",
-            "swatch_shape": "square"
-          }
         }
       },
       "block_order": [
@@ -118,10 +118,10 @@
         "collapsible-row-1",
         "collapsible-row-0",
         "collapsible-row-2",
+        "variant_picker_hVbQUR",
         "quantity_selector_93g6Uw",
         "share",
-        "buy_buttons_fjt8a3",
-        "variant_picker_hVbQUR"
+        "buy_buttons_fjt8a3"
       ],
       "settings": {
         "enable_sticky_info": true,
