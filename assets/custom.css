@@ -82,9 +82,9 @@ button.video-slider-arrow svg path {
     left: 84%;
     width: calc(100vw - 300px);
 }
-.mega-menu__list> li:hover .menu-container-last{
+/* .mega-menu__list> li:hover .menu-container-last{
   display:flex !important;
-} 
+}  */
 .menu-container-last li{
   max-width:150px;
   width:100%;
