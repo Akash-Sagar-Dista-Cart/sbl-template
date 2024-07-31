@@ -115,41 +115,46 @@ class Tabs {
 
 class NavigationMenu {
   constructor(navSelector) {
-      this.nav = document.querySelector(navSelector);
-      this.navItems = this.nav.querySelectorAll('.child-link');
-      this.setupEventListeners();
+    this.nav = document.querySelector(navSelector);
+    this.navItems = this.nav.querySelectorAll('.child-link');
+    this.currentOpenItem = null; // Track the currently open item
+    this.setupEventListeners();
   }
 
   setupEventListeners() {
-    console.log("this.navItems")
-    console.log(this.navItems)
-      this.navItems.forEach(item => {
-          const label = item.querySelector('.mega-menu__link--level-2');
-          label.addEventListener('click', () => this.toggleMenu(item));
-      });
+    this.navItems.forEach(item => {
+      const label = item.querySelector('.mega-menu__link--level-2');
+      label.addEventListener('click', () => this.toggleMenu(item));
+    });
   }
 
   toggleMenu(item) {
-      // Close all other submenus
-      this.navItems.forEach(otherItem => {
-          if (otherItem !== item) {
-              otherItem.querySelector('.menu-container-last').style.display = 'none';
-          }
-      });
+    // If the clicked item is the currently open item, do nothing
+    if (this.currentOpenItem === item) {
+      return;
+    }
 
-      // Toggle the clicked submenu
-      const submenu = item.querySelector('.menu-container-last');
-      if (submenu.style.display === 'flex') {
-          submenu.style.display = 'none';
-      } else {
-          submenu.style.display = 'flex';
+    // Close all other submenus
+    this.navItems.forEach(otherItem => {
+      if (otherItem !== item) {
+        otherItem.querySelector('.menu-container-last').style.display = 'none';
       }
+    });
+
+    // Toggle the clicked submenu
+    const submenu = item.querySelector('.menu-container-last');
+    submenu.style.display = submenu.style.display === 'flex' ? 'none' : 'flex';
+
+    // Update the currently open item
+    this.currentOpenItem = submenu.style.display === 'flex' ? item : null;
   }
 }
 
 document.addEventListener('DOMContentLoaded', function() {
   new NavigationMenu('.mega-menu__list');
 });
+///
+
 
 
 // mega menu Js
