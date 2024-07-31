@@ -134,6 +134,6 @@ flex-direction:column;
   }
  }
 
- body.cart .cart-icon-bubble{
+ body.cart #cart-icon-bubble{
   display: none;
  }
