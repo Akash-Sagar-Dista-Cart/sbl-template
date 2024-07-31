@@ -111,3 +111,43 @@ class Tabs {
   }
 }
 // test
+// mega menu Js
+
+class NavigationMenu {
+  constructor(navSelector) {
+      this.nav = document.querySelector(navSelector);
+      this.navItems = this.nav.querySelectorAll('li');
+      this.setupEventListeners();
+  }
+
+  setupEventListeners() {
+      this.navItems.forEach(item => {
+          const label = item.querySelector('.mega-menu__link--level-2');
+          label.addEventListener('click', () => this.toggleMenu(item));
+      });
+  }
+
+  toggleMenu(item) {
+      // Close all other submenus
+      this.navItems.forEach(otherItem => {
+          if (otherItem !== item) {
+              otherItem.querySelector('.menu-container-last').style.display = 'none';
+          }
+      });
+
+      // Toggle the clicked submenu
+      const submenu = item.querySelector('.menu-container-last');
+      if (submenu.style.display === 'flex') {
+          submenu.style.display = 'none';
+      } else {
+          submenu.style.display = 'flex';
+      }
+  }
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+  new NavigationMenu('.mega-menu__list');
+});
+
+
+// mega menu Js
