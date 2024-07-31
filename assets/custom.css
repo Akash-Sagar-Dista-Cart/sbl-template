@@ -83,7 +83,7 @@ button.video-slider-arrow svg path {
     width: calc(100vw - 300px);
 }
 .mega-menu__list .child-link:first-child .menu-container-last{
-  display:flex !important;
+  display:flex;
 } 
 .menu-container-last li{
   max-width:150px;
