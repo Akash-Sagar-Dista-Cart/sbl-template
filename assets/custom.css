@@ -133,3 +133,7 @@ flex-direction:column;
     width: calc(95% - var(--grid-mobile-horizontal-spacing) - 3rem) !important;
   }
  }
+
+ body.cart .cart-icon-bubble{
+  display: none;
+ }
