@@ -130,6 +130,6 @@ flex-direction:column;
  }
  @media (max-width:480px) {
   slider-component .grid__item{
-    width:95%;
+    width: calc(95% - var(--grid-mobile-horizontal-spacing) - 3rem) !important;
   }
  }
