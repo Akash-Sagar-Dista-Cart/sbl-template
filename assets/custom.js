@@ -116,7 +116,7 @@ class Tabs {
 class NavigationMenu {
   constructor(navSelector) {
       this.nav = document.querySelector(navSelector);
-      this.navItems = this.nav.querySelectorAll('li');
+      this.navItems = this.nav.querySelectorAll('.child-link');
       this.setupEventListeners();
   }
 
