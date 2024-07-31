@@ -121,6 +121,8 @@ class NavigationMenu {
   }
 
   setupEventListeners() {
+    console.log("this.navItems")
+    console.log(this.navItems)
       this.navItems.forEach(item => {
           const label = item.querySelector('.mega-menu__link--level-2');
           label.addEventListener('click', () => this.toggleMenu(item));
