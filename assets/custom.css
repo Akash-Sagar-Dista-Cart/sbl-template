@@ -1,4 +1,7 @@
 /*Videos section*/
+.videos-main-block{
+  padding: 0 45px;
+}
 button.video-slider-arrow {
     background: transparent;
     border: none;
