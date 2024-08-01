@@ -81,7 +81,7 @@ button.video-slider-arrow svg path {
 .header__menu-item:hover{
   position: static;
 }
-.header__menu-item:hover + .mega-menu__content{
+.mega-menu:hover .mega-menu__content{
   opacity: 1;
 }
 .menu-container-last{
