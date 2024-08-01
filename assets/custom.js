@@ -36,7 +36,7 @@ $(document).ready(function(){
 });
 $('.header__menu-item').hover(function(){
   $(this).parent().addClass('static')
-  $(this).find('.mega-menu__content').show();
+  $(this).parent().find('.mega-menu__content').show();
 })
 });
 // tabbed description section
