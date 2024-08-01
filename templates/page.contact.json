@@ -55,7 +55,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Talk_To_Our_Experts_v2_fc3419de-14f5-4a09-bf6c-6b0f954ec7fb-632x1024.png",
-        "height": "adapt",
+        "height": "medium",
         "desktop_image_width": "medium",
         "layout": "text_first",
         "desktop_content_position": "middle",
