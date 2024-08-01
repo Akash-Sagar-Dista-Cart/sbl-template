@@ -54,8 +54,8 @@
         "contact_form_jjdnK9"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Talk_To_Our_Experts_v2_fc3419de-14f5-4a09-bf6c-6b0f954ec7fb-632x1024.png",
-        "height": "adapt",
+        "image": "shopify:\/\/shop_images\/Talk_To_Our_Experts_v2_fc3419de-14f5-4a09-bf6c-6b0f954ec7fb-632x1024_1_1_1.png",
+        "height": "large",
         "desktop_image_width": "medium",
         "layout": "text_first",
         "desktop_content_position": "middle",
@@ -65,7 +65,7 @@
         "color_scheme": "",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
-        "padding_top": 0,
+        "padding_top": 28,
         "padding_bottom": 36
       }
     },
