@@ -20,7 +20,7 @@
           {% for block in section.blocks %}
             <div
               id="{{ block.id }}"
-              class="{{ block.id }} tab-pane {% if block.type == 'benefits' %} tab-benefits{% endif %}"
+              class="color-{{ section.settings.color_scheme }} {{ block.id }} tab-pane {% if block.type == 'benefits' %} tab-benefits{% endif %}"
             >
               {% if block.type == 'description' %}
                 {{ product.description }}
