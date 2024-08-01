@@ -19,16 +19,8 @@
     "image_with_text_7yG93B": {
       "type": "image-with-text",
       "blocks": {
-        "heading_3FBYni": {
-          "type": "heading",
-          "settings": {
-            "heading": "Questions or comments? Get in touch and we'll be happy to help.",
-            "heading_size": "h2"
-          }
-        },
         "heading_MJH4i6": {
           "type": "heading",
-          "disabled": true,
           "settings": {
             "heading": "<strong>Contact our International team at –<\/strong>",
             "heading_size": "h2"
@@ -41,6 +33,13 @@
             "text_style": "subtitle"
           }
         },
+        "heading_3FBYni": {
+          "type": "heading",
+          "settings": {
+            "heading": "Consultation Form",
+            "heading_size": "h2"
+          }
+        },
         "contact_form_jjdnK9": {
           "type": "contact-form",
           "settings": {
@@ -48,9 +47,9 @@
         }
       },
       "block_order": [
-        "heading_3FBYni",
         "heading_MJH4i6",
         "text_raEmMe",
+        "heading_3FBYni",
         "contact_form_jjdnK9"
       ],
       "settings": {
