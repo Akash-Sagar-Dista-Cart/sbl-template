@@ -2,9 +2,7 @@
 .videos-main-block{
   padding: 0 45px;
 }
-.video-slider-prev{
-  transform: translate(-45px, -50%);
-}
+
 button.video-slider-arrow {
     background: transparent;
     border: none;
@@ -13,6 +11,9 @@ button.video-slider-arrow {
     top: 50%;
     transform: translateY(-50%);
     cursor: pointer;
+}
+button.video-slider-prev{
+  transform: translate(-45px, -50%);
 }
 .video-inner-block {
     margin: 5px;
