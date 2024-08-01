@@ -82,8 +82,8 @@
         "quick_add": "standard",
         "columns_mobile": "2",
         "swipe_on_mobile": true,
-        "padding_top": 20,
-        "padding_bottom": 12
+        "padding_top": 12,
+        "padding_bottom": 0
       }
     },
     "vedio_slider_section_hJERAb": {
@@ -152,8 +152,8 @@
         "heading": "<strong>How We Helped Our Customers<\/strong>",
         "heading_size": "h2",
         "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 12,
+        "padding_bottom": 12
       }
     },
     "multicolumn2": {
