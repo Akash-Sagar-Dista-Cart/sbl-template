@@ -33,20 +33,16 @@
             "text_style": "subtitle"
           }
         },
-        "button_JVCUef": {
-          "type": "button",
-          "disabled": true,
+        "contact_form_jjdnK9": {
+          "type": "contact-form",
           "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
           }
         }
       },
       "block_order": [
         "heading_MJH4i6",
         "text_raEmMe",
-        "button_JVCUef"
+        "contact_form_jjdnK9"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Talk_To_Our_Experts_v2_fc3419de-14f5-4a09-bf6c-6b0f954ec7fb-632x1024.png",
