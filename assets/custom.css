@@ -78,7 +78,12 @@ button.video-slider-arrow svg path {
     position: relative;
   margin:0;
 }
-
+.mega-menu:hover{
+  position: static;
+}
+.mega-menu:hover .mega-menu__content{
+  opacity: 1;
+}
 .menu-container-last{
   display:none;
   flex-wrap:wrap;
