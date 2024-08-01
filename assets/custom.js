@@ -155,19 +155,35 @@ document.querySelectorAll('.header__menu-item').forEach(item => {
   let parent = item.parentElement;
   let megaMenuContent = parent.querySelector('.mega-menu__content');
 
-  parent.addEventListener('mouseover', function() {
+  parent.addEventListener('mouseenter', function() {
     parent.classList.add('static');
     megaMenuContent.style.display = 'block';
   });
 
-  parent.addEventListener('mouseout', function(event) {
-    // Check if the related target is outside the parent container
-    if (!parent.contains(event.relatedTarget)) {
-      parent.classList.remove('static');
-      megaMenuContent.style.display = 'none';
-    }
+  parent.addEventListener('mouseleave', function() {
+    parent.classList.remove('static');
+    megaMenuContent.style.display = 'none';
   });
 });
+
+
+// document.querySelectorAll('.header__menu-item').forEach(item => {
+//   let parent = item.parentElement;
+//   let megaMenuContent = parent.querySelector('.mega-menu__content');
+
+//   parent.addEventListener('mouseover', function() {
+//     parent.classList.add('static');
+//     megaMenuContent.style.display = 'block';
+//   });
+
+//   parent.addEventListener('mouseout', function(event) {
+//     // Check if the related target is outside the parent container
+//     if (!parent.contains(event.relatedTarget)) {
+//       parent.classList.remove('static');
+//       megaMenuContent.style.display = 'none';
+//     }
+//   });
+// });
 
 
 // document.addEventListener('DOMContentLoaded', function() {
