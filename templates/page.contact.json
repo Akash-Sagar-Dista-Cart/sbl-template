@@ -21,6 +21,7 @@
       "blocks": {
         "heading_MJH4i6": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "<strong>Contact our International team at –<\/strong>",
             "heading_size": "h2"
@@ -29,7 +30,7 @@
         "text_raEmMe": {
           "type": "text",
           "settings": {
-            "text": "<ul><li><h3>Whatsapp your queries at <a href=\"tel:+91-7652922771\" title=\"tel:+91-7652922771\">+91-7652922771<\/a> or <a href=\"tel:+91 95019 80115\" title=\"tel:+91 95019 80115\">+91 95019 80115<\/a><\/h3><\/li><li><h3>or Email us at –<a href=\"mailto:international@miduty.in\"> international@miduty.in<\/a><\/h3><\/li><\/ul>",
+            "text": "<ul><li><h4>Whatsapp your queries at <a href=\"tel:+91-7652922771\" title=\"tel:+91-7652922771\">+91-7652922771<\/a> or <a href=\"tel:+91 95019 80115\" title=\"tel:+91 95019 80115\">+91 95019 80115<\/a><\/h4><\/li><li><h4>or Email us at –<a href=\"mailto:international@miduty.in\"> international@miduty.in<\/a><\/h4><\/li><\/ul>",
             "text_style": "subtitle"
           }
         },
