@@ -34,6 +34,10 @@ $(document).ready(function(){
     }
   ]
 });
+$('.header__menu-item').hover(function(){
+  $(this).parent().addClass('static')
+  $(this).find('.mega-menu__content').show();
+})
 });
 // tabbed description section
 class Tabs {
@@ -112,7 +116,7 @@ class Tabs {
 }
 // test
 // mega menu Js
-
+$()
 class NavigationMenu {
   constructor(navSelector) {
     this.nav = document.querySelector(navSelector);

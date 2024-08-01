@@ -78,11 +78,12 @@ button.video-slider-arrow svg path {
     position: relative;
   margin:0;
 }
-.header__menu-item:hover{
-  position: static;
-}
+
 .mega-menu:hover .mega-menu__content{
   opacity: 1;
+}
+.static{
+  position:static;
 }
 .menu-container-last{
   display:none;
