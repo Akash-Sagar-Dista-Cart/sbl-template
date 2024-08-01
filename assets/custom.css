@@ -140,3 +140,7 @@ flex-direction:column;
  .quick-add__submit{
   background-color: rgba(28,44,58, var(--alpha-button-background));
  }
+ /*  */
+ body.contact form{
+  width: 100%;
+ }
