@@ -41,6 +41,7 @@
         },
         "sku_EhcjQ9": {
           "type": "sku",
+          "disabled": true,
           "settings": {
             "text_style": "body"
           }
