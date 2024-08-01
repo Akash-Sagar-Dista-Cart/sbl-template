@@ -113,7 +113,6 @@ class Tabs {
 }
 // test
 // mega menu Js
-$()
 class NavigationMenu {
   constructor(navSelector) {
     this.nav = document.querySelector(navSelector);

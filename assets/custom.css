@@ -78,7 +78,10 @@ button.video-slider-arrow svg path {
     position: relative;
   margin:0;
 }
-
+.header--mobile-center{
+  padding-top: 0;
+  padding-bottom: 0;
+}
 .mega-menu:hover .mega-menu__content{
   opacity: 1;
 }
