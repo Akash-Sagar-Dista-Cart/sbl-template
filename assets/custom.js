@@ -34,10 +34,7 @@ $(document).ready(function(){
     }
   ]
 });
-$('.header__menu-item').hover(function(){
-  $(this).parent().addClass('static')
-  $(this).parent().find('.mega-menu__content').show();
-})
+
 });
 // tabbed description section
 class Tabs {
@@ -154,8 +151,24 @@ class NavigationMenu {
   }
 }
 
+
+
+
 document.addEventListener('DOMContentLoaded', function() {
   new NavigationMenu('.mega-menu__list');
+  document.querySelectorAll('.header__menu-item').forEach(item => {
+    item.addEventListener('mouseover', function() {
+      let parent = this.parentElement;
+      parent.classList.add('static');
+      parent.querySelector('.mega-menu__content').style.display = 'block';
+    });
+    
+    item.addEventListener('mouseout', function() {
+      let parent = this.parentElement;
+      parent.classList.remove('static');
+      parent.querySelector('.mega-menu__content').style.display = 'none';
+    });
+  });
 });
 ///
 
