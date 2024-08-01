@@ -227,8 +227,6 @@ document.addEventListener('DOMContentLoaded', function() {
       line-height: 1;
       transition: all 0.3s;
       border: 1px solid;
-      border-top: 0 !important;
-      border-bottom: 0 !important;
       background:#fff;
   }
  .tab-item:first-child{
@@ -327,10 +325,13 @@ document.addEventListener('DOMContentLoaded', function() {
             border: 1px solid;
             border-left:0;
     }
-    .tab-item{
-        flex:1;
-        text-align:center;
-    }
+    .tab-item {
+      flex:1;
+      text-align:center;
+      border: 1px solid;
+      border-top: 0 !important;
+      border-bottom: 0 !important;
+  }
   }
 </style>
 {% schema %}
