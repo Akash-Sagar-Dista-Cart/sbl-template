@@ -75,6 +75,7 @@
                   </h2>
 
                 {%- when 'contact-form' -%}
+                {{ 'section-contact-form.css' | asset_url | stylesheet_tag }}
                 {%- liquid
       assign contact_form_class = 'isolate'
       if settings.animations_reveal_on_scroll
