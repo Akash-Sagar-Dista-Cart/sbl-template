@@ -99,7 +99,7 @@ button.video-slider-arrow svg path {
 
 .more-content{
   display:none;
-  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+  transition: all 1.5s ease-in-out;
 }
 .menu-container-last{
   display:none;
