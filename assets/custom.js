@@ -151,35 +151,11 @@ class NavigationMenu {
 }
 
 
-// class ShowMoreContent {
-//   constructor(buttonId, contentClass,orgContent) {
-//     this.button = document.getElementById(buttonId);
-//     this.moreContent = document.querySelector(contentClass);
-//     this.orgContent = document.querySelector(orgContent)
-//     this.isContentVisible = false;
-
-//     this.button.addEventListener('click', this.toggleContent.bind(this));
-//   }
-
-//   toggleContent() {
-//     if (this.isContentVisible) {
-//       this.orgContent.style.display = 'block';
-//       this.moreContent.style.display = 'none';
-//       this.button.textContent = 'Show More';
-//     } else {
-//       this.orgContent.style.display = 'none';
-//       this.moreContent.style.display = 'block';
-//       this.button.textContent = 'Show Less';
-//     }
-//     this.isContentVisible = !this.isContentVisible;
-//   }
-// }
-
 class ShowMoreContent {
-  constructor(buttonId, contentClass, hiddenContentClass) {
+  constructor(buttonId, contentClass,orgContent) {
     this.button = document.getElementById(buttonId);
     this.moreContent = document.querySelector(contentClass);
-    this.hiddenContent = document.querySelector(hiddenContentClass);
+    this.orgContent = document.querySelector(orgContent)
     this.isContentVisible = false;
 
     this.button.addEventListener('click', this.toggleContent.bind(this));
@@ -187,29 +163,17 @@ class ShowMoreContent {
 
   toggleContent() {
     if (this.isContentVisible) {
-      this.moreContent.style.height = this.hiddenContent.scrollHeight + 'px';
-      requestAnimationFrame(() => {
-        this.moreContent.style.height = '0';
-        this.hiddenContent.style.display = 'none';
-        this.button.textContent = 'Show More';
-      });
+      this.orgContent.style.display = 'block';
+      this.moreContent.style.display = 'none';
+      this.button.textContent = 'Show More';
     } else {
-      this.hiddenContent.style.display = 'block';
-      const height = this.hiddenContent.scrollHeight + 'px';
-      this.moreContent.style.height = height;
-      this.moreContent.addEventListener('transitionend', () => {
-        this.moreContent.style.height = 'auto';
-      }, { once: true });
+      this.orgContent.style.display = 'none';
+      this.moreContent.style.display = 'block';
       this.button.textContent = 'Show Less';
     }
     this.isContentVisible = !this.isContentVisible;
   }
 }
-
-// Initialize the ShowMoreContent class with new content
-document.addEventListener('DOMContentLoaded', () => {
-  new ShowMoreContent('showMoreBtn', '.more-content', '.hidden-content');
-});
 
 // Initialize the ShowMoreContent class
 
@@ -218,7 +182,7 @@ document.addEventListener('DOMContentLoaded', () => {
 document.addEventListener('DOMContentLoaded', function() {
 
   new NavigationMenu('.mega-menu__list');
-  // new ShowMoreContent('showMoreBtn', '.more-content','.descrition-first');
+  new ShowMoreContent('showMoreBtn', '.more-content','.descrition-first');
 
   document.querySelectorAll('.header__menu-item').forEach(item => {
     let parent = item.parentElement;

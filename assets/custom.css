@@ -98,9 +98,6 @@ button.video-slider-arrow svg path {
 }
 
 .more-content{
-  transition: height 0.3s ease;
-}
-.hidden-content{
   display:none;
 }
 .menu-container-last{
