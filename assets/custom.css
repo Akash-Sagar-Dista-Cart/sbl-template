@@ -93,6 +93,9 @@ button.video-slider-arrow svg path {
 .static{
   position:static;
 }
+.header__menu-item a{
+  color: inherit;
+}
 .menu-container-last{
   display:none;
   flex-wrap:wrap;
