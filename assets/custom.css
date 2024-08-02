@@ -88,7 +88,7 @@ button.video-slider-arrow svg path {
 .mega-menu[open] .mega-menu__content{
   opacity: 1;
     z-index: 33;
-    transform: translateY(-1px);
+    transform: translateY(-1px) !important;
 }
 .static{
   position:static;
