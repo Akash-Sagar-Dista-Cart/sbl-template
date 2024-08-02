@@ -191,12 +191,14 @@ class ShowMoreContent {
       // Delay setting height to 0 to allow transition
       requestAnimationFrame(() => {
         this.moreContent.style.height = '0';
+        this.moreContent.style.display = 'none';
         this.button.textContent = 'Show More';
       });
     } else {
       this.moreContent.style.height = this.hiddenContent.scrollHeight + 'px';
       this.moreContent.addEventListener('transitionend', () => {
         this.moreContent.style.height = 'auto';
+        this.moreContent.style.display = 'block';
       }, { once: true });
       this.button.textContent = 'Show Less';
     }
