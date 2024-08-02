@@ -188,17 +188,17 @@ class ShowMoreContent {
   toggleContent() {
     if (this.isContentVisible) {
       this.moreContent.style.height = this.hiddenContent.scrollHeight + 'px';
-      // Delay setting height to 0 to allow transition
       requestAnimationFrame(() => {
         this.moreContent.style.height = '0';
-        this.moreContent.style.display = 'none';
+        this.hiddenContent.style.display = 'none';
         this.button.textContent = 'Show More';
       });
     } else {
-      this.moreContent.style.height = this.hiddenContent.scrollHeight + 'px';
+      this.hiddenContent.style.display = 'block';
+      const height = this.hiddenContent.scrollHeight + 'px';
+      this.moreContent.style.height = height;
       this.moreContent.addEventListener('transitionend', () => {
         this.moreContent.style.height = 'auto';
-        this.moreContent.style.display = 'block';
       }, { once: true });
       this.button.textContent = 'Show Less';
     }
