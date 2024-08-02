@@ -151,29 +151,38 @@ class NavigationMenu {
 }
 
 
+class ShowMoreContent {
+  constructor(buttonId, contentClass) {
+    this.button = document.getElementById(buttonId);
+    this.moreContent = document.querySelector(contentClass);
+    this.isContentVisible = false;
 
+    this.button.addEventListener('click', this.toggleContent.bind(this));
+  }
 
-// document.querySelectorAll('.header__menu-item').forEach(item => {
-//   let parent = item.parentElement;
-//   let megaMenuContent = parent.querySelector('.mega-menu__content');
+  toggleContent() {
+    if (this.isContentVisible) {
+      this.moreContent.style.display = 'none';
+      this.button.textContent = 'Show More';
+    } else {
+      this.moreContent.style.display = 'block';
+      this.button.textContent = 'Show Less';
+    }
+    this.isContentVisible = !this.isContentVisible;
+  }
+}
 
-//   parent.addEventListener('mouseover', function() {
-//     parent.classList.add('static');
-//     megaMenuContent.style.display = 'block';
-//   });
-
-//   parent.addEventListener('mouseout', function(event) {
-//     // Check if the related target is outside the parent container
-//     if (!parent.contains(event.relatedTarget)) {
-//       parent.classList.remove('static');
-//       megaMenuContent.style.display = 'none';
-//     }
-//   });
-// });
+// Initialize the ShowMoreContent class
+document.addEventListener('DOMContentLoaded', () => {
+ 
+});
 
 
 document.addEventListener('DOMContentLoaded', function() {
+
   new NavigationMenu('.mega-menu__list');
+  new ShowMoreContent('showMoreBtn', '.more-content');
+  
   document.querySelectorAll('.header__menu-item').forEach(item => {
     let parent = item.parentElement;
     let megaMenuContent = parent.querySelector('.mega-menu__content');
