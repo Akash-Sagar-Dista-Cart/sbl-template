@@ -152,9 +152,10 @@ class NavigationMenu {
 
 
 class ShowMoreContent {
-  constructor(buttonId, contentClass) {
+  constructor(buttonId, contentClass,orgContent) {
     this.button = document.getElementById(buttonId);
     this.moreContent = document.querySelector(contentClass);
+    this.orgContent = document.querySelector(orgContent)
     this.isContentVisible = false;
 
     this.button.addEventListener('click', this.toggleContent.bind(this));
@@ -162,9 +163,11 @@ class ShowMoreContent {
 
   toggleContent() {
     if (this.isContentVisible) {
+      this.orgContent.style.display = 'block';
       this.moreContent.style.display = 'none';
       this.button.textContent = 'Show More';
     } else {
+      this.orgContent.style.display = 'none';
       this.moreContent.style.display = 'block';
       this.button.textContent = 'Show Less';
     }
@@ -173,16 +176,14 @@ class ShowMoreContent {
 }
 
 // Initialize the ShowMoreContent class
-document.addEventListener('DOMContentLoaded', () => {
- 
-});
+
 
 
 document.addEventListener('DOMContentLoaded', function() {
 
   new NavigationMenu('.mega-menu__list');
-  new ShowMoreContent('showMoreBtn', '.more-content');
-  
+  new ShowMoreContent('showMoreBtn', '.more-content','.descrition-first');
+
   document.querySelectorAll('.header__menu-item').forEach(item => {
     let parent = item.parentElement;
     let megaMenuContent = parent.querySelector('.mega-menu__content');

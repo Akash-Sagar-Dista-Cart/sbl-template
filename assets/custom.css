@@ -96,8 +96,10 @@ button.video-slider-arrow svg path {
 .header__menu-item a{
   color: inherit;
 }
+
 .more-content{
   display:none;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 .menu-container-last{
   display:none;
