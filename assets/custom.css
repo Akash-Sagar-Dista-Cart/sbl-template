@@ -96,7 +96,9 @@ button.video-slider-arrow svg path {
 .header__menu-item a{
   color: inherit;
 }
-
+#showMoreBtn{
+  margin-top: 10px;
+}
 .more-content{
   display:none;
 }
