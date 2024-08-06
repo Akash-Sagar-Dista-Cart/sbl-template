@@ -117,7 +117,7 @@
         "row_yGFeaL"
       ],
       "settings": {
-        "image_height": "medium",
+        "image_height": "adapt",
         "desktop_image_width": "medium",
         "heading_size": "h1",
         "text_style": "body",
