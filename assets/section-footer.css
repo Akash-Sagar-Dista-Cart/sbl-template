@@ -541,7 +541,7 @@
     }
     
   }
-  @media (max-width:480px) {
+  @media (max-width:750px) {
     .footer__blocks-wrapper .footer-block__brand-info{
       text-align: -webkit-center;
     }
