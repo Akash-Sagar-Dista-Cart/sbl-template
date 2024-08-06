@@ -32,6 +32,12 @@ button.video-slider-arrow.video-slider-next.slick-arrow {
   bottom: -13px;
   transform: translateX(-50%);
 }
+.slick-slide {
+  margin: 0 10px; /* Adjust the margin value as needed */
+}
+.slick-list {
+  margin: 0 -10px; /* To offset the margin of slides */
+}
 .videos-section li {
   margin: 0 0.25rem;
 }
