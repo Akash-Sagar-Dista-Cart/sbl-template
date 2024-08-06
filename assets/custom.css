@@ -1,6 +1,6 @@
 /*Videos section*/
 .slick-initialized{
-  padding: 0 45px;
+  padding: 0 45px !important;
 }
 
 button.video-slider-arrow {
