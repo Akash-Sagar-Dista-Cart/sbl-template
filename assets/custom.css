@@ -29,7 +29,7 @@ button.video-slider-arrow.video-slider-next.slick-arrow {
   list-style-type: none;
   position: absolute;
   left: 50%;
-  bottom: -13px;
+  bottom: -26px;
   transform: translateX(-50%);
 }
 .slick-slide {
