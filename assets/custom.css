@@ -119,6 +119,16 @@ button.video-slider-arrow svg path {
   max-width:150px;
   width:100%;
 }
+.about-us .slider-buttons{
+  display: none;
+}
+/* footer */
+.footer__content-top{
+  padding-bottom: 0 !important;
+}
+.footer__blocks-wrapper{
+  margin-bottom: 0 !important;
+}
 /*.charity-block  */
 .charity-block .row > div{
   flex:1;
