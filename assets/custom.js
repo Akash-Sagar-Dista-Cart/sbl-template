@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  $('.videos-main-block').slick({
+  $('.videos-main-block,#Slider-template--17056210583733__multicolumn2').slick({
   infinite: true,
   dots: true,
   slidesToShow: 4,
