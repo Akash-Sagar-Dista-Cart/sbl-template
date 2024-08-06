@@ -36,7 +36,7 @@ button.video-slider-arrow.video-slider-next.slick-arrow {
   margin: 0 0.25rem;
 }
 
-.videos-section .slick-dots button {
+.slick-dots button {
   text-indent: -9999px;
       max-width: 100%;
     border-radius: 5px;
@@ -52,7 +52,7 @@ button.video-slider-arrow.video-slider-next.slick-arrow {
 button.video-slider-arrow svg path {
     stroke: #000;
 }
-.videos-section .slick-dots li.slick-active button {
+.slick-dots li.slick-active button {
   background-color: #000;
   border-color: #000;
 }
