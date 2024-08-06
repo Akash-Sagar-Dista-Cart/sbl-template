@@ -21,7 +21,7 @@ button.video-slider-prev{
 button.video-slider-arrow.video-slider-next.slick-arrow {
     right: 0;
 }
-.videos-section .slick-dots {
+.slick-dots {
   display: flex;
   justify-content: center;
   margin: 0;
@@ -29,6 +29,7 @@ button.video-slider-arrow.video-slider-next.slick-arrow {
   list-style-type: none;
   position: absolute;
   left: 50%;
+  bottom: -13px;
   transform: translateX(-50%);
 }
 .videos-section li {
