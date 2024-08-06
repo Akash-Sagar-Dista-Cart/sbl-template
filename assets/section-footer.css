@@ -544,6 +544,7 @@
   @media (max-width:750px) {
     .footer__blocks-wrapper .footer-block__brand-info{
       text-align: -webkit-center;
+      margin: auto;
     }
     .footer-block__brand-info .footer__list-social.list-social{
       justify-content: center;
