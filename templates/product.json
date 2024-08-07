@@ -265,7 +265,7 @@
             "caption": "",
             "text_style": "subtitle",
             "text_size": "large",
-            "text": "<ul><li><strong>[1]<\/strong><span style=\"text-decoration:underline\">https:\/\/clinicaltrials.gov\/ct2\/show\/NCT01323036<\/span>  <a href=\"https:\/\/www.nutraceuticalbusinessreview.com\/news\/article_page\/AstaZine_Astaxanthin_Two_new_brain_health_clinical_studies\/160230\"><span style=\"text-decoration:underline\">https:\/\/www.nutraceuticalbusinessreview.com\/news\/article_page\/AstaZine_Astaxanthin_Two_new_brain_health_clinical_studies\/160230<\/span><\/a><\/li><\/ul>",
+            "text": "{{ product.metafields.custom.clinical_studies.value.content | metafield_tag }}",
             "button_label": "",
             "button_link": "",
             "button_style_secondary": false,
