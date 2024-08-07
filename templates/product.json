@@ -396,14 +396,14 @@
             "heading-10": "{{ product.metafields.custom.faqs.value.question_10.value }}",
             "row_content-1": "{{ product.metafields.custom.faqs.value.ans_1.value }}",
             "row_content-2": "{{ product.metafields.custom.faqs.value.ans_2.value }}",
-            "row_content-3": "Yes, you can give 1 soft gel of Miduty Omega 3 formulated with salmon fish oil and astaxanthin supplement to kids every day (alternative days in summer) if they can swallow easily.",
-            "row_content-4": "No, we do not recommend you take fish oil with milk or any other product containing milk.",
-            "row_content-5": "Yes, the brand's Palak Notes and Miduty are the same.",
-            "row_content-6": "",
-            "row_content-7": "",
-            "row_content-8": "",
-            "row_content-9": "",
-            "row_content-10": ""
+            "row_content-3": "{{ product.metafields.custom.faqs.value.ans_3.value }}",
+            "row_content-4": "{{ product.metafields.custom.faqs.value.ans_4.value }}",
+            "row_content-5": "{{ product.metafields.custom.faqs.value.ans_5.value }}",
+            "row_content-6": "{{ product.metafields.custom.faqs.value.ans_6.value }}",
+            "row_content-7": "{{ product.metafields.custom.faqs.value.ans_7.value }}",
+            "row_content-8": "{{ product.metafields.custom.faqs.value.ans_8.value }}",
+            "row_content-9": "{{ product.metafields.custom.faqs.value.ans_9.value }}",
+            "row_content-10": "{{ product.metafields.custom.faqs.value.ans_10.value }}"
           }
         }
       },
