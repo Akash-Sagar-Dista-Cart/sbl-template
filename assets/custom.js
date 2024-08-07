@@ -182,36 +182,36 @@ class NavigationMenu {
 }
 
 
-class ShowMoreContent {
-  constructor(buttonId, contentClass,orgContent) {
-    this.button = document.getElementById(buttonId);
-    this.moreContent = document.querySelector(contentClass);
-    this.orgContent = document.querySelector(orgContent)
-    this.isContentVisible = false;
 
-    this.button.addEventListener('click', this.toggleContent.bind(this));
-  }
-
-  toggleContent() {
-    if (this.isContentVisible) {
-      this.orgContent.style.display = 'block';
-      this.moreContent.style.display = 'none';
-      this.button.textContent = 'Show More';
-    } else {
-      this.orgContent.style.display = 'none';
-      this.moreContent.style.display = 'block';
-      this.button.textContent = 'Show Less';
-    }
-    this.isContentVisible = !this.isContentVisible;
-  }
-}
-
-// Initialize the ShowMoreContent class
 
 
 
 document.addEventListener('DOMContentLoaded', function() {
-
+  class ShowMoreContent {
+    constructor(buttonId, contentClass,orgContent) {
+      this.button = document.getElementById(buttonId);
+      this.moreContent = document.querySelector(contentClass);
+      this.orgContent = document.querySelector(orgContent)
+      this.isContentVisible = false;
+  
+      this.button.addEventListener('click', this.toggleContent.bind(this));
+    }
+  
+    toggleContent() {
+      if (this.isContentVisible) {
+        this.orgContent.style.display = 'block';
+        this.moreContent.style.display = 'none';
+        this.button.textContent = 'Show More';
+      } else {
+        this.orgContent.style.display = 'none';
+        this.moreContent.style.display = 'block';
+        this.button.textContent = 'Show Less';
+      }
+      this.isContentVisible = !this.isContentVisible;
+    }
+  }
+  
+  // Initialize the ShowMoreContent class
   new NavigationMenu('.mega-menu__list');
   new ShowMoreContent('showMoreBtn', '.more-content','.descrition-first');
 
