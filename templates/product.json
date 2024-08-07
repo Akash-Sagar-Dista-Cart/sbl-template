@@ -365,7 +365,7 @@
             "caption": "",
             "text_style": "subtitle",
             "text_size": "small",
-            "text": "<p>Vegetable oils are supposedly a good source of omega, according to a misconception. Let's find out how.<\/p><ul><li>Work as Sunscreen<\/li><\/ul><p>Astaxanthin present in our krill fish oil helps in the activation of internal sunscreen which helps with pigmentation. Your body is not able to synthesize omega-3 fatty acids, which means your body cannot make these fats on its own, so you need to get them from your diet or from omega-3 supplements.<\/p><ul><li>Relieves pain<\/li><\/ul><p>The anti-inflammatory effects of omega-3 fish oil may help prevent heart-related issues, body pains, and fatigue. In comparison to EPA, DHA appears to be a more advantageous bioactive molecule for the heart, helping improve blood circulation and brain function.<\/p><ul><li>Balance Omega 6 and Omega 3 ratio<\/li><\/ul><p>If the ratio of omega 6 elevates it can lead to heart disease by increasing the risk of inflammation. So the ratio of omega 3 and omega 6 needs to be maintained.<\/p>",
+            "text": "{{ product.metafields.custom.unknown_facts | metafield_tag }}",
             "button_label": "",
             "button_link": "",
             "button_style_secondary": false,
