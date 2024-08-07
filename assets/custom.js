@@ -213,7 +213,9 @@ document.addEventListener('DOMContentLoaded', function() {
   
   // Initialize the ShowMoreContent class
   new NavigationMenu('.mega-menu__list');
-  new ShowMoreContent('showMoreBtn', '.more-content','.descrition-first');
+  if(document.getElementById('showMoreBtn') != null ){
+    new ShowMoreContent('showMoreBtn', '.more-content','.descrition-first');
+  }
 
   document.querySelectorAll('.header__menu-item').forEach(item => {
     let parent = item.parentElement;
