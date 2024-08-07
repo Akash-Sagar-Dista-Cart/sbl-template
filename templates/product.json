@@ -343,7 +343,7 @@
           "type": "benefits",
           "settings": {
             "title": "Ingredients",
-            "content-title": "What’s Inside? (Ingredients)",
+            "content-title": "",
             "content-sub-title": "",
             "icon-1": "{{ product.metafields.custom.ingredients.value.icon_1.value }}",
             "icon-1-text": "{{ product.metafields.custom.ingredients.value.icon_text_1.value }}",
