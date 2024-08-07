@@ -153,7 +153,7 @@
         "product_video_4B7Bnc": {
           "type": "product_video",
           "settings": {
-            "video_url_1": "{{ product.metafields.custom.vedio_slider.value.vedio_13.value }}",
+            "video_url_1": "{{ product.metafields.custom.vedio_slider.value.vedio_12.value }}",
             "title_1": "{{ product.metafields.custom.vedio_slider.value.heading_1.value }}"
           }
         },
@@ -170,13 +170,21 @@
             "video_url_1": "{{ product.metafields.custom.vedio_slider.value.vedio_13.value }}",
             "title_1": "Blog posts"
           }
+        },
+        "youtube_video_CcCWfX": {
+          "type": "youtube_video",
+          "settings": {
+            "video_url": "",
+            "title": "Blog posts"
+          }
         }
       },
       "block_order": [
         "product_video_bzTMXH",
         "product_video_4B7Bnc",
         "product_video_BA4Mfb",
-        "product_video_XiWqGw"
+        "product_video_XiWqGw",
+        "youtube_video_CcCWfX"
       ],
       "settings": {
         "heading": "How We Helped Our Customers",
