@@ -295,14 +295,14 @@
         "heading_eTmhQr": {
           "type": "heading",
           "settings": {
-            "heading": "Why is Miduty’s Krill Omega Complex Superior ?",
+            "heading": "{{ product.metafields.custom.why_choose.value.heading.value }}",
             "heading_size": "h2"
           }
         },
         "text_tnaf9z": {
           "type": "text",
           "settings": {
-            "text": "<ul><li>Miduty<strong> Krill oil omega 3 <\/strong>already contains an antioxidant named <strong>astaxanthin <\/strong>but we have added 2mg of extra astaxanthin to make it more powerful, which makes it 100X better and a great antioxidant even than vitamin C which is hard to find in other <strong>Antarctic krill oil<\/strong> supplements.<\/li><li>Miduty Omega 3 is free of both heavy metals and rancidity, while fish oil often contains both. Choline, a substance found naturally in krill oil, is a component of the liver, heart, and brain. When you consume regular fish oil, you get burps because it goes rancid in the hot weather in India.<\/li><li>The red color in the krill oil omega 3 comes from the natural Astaxanthin which is one of the strongest antioxidants to fight inflammation in the body and isn't used by other<strong> Antarctic krill oil<\/strong> or <strong>salmon fish oil<\/strong> brands. Additionally, it helps activate internal sunscreen from within the skin, making it more beneficial for people with Pigmentation.<\/li><li>We use Antarctic Krill oil, which is the best variety among more than 80 types of krill.<\/li><li>Unlike other companies, we use phospholipids that are linked to EPA and DHA rather than triglycerides, allowing your body to absorb the nutrients more effectively.<\/li><li><strong>Since it is an extremely unstable fat and eating rancid fat might cause greater harm, it should be protected from light by using dark-colored soft gels, which can be found in our Krill omega complex.<\/strong><\/li><\/ul>",
+            "text": "{{ product.metafields.custom.why_choose.value.content | metafield_tag }}",
             "text_style": "body"
           }
         },
@@ -321,7 +321,7 @@
         "button_eh6dcX"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/WhyMiduty_7.png",
+        "image": "{{ product.metafields.custom.why_choose.value.image.value }}",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
