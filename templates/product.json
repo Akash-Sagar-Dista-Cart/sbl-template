@@ -167,15 +167,36 @@
         "product_video_XiWqGw": {
           "type": "product_video",
           "settings": {
-            "video_url_1": "{{ product.metafields.custom.vedio_slider.value.vedio_13.value }}",
-            "title_1": "Blog posts"
+            "video_url_1": "{{ product.metafields.custom.vedio_slider.value.vedio_15.value }}",
+            "title_1": "{{ product.metafields.custom.vedio_slider.value.heading_4.value }}"
           }
         },
-        "youtube_video_CcCWfX": {
-          "type": "youtube_video",
+        "product_video_jpHF3a": {
+          "type": "product_video",
           "settings": {
-            "video_url": "",
-            "title": "Blog posts"
+            "video_url_1": "{{ product.metafields.custom.vedio_slider.value.vedio_16.value }}",
+            "title_1": "{{ product.metafields.custom.vedio_slider.value.heading_5.value }}"
+          }
+        },
+        "product_video_Cyy83k": {
+          "type": "product_video",
+          "settings": {
+            "video_url_1": "{{ product.metafields.custom.vedio_slider.value.vedio_6.value }}",
+            "title_1": "{{ product.metafields.custom.vedio_slider.value.heading_6.value }}"
+          }
+        },
+        "product_video_EfALbA": {
+          "type": "product_video",
+          "settings": {
+            "video_url_1": "{{ product.metafields.custom.vedio_slider.value.vedio_7.value }}",
+            "title_1": "{{ product.metafields.custom.vedio_slider.value.heading_7.value }}"
+          }
+        },
+        "product_video_Yp7U6V": {
+          "type": "product_video",
+          "settings": {
+            "video_url_1": "{{ product.metafields.custom.vedio_slider.value.vedio_8.value }}",
+            "title_1": "{{ product.metafields.custom.vedio_slider.value.heading_8.value }}"
           }
         }
       },
@@ -184,7 +205,10 @@
         "product_video_4B7Bnc",
         "product_video_BA4Mfb",
         "product_video_XiWqGw",
-        "youtube_video_CcCWfX"
+        "product_video_jpHF3a",
+        "product_video_Cyy83k",
+        "product_video_EfALbA",
+        "product_video_Yp7U6V"
       ],
       "settings": {
         "heading": "How We Helped Our Customers",
