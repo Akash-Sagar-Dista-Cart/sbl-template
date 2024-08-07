@@ -147,14 +147,14 @@
           "type": "product_video",
           "settings": {
             "video_url_1": "{{ product.metafields.custom.vedio_slider.value.vedio_13.value }}",
-            "title_1": "Blog posts"
+            "title_1": "{{ product.metafields.custom.vedio_slider.value.heading_1.value }}"
           }
         },
         "product_video_4B7Bnc": {
           "type": "product_video",
           "settings": {
             "video_url_1": "{{ product.metafields.custom.vedio_slider.value.vedio_12.value }}",
-            "title_1": "{{ product.metafields.custom.vedio_slider.value.heading_1.value }}"
+            "title_1": "{{ product.metafields.custom.vedio_slider.value.heading_2.value }}"
           }
         },
         "product_video_BA4Mfb": {
