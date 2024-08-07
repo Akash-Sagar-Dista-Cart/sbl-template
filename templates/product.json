@@ -345,14 +345,14 @@
             "title": "Ingredients",
             "content-title": "What’s Inside? (Ingredients)",
             "content-sub-title": "",
-            "icon-1": "shopify:\/\/shop_images\/Krill-01_fa21f2f9-bf91-46de-a595-50bcd3845cd6.png",
-            "icon-1-text": "",
-            "icon-2": "shopify:\/\/shop_images\/Krill-02_c2b85d18-008f-4472-973e-dd7625ada9be.png",
-            "icon-2-text": "",
-            "icon-3": "shopify:\/\/shop_images\/Krill-03_0cf287a4-0b24-4138-a31c-b1bb5eb682a9.png",
-            "icon-3-text": "",
-            "icon-4": "shopify:\/\/shop_images\/Krill-04.png",
-            "icon-4-text": ""
+            "icon-1": "{{ product.metafields.custom.ingredients.value.icon_1.value }}",
+            "icon-1-text": "{{ product.metafields.custom.ingredients.value.icon_text_1.value }}",
+            "icon-2": "{{ product.metafields.custom.ingredients.value.icon_2.value }}",
+            "icon-2-text": "{{ product.metafields.custom.ingredients.value.icon_text_2.value }}",
+            "icon-3": "{{ product.metafields.custom.ingredients.value.icon_3.value }}",
+            "icon-3-text": "{{ product.metafields.custom.ingredients.value.icon_text_3.value }}",
+            "icon-4": "{{ product.metafields.custom.ingredients.value.icon_4.value }}",
+            "icon-4-text": "{{ product.metafields.custom.ingredients.value.icon_text_4.value }}"
           }
         },
         "img_text_block_UnY6Hw": {
