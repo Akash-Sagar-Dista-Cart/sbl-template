@@ -160,8 +160,8 @@
         "product_video_BA4Mfb": {
           "type": "product_video",
           "settings": {
-            "video_url_1": "{{ product.metafields.custom.vedio_slider.value.vedio_13.value }}",
-            "title_1": "Blog posts"
+            "video_url_1": "{{ product.metafields.custom.vedio_slider.value.vedio_14.value }}",
+            "title_1": "{{ product.metafields.custom.vedio_slider.value.heading_3.value }}"
           }
         },
         "product_video_XiWqGw": {
