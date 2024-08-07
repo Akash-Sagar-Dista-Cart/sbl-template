@@ -416,47 +416,6 @@
         "color_scheme": "scheme-876ad23e-6e72-40d9-b1e4-e0423dcb9339"
       }
     },
-    "new_description_addWX3": {
-      "type": "new-description",
-      "blocks": {
-        "collapsible_row_byTr4f": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "{{ product.metafields.custom.what_s_it_for.value.question_1.value }}",
-            "icon": "none",
-            "row_content": "<p>{{ product.metafields.custom.what_s_it_for.value.answer_1.value }}<\/p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_QrtLXc": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "{{ product.metafields.custom.what_s_it_for.value.question_2.value }}",
-            "icon": "none",
-            "row_content": "<p>{{ product.metafields.custom.what_s_it_for.value.answer_2.value }}<\/p>",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "collapsible_row_byTr4f",
-        "collapsible_row_QrtLXc"
-      ],
-      "disabled": true,
-      "settings": {
-        "caption": "",
-        "heading": "Description",
-        "description": "<p>{{ product.metafields.custom.what_s_it_for.value.description | metafield_tag }}<\/p>",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "layout": "none",
-        "color_scheme": "",
-        "container_color_scheme": "",
-        "open_first_collapsible_row": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "related-products": {
       "type": "related-products",
       "settings": {
@@ -536,7 +495,6 @@
     "tabbed_description_yYgzty",
     "image_with_text_EEwMDe",
     "tabbed_description_zXGKxn",
-    "new_description_addWX3",
     "related-products",
     "rich_text_pgB9rM",
     "1721723840083d7530"
