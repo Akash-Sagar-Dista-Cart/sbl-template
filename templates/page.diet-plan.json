@@ -181,6 +181,16 @@
             "page-link": "shopify:\/\/pages\/hair-fall-alopecia-diet-plan",
             "btn-link": ""
           }
+        },
+        "feature_block_3QBrkN": {
+          "type": "feature_block",
+          "settings": {
+            "title": "FERTILITY DIET PLAN",
+            "image": "shopify:\/\/shop_images\/Fertility-Diet-Plan-diet-plan_cae4d8de-33ca-4d52-91cd-cc6d0f583861.jpg",
+            "btn-tile": "Download",
+            "page-link": "shopify:\/\/pages\/fertility-diet-plan",
+            "btn-link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0656\/4079\/2245\/files\/Fertility_Diet_plan.pdf?v=1723111704"
+          }
         }
       },
       "block_order": [
@@ -200,7 +210,8 @@
         "feature_block_QYRgQr",
         "feature_block_P8t9ti",
         "feature_block_96KJAq",
-        "feature_block_mTGHPR"
+        "feature_block_mTGHPR",
+        "feature_block_3QBrkN"
       ],
       "settings": {
         "title": "Diet Plan",
