@@ -121,6 +121,16 @@
             "page-link": "shopify:\/\/pages\/menopause-diet-plan-low-carbohydrate-high-fat-diet-plan",
             "btn-link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0656\/4079\/2245\/files\/Menopausecopy.jpg?v=1721029821"
           }
+        },
+        "feature_block_VCLrpR": {
+          "type": "feature_block",
+          "settings": {
+            "title": "Lichen Planus Diet Plan : Autoimmune Antibodies Lowering – Gluten Free, Dairy Free, GMO FREE",
+            "image": "shopify:\/\/shop_images\/Lichen-Planus-diet-plan_ac076697-b1d3-4ff8-b540-f3c181fd6c7b.jpg",
+            "btn-tile": "Download",
+            "page-link": "shopify:\/\/pages\/lichen-planus-diet-plan-autoimmune-antibodies-lowering-gluten-free-dairy-free-gmo-free",
+            "btn-link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0656\/4079\/2245\/files\/LICHEN_PLANUS_CONDITIONS_DIET_PLAN.pdf?v=1723111704"
+          }
         }
       },
       "block_order": [
@@ -134,7 +144,8 @@
         "feature_block_nNKAdB",
         "feature_block_YyWfC7",
         "feature_block_W4zYLM",
-        "feature_block_reD8RM"
+        "feature_block_reD8RM",
+        "feature_block_VCLrpR"
       ],
       "settings": {
         "title": "Diet Plan",
