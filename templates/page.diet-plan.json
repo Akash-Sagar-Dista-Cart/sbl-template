@@ -75,19 +75,21 @@
         "feature_block_TciBfy": {
           "type": "feature_block",
           "settings": {
-            "title": "Feature Title",
+            "title": "PSORIASIS Diet Plan",
+            "image": "shopify:\/\/shop_images\/Psoriasis-diet-plan_0d113eee-5ece-4b39-96a4-a5438ed0caae.jpg",
             "btn-tile": "Download",
-            "page-link": "",
-            "btn-link": ""
+            "page-link": "shopify:\/\/pages\/psoriasis-diet-plan",
+            "btn-link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0656\/4079\/2245\/files\/Psoriasis.pdf?v=1723111704"
           }
         },
         "feature_block_nNKAdB": {
           "type": "feature_block",
           "settings": {
-            "title": "Feature Title",
+            "title": "PREGNANCY Diet Plan",
+            "image": "shopify:\/\/shop_images\/Pregnanacy-Diet-diet-plan_5e741339-0d05-4587-866a-6e5f61996636.jpg",
             "btn-tile": "Download",
-            "page-link": "",
-            "btn-link": ""
+            "page-link": "shopify:\/\/pages\/pregnancy-diet-plan",
+            "btn-link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0656\/4079\/2245\/files\/Pregnancy_Diet.pdf?v=1723111706"
           }
         }
       },
