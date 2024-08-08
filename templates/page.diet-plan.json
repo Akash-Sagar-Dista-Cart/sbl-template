@@ -151,6 +151,16 @@
             "page-link": "shopify:\/\/pages\/immunity-boosting-diet-plan",
             "btn-link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0656\/4079\/2245\/files\/IMMUNITY_BOOSTING_DIET_PLAN.pdf?v=1723111705"
           }
+        },
+        "feature_block_P8t9ti": {
+          "type": "feature_block",
+          "settings": {
+            "title": "IBS \/ IBD Diet Plan: Low Carbohydrate High Fat Diet Plan",
+            "image": "shopify:\/\/shop_images\/IBD-Diet-plan-diet-plan_171637d8-c0b9-44ab-b131-7fb734eabc6e.jpg",
+            "btn-tile": "Download",
+            "page-link": "shopify:\/\/pages\/ibs-ibd-diet-plan-low-carbohydrate-high-fat-diet-plan",
+            "btn-link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0656\/4079\/2245\/files\/IBD_DIET_PLAN.pdf?v=1723111704"
+          }
         }
       },
       "block_order": [
@@ -167,7 +177,8 @@
         "feature_block_reD8RM",
         "feature_block_VCLrpR",
         "feature_block_VXByXJ",
-        "feature_block_QYRgQr"
+        "feature_block_QYRgQr",
+        "feature_block_P8t9ti"
       ],
       "settings": {
         "title": "Diet Plan",
