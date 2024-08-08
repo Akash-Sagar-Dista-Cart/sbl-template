@@ -271,6 +271,16 @@
             "page-link": "shopify:\/\/pages\/intermittent-fasting-diet-plan",
             "btn-link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0656\/4079\/2245\/files\/intermittent_fasting.pdf?v=1723111704"
           }
+        },
+        "feature_block_f9tzHM": {
+          "type": "feature_block",
+          "settings": {
+            "title": "Hyperthyroid Diet Plan",
+            "image": "shopify:\/\/shop_images\/Hyperthyroid_336b4b98-fd3b-4877-9c9f-9b2b0808d8ea.jpg",
+            "btn-tile": "Download",
+            "page-link": "shopify:\/\/pages\/hyperthyroid-diet-plan",
+            "btn-link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0656\/4079\/2245\/files\/HYPERTHYROID.pdf?v=1723111706"
+          }
         }
       },
       "block_order": [
@@ -299,7 +309,8 @@
         "feature_block_HmyhNt",
         "feature_block_i6wiXy",
         "feature_block_TF43zq",
-        "feature_block_xqMAxq"
+        "feature_block_xqMAxq",
+        "feature_block_f9tzHM"
       ],
       "settings": {
         "title": "Diet Plan",
