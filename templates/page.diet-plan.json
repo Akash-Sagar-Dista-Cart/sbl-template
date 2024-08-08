@@ -281,6 +281,16 @@
             "page-link": "shopify:\/\/pages\/hyperthyroid-diet-plan",
             "btn-link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0656\/4079\/2245\/files\/HYPERTHYROID.pdf?v=1723111706"
           }
+        },
+        "feature_block_AGknXn": {
+          "type": "feature_block",
+          "settings": {
+            "title": "4 Weeks FATTY LIVER Diet Plan",
+            "image": "shopify:\/\/shop_images\/Fatty-Liver_84aacd93-b97f-4d95-9f2b-67dc949c6bb0.jpg",
+            "btn-tile": "Download",
+            "page-link": "shopify:\/\/pages\/4-weeks-fatty-liver-diet-plan",
+            "btn-link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0656\/4079\/2245\/files\/FATTY_LIVER.pdf?v=1723111705"
+          }
         }
       },
       "block_order": [
@@ -310,7 +320,8 @@
         "feature_block_i6wiXy",
         "feature_block_TF43zq",
         "feature_block_xqMAxq",
-        "feature_block_f9tzHM"
+        "feature_block_f9tzHM",
+        "feature_block_AGknXn"
       ],
       "settings": {
         "title": "Diet Plan",
