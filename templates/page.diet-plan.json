@@ -131,6 +131,16 @@
             "page-link": "shopify:\/\/pages\/lichen-planus-diet-plan-autoimmune-antibodies-lowering-gluten-free-dairy-free-gmo-free",
             "btn-link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0656\/4079\/2245\/files\/LICHEN_PLANUS_CONDITIONS_DIET_PLAN.pdf?v=1723111704"
           }
+        },
+        "feature_block_VXByXJ": {
+          "type": "feature_block",
+          "settings": {
+            "title": "KIDS Gluten-Free, Nutrient-Dense Foods DIET PLAN",
+            "image": "shopify:\/\/shop_images\/KIDS-DIET_14200b14-27ce-4cf1-bc1e-3b66f0971417.jpg",
+            "btn-tile": "Download",
+            "page-link": "shopify:\/\/pages\/kids-gluten-free-nutrient-dense-foods-diet-plan",
+            "btn-link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0656\/4079\/2245\/files\/KIDS_DIET_PLAN.pdf?v=1723111704"
+          }
         }
       },
       "block_order": [
@@ -145,7 +155,8 @@
         "feature_block_YyWfC7",
         "feature_block_W4zYLM",
         "feature_block_reD8RM",
-        "feature_block_VCLrpR"
+        "feature_block_VCLrpR",
+        "feature_block_VXByXJ"
       ],
       "settings": {
         "title": "Diet Plan",
