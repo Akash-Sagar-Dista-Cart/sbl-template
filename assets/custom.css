@@ -97,6 +97,7 @@ button.video-slider-arrow svg path {
     z-index: 33;
     transform: translateY(-5px) !important;
 }
+
 .static{
   position:static;
 }
