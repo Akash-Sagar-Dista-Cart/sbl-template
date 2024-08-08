@@ -301,6 +301,16 @@
             "page-link": "shopify:\/\/pages\/diabetes-type-1-diet-plan-21-days-autoimmune-antibodies-lowering-gluten-free-dairy-free-gmo-free",
             "btn-link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0656\/4079\/2245\/files\/DIABETES_TYPE_1.pdf?v=1723111704"
           }
+        },
+        "feature_block_wTAfJM": {
+          "type": "feature_block",
+          "settings": {
+            "title": "Acidity Diet Plan: Low Carbohydrate High Fat Diet Plan",
+            "image": "shopify:\/\/shop_images\/Acidity_0d2475fe-645a-4e0c-b8a2-a52e2b624c25.jpg",
+            "btn-tile": "Download",
+            "page-link": "shopify:\/\/pages\/acidity-diet-plan-low-carbohydrate-high-fat-diet-plan",
+            "btn-link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0656\/4079\/2245\/files\/Acidity.pdf?v=1723111704"
+          }
         }
       },
       "block_order": [
@@ -332,7 +342,8 @@
         "feature_block_xqMAxq",
         "feature_block_f9tzHM",
         "feature_block_AGknXn",
-        "feature_block_kYPxmG"
+        "feature_block_kYPxmG",
+        "feature_block_wTAfJM"
       ],
       "settings": {
         "title": "Diet Plan",
