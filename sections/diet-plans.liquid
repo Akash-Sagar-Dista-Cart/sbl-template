@@ -59,13 +59,13 @@
        
         <div class="rich-text__buttons scroll-trigger animate--slide-in" data-cascade="" style="--animation-order: 0;">
           <div class="diet-plan-image">
-          <a href="{{block.setting.page-link}}">
+          <a href="{{block.settings.page-link}}">
           {% if block.settings.image != blank %}
           <img src="{{ block.settings.image | image_url: width: 1500 }}">
           {% endif %}
           </a>
           </div>
-         <a href="{{block.setting.page-link}}" class="block-title">  <span>{{ block.settings.title }}</span></a>
+         <a href="{{block.settings.page-link}}" class="block-title">  <span>{{ block.settings.title }}</span></a>
           <a href="{{ block.settings.btn-link }}" target="blank" class="button button--primary">
             {{- block.settings['btn-tile'] -}}
           
