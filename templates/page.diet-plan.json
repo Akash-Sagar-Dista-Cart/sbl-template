@@ -141,6 +141,16 @@
             "page-link": "shopify:\/\/pages\/kids-gluten-free-nutrient-dense-foods-diet-plan",
             "btn-link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0656\/4079\/2245\/files\/KIDS_DIET_PLAN.pdf?v=1723111704"
           }
+        },
+        "feature_block_QYRgQr": {
+          "type": "feature_block",
+          "settings": {
+            "title": "IMMUNITY BOOSTING DIET PLAN",
+            "image": "shopify:\/\/shop_images\/Immunity-boosting-diet-plan-diet-plan_05057c6f-7755-4269-8db2-46eb79bd3d83.jpg",
+            "btn-tile": "Download",
+            "page-link": "shopify:\/\/pages\/immunity-boosting-diet-plan",
+            "btn-link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0656\/4079\/2245\/files\/IMMUNITY_BOOSTING_DIET_PLAN.pdf?v=1723111705"
+          }
         }
       },
       "block_order": [
@@ -156,7 +166,8 @@
         "feature_block_W4zYLM",
         "feature_block_reD8RM",
         "feature_block_VCLrpR",
-        "feature_block_VXByXJ"
+        "feature_block_VXByXJ",
+        "feature_block_QYRgQr"
       ],
       "settings": {
         "title": "Diet Plan",
