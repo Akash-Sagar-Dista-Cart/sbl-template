@@ -291,6 +291,16 @@
             "page-link": "shopify:\/\/pages\/4-weeks-fatty-liver-diet-plan",
             "btn-link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0656\/4079\/2245\/files\/FATTY_LIVER.pdf?v=1723111705"
           }
+        },
+        "feature_block_kYPxmG": {
+          "type": "feature_block",
+          "settings": {
+            "title": "Diabetes Type 1 Diet Plan : 21 Days Autoimmune Antibodies Lowering – Gluten Free, Dairy Free, GMO FREE",
+            "image": "shopify:\/\/shop_images\/Type-1-Diabetes_37f43295-a3a8-4ee5-aac2-84ded4889bc1.jpg",
+            "btn-tile": "Download",
+            "page-link": "shopify:\/\/pages\/diabetes-type-1-diet-plan-21-days-autoimmune-antibodies-lowering-gluten-free-dairy-free-gmo-free",
+            "btn-link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0656\/4079\/2245\/files\/DIABETES_TYPE_1.pdf?v=1723111704"
+          }
         }
       },
       "block_order": [
@@ -321,7 +331,8 @@
         "feature_block_TF43zq",
         "feature_block_xqMAxq",
         "feature_block_f9tzHM",
-        "feature_block_AGknXn"
+        "feature_block_AGknXn",
+        "feature_block_kYPxmG"
       ],
       "settings": {
         "title": "Diet Plan",
