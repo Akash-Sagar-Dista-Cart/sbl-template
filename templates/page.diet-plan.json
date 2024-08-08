@@ -65,10 +65,11 @@
         "feature_block_9pDmjX": {
           "type": "feature_block",
           "settings": {
-            "title": "Feature Title",
+            "title": "RECIPES",
+            "image": "shopify:\/\/shop_images\/Recepies-diet-plan_495e27e4-7df6-42ab-b7fa-bff498388cb3.jpg",
             "btn-tile": "Download",
-            "page-link": "",
-            "btn-link": ""
+            "page-link": "shopify:\/\/pages\/recipes",
+            "btn-link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0656\/4079\/2245\/files\/RECIPES.pdf?v=1723111705"
           }
         },
         "feature_block_TciBfy": {
