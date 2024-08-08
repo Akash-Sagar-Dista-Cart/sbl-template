@@ -251,6 +251,16 @@
             "page-link": "shopify:\/\/pages\/weight-gain-muscle-building-diet-plan",
             "btn-link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0656\/4079\/2245\/files\/WEIGHT_GAIN_AND_MUSCLE_BUILDING.pdf?v=1723111704"
           }
+        },
+        "feature_block_TF43zq": {
+          "type": "feature_block",
+          "settings": {
+            "title": "SKIN DIET Plan For Healthier Skin",
+            "image": "shopify:\/\/shop_images\/Skin-Diet_9ff8164c-56da-4862-a173-f408f524285b.jpg",
+            "btn-tile": "Download",
+            "page-link": "shopify:\/\/pages\/skin-diet-plan-for-healthier-skin",
+            "btn-link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0656\/4079\/2245\/files\/SKIN_DIETS.pdf?v=1723111703"
+          }
         }
       },
       "block_order": [
@@ -277,7 +287,8 @@
         "feature_block_zzY6hz",
         "feature_block_j3yqq3",
         "feature_block_HmyhNt",
-        "feature_block_i6wiXy"
+        "feature_block_i6wiXy",
+        "feature_block_TF43zq"
       ],
       "settings": {
         "title": "Diet Plan",
