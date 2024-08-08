@@ -55,10 +55,11 @@
         "feature_block_M37yTg": {
           "type": "feature_block",
           "settings": {
-            "title": "Feature Title",
+            "title": "URIC ACID Diet Plan",
+            "image": "shopify:\/\/shop_images\/Uric-Acid-diet-plan_edee78c5-738f-40a6-a1af-eba0dd34d394.jpg",
             "btn-tile": "Download",
-            "page-link": "",
-            "btn-link": ""
+            "page-link": "shopify:\/\/pages\/uric-acid-diet-plan",
+            "btn-link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0656\/4079\/2245\/files\/URIC_ACID.pdf?v=1723111704"
           }
         },
         "feature_block_9pDmjX": {
