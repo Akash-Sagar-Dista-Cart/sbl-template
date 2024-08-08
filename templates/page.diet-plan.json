@@ -201,6 +201,16 @@
             "page-link": "shopify:\/\/pages\/eczema-diet-plan",
             "btn-link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0656\/4079\/2245\/files\/ECZEMA_DIET_PLAN.pdf?v=1723111705"
           }
+        },
+        "feature_block_8cREpJ": {
+          "type": "feature_block",
+          "settings": {
+            "title": "Diabetes Type 2 Diet Plan: Low Carbohydrate High Fat Diet Plan",
+            "image": "shopify:\/\/shop_images\/Diabetes-Type-2-diet-plan_c92028ab-94bd-4399-b9d0-28041ba6a20e.jpg",
+            "btn-tile": "Download",
+            "page-link": "shopify:\/\/pages\/diabetes-type-2-diet-plan-low-carbohydrate-high-fat-diet-plan",
+            "btn-link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0656\/4079\/2245\/files\/diabetes_type_-_2.pdf?v=1723111704"
+          }
         }
       },
       "block_order": [
@@ -222,7 +232,8 @@
         "feature_block_96KJAq",
         "feature_block_mTGHPR",
         "feature_block_3QBrkN",
-        "feature_block_iiRHjE"
+        "feature_block_iiRHjE",
+        "feature_block_8cREpJ"
       ],
       "settings": {
         "title": "Diet Plan",
