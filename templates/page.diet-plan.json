@@ -261,6 +261,16 @@
             "page-link": "shopify:\/\/pages\/skin-diet-plan-for-healthier-skin",
             "btn-link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0656\/4079\/2245\/files\/SKIN_DIETS.pdf?v=1723111703"
           }
+        },
+        "feature_block_xqMAxq": {
+          "type": "feature_block",
+          "settings": {
+            "title": "INTERMITTENT FASTING Diet Plan",
+            "image": "shopify:\/\/shop_images\/Intermittent-Fasting_3c382b58-986d-49e5-9f2a-823a74075440.jpg",
+            "btn-tile": "Download",
+            "page-link": "shopify:\/\/pages\/intermittent-fasting-diet-plan",
+            "btn-link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0656\/4079\/2245\/files\/intermittent_fasting.pdf?v=1723111704"
+          }
         }
       },
       "block_order": [
@@ -288,7 +298,8 @@
         "feature_block_j3yqq3",
         "feature_block_HmyhNt",
         "feature_block_i6wiXy",
-        "feature_block_TF43zq"
+        "feature_block_TF43zq",
+        "feature_block_xqMAxq"
       ],
       "settings": {
         "title": "Diet Plan",
