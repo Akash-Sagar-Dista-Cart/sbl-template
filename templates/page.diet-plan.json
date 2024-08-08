@@ -111,6 +111,16 @@
             "page-link": "shopify:\/\/pages\/pcos-pcod-diet-plan-low-carbohydrate-high-fat-diet-plan",
             "btn-link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0656\/4079\/2245\/files\/PCOD_PCOS.pdf?v=1723111704"
           }
+        },
+        "feature_block_reD8RM": {
+          "type": "feature_block",
+          "settings": {
+            "title": "Menopause Diet Plan: Low Carbohydrate High Fat Diet Plan",
+            "image": "shopify:\/\/shop_images\/Menopause-diet-plan-diet-plan_363c429e-cc43-4c2f-b5ef-c0da410a7e8d.jpg",
+            "btn-tile": "Download",
+            "page-link": "shopify:\/\/pages\/menopause-diet-plan-low-carbohydrate-high-fat-diet-plan",
+            "btn-link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0656\/4079\/2245\/files\/Menopausecopy.jpg?v=1721029821"
+          }
         }
       },
       "block_order": [
@@ -123,7 +133,8 @@
         "feature_block_TciBfy",
         "feature_block_nNKAdB",
         "feature_block_YyWfC7",
-        "feature_block_W4zYLM"
+        "feature_block_W4zYLM",
+        "feature_block_reD8RM"
       ],
       "settings": {
         "title": "Diet Plan",
