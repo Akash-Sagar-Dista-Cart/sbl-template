@@ -91,6 +91,16 @@
             "page-link": "shopify:\/\/pages\/pregnancy-diet-plan",
             "btn-link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0656\/4079\/2245\/files\/Pregnancy_Diet.pdf?v=1723111706"
           }
+        },
+        "feature_block_YyWfC7": {
+          "type": "feature_block",
+          "settings": {
+            "title": "POSTPARTUM WEIGHT LOSS DIET Plan",
+            "image": "shopify:\/\/shop_images\/Postpartum-Weight-Loss-diet-plan-1_5fdc9942-a49b-4691-9811-9df99bfe2c8f.jpg",
+            "btn-tile": "Download",
+            "page-link": "shopify:\/\/pages\/postpartum-weight-loss-diet-plan",
+            "btn-link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0656\/4079\/2245\/files\/POSTPARTUM_WEIGHT_LOSS_DIET.pdf?v=1723111704"
+          }
         }
       },
       "block_order": [
@@ -101,7 +111,8 @@
         "feature_block_M37yTg",
         "feature_block_9pDmjX",
         "feature_block_TciBfy",
-        "feature_block_nNKAdB"
+        "feature_block_nNKAdB",
+        "feature_block_YyWfC7"
       ],
       "settings": {
         "title": "Diet Plan",
