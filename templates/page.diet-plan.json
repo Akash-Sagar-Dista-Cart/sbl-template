@@ -171,6 +171,16 @@
             "page-link": "shopify:\/\/pages\/high-blood-pressure-diet-plan",
             "btn-link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0656\/4079\/2245\/files\/High_Blood_Pressure.pdf?v=1723111704"
           }
+        },
+        "feature_block_mTGHPR": {
+          "type": "feature_block",
+          "settings": {
+            "title": "HAIR FALL \/ ALOPECIA Diet Plan",
+            "image": "shopify:\/\/shop_images\/Hairfall_-Alopecia-diet-plan_f37539a9-d03d-44fa-9b29-0bba652919fc.jpg",
+            "btn-tile": "Download",
+            "page-link": "shopify:\/\/pages\/hair-fall-alopecia-diet-plan",
+            "btn-link": ""
+          }
         }
       },
       "block_order": [
@@ -189,7 +199,8 @@
         "feature_block_VXByXJ",
         "feature_block_QYRgQr",
         "feature_block_P8t9ti",
-        "feature_block_96KJAq"
+        "feature_block_96KJAq",
+        "feature_block_mTGHPR"
       ],
       "settings": {
         "title": "Diet Plan",
