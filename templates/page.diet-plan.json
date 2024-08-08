@@ -241,6 +241,16 @@
             "page-link": "shopify:\/\/pages\/autoimmune-condition-diet-plan",
             "btn-link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0656\/4079\/2245\/files\/AUTOIMMUNE_CONDITIONS.pdf?v=1723111704"
           }
+        },
+        "feature_block_i6wiXy": {
+          "type": "feature_block",
+          "settings": {
+            "title": "WEIGHT GAIN & MUSCLE BUILDING Diet Plan",
+            "image": "shopify:\/\/shop_images\/Weight-Gain-Muscle-Building-diet-plan_9c213f5b-6cfc-4de5-aa22-ae25fa4befc0.jpg",
+            "btn-tile": "Download",
+            "page-link": "shopify:\/\/pages\/weight-gain-muscle-building-diet-plan",
+            "btn-link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0656\/4079\/2245\/files\/WEIGHT_GAIN_AND_MUSCLE_BUILDING.pdf?v=1723111704"
+          }
         }
       },
       "block_order": [
@@ -266,7 +276,8 @@
         "feature_block_8cREpJ",
         "feature_block_zzY6hz",
         "feature_block_j3yqq3",
-        "feature_block_HmyhNt"
+        "feature_block_HmyhNt",
+        "feature_block_i6wiXy"
       ],
       "settings": {
         "title": "Diet Plan",
