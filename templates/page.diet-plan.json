@@ -221,6 +221,16 @@
             "page-link": "shopify:\/\/pages\/constipation-diet-plan-low-carbohydrate-high-fat-diet-plan",
             "btn-link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0656\/4079\/2245\/files\/Constipation-diet-plan.jpg?v=1723123972"
           }
+        },
+        "feature_block_j3yqq3": {
+          "type": "feature_block",
+          "settings": {
+            "title": "Cholesterol Diet Plan: Low Carbohydrate High Fat Diet Plan",
+            "image": "shopify:\/\/shop_images\/Cholesterol-diet-plan_def34a86-22a5-4c91-ba99-58a6cb7a2a30.jpg",
+            "btn-tile": "Download",
+            "page-link": "shopify:\/\/pages\/cholesterol-diet-plan-low-carbohydrate-high-fat-diet-plan",
+            "btn-link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0656\/4079\/2245\/files\/CHOLESTROL.pdf?v=1723111704"
+          }
         }
       },
       "block_order": [
@@ -244,7 +254,8 @@
         "feature_block_3QBrkN",
         "feature_block_iiRHjE",
         "feature_block_8cREpJ",
-        "feature_block_zzY6hz"
+        "feature_block_zzY6hz",
+        "feature_block_j3yqq3"
       ],
       "settings": {
         "title": "Diet Plan",
