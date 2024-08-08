@@ -161,6 +161,16 @@
             "page-link": "shopify:\/\/pages\/ibs-ibd-diet-plan-low-carbohydrate-high-fat-diet-plan",
             "btn-link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0656\/4079\/2245\/files\/IBD_DIET_PLAN.pdf?v=1723111704"
           }
+        },
+        "feature_block_96KJAq": {
+          "type": "feature_block",
+          "settings": {
+            "title": "HIGH BLOOD PRESSURE Diet Plan",
+            "image": "shopify:\/\/shop_images\/High-Blood-Pressure-diet-plan_53371391-2821-4aa6-89eb-249e68479097.jpg",
+            "btn-tile": "Download",
+            "page-link": "shopify:\/\/pages\/high-blood-pressure-diet-plan",
+            "btn-link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0656\/4079\/2245\/files\/High_Blood_Pressure.pdf?v=1723111704"
+          }
         }
       },
       "block_order": [
@@ -178,7 +188,8 @@
         "feature_block_VCLrpR",
         "feature_block_VXByXJ",
         "feature_block_QYRgQr",
-        "feature_block_P8t9ti"
+        "feature_block_P8t9ti",
+        "feature_block_96KJAq"
       ],
       "settings": {
         "title": "Diet Plan",
