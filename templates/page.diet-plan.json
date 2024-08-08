@@ -32,25 +32,14 @@
             "btn-link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0656\/4079\/2245\/files\/WEIGHT_LOSS_WITH_ARTHRITIS.pdf?v=1723111704"
           }
         },
-        "feature_block_3b7QMm": {
-          "type": "feature_block",
-          "disabled": true,
-          "settings": {
-            "title": "WEIGHT LOSS Diet Plan",
-            "image": "shopify:\/\/shop_images\/Postpartum-Weight-Loss-diet-plan_2fc57e4b-df92-47d5-9489-58e37d69f657.jpg",
-            "btn-tile": "Download",
-            "page-link": "shopify:\/\/pages\/weight-loss-diet-plan",
-            "btn-link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0656\/4079\/2245\/files\/WEIGHT_LOSS.pdf?v=1723111704"
-          }
-        },
         "feature_block_KLUQc6": {
           "type": "feature_block",
           "settings": {
-            "title": "Feature Title",
-            "image": "shopify:\/\/shop_images\/facts_f261567f-e0cf-4736-bab1-e1f9374843f7.png",
+            "title": "WEIGHT LOSS Diet Plan",
+            "image": "shopify:\/\/shop_images\/Postpartum-Weight-Loss-diet-plan_f30c8426-fce2-4fec-be29-6eb2da271e7b.jpg",
             "btn-tile": "Download",
-            "page-link": "",
-            "btn-link": ""
+            "page-link": "shopify:\/\/pages\/weight-loss-diet-plan",
+            "btn-link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0656\/4079\/2245\/files\/WEIGHT_LOSS.pdf?v=1723111704"
           }
         },
         "feature_block_GpBbxB": {
@@ -103,7 +92,6 @@
       "block_order": [
         "feature_block_7FWBzj",
         "feature_block_Qgkrzz",
-        "feature_block_3b7QMm",
         "feature_block_KLUQc6",
         "feature_block_GpBbxB",
         "feature_block_M37yTg",
