@@ -101,6 +101,16 @@
             "page-link": "shopify:\/\/pages\/postpartum-weight-loss-diet-plan",
             "btn-link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0656\/4079\/2245\/files\/POSTPARTUM_WEIGHT_LOSS_DIET.pdf?v=1723111704"
           }
+        },
+        "feature_block_W4zYLM": {
+          "type": "feature_block",
+          "settings": {
+            "title": "PCOS\/PCOD Diet Plan: Low Carbohydrate High Fat Diet Plan",
+            "image": "shopify:\/\/shop_images\/PCOD_PCOS-diet-plan_dcca794e-2ab4-466c-b9a2-4d2e3b7b45a5.jpg",
+            "btn-tile": "Download",
+            "page-link": "shopify:\/\/pages\/pcos-pcod-diet-plan-low-carbohydrate-high-fat-diet-plan",
+            "btn-link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0656\/4079\/2245\/files\/PCOD_PCOS.pdf?v=1723111704"
+          }
         }
       },
       "block_order": [
@@ -112,7 +122,8 @@
         "feature_block_9pDmjX",
         "feature_block_TciBfy",
         "feature_block_nNKAdB",
-        "feature_block_YyWfC7"
+        "feature_block_YyWfC7",
+        "feature_block_W4zYLM"
       ],
       "settings": {
         "title": "Diet Plan",
