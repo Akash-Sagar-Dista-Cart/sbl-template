@@ -55,15 +55,17 @@
               </div>
             </div>
           {%- when 'product_video' -%}
+           {%- if block.settings.video_url_1 != blank -%}
             <div class="video_wrap">
               <div class="video-inner-block">
-                {%- if block.settings.video_url_1 != blank -%}
+               
                 {{block.settings.video_url_1}}
                   
-                {%- endif -%}
+               
                 <h3>{{ block.settings.title_1 }}</h3>
               </div>
             </div>
+             {%- endif -%}
           {% when 'local_video' %}
             <div class="video_wrap">
               {% assign poster = block.settings.poster_img | img_url: 'master' %}
