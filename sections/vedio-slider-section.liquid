@@ -12,8 +12,6 @@
   }
 {%- endstyle -%}
 
-<div class="homepage">{{section.blocks[1].settings.video_url}}</div>
-{% if section.blocks.size > 0  %}
 <section class="videos-section color-{{ section.settings.color_scheme }} gradient{% if section.settings.heading == blank %} no-heading{% endif %}">
   <div class="page-width section-{{ section.id }}-padding">
     {%- unless section.settings.heading == blank -%}
@@ -84,7 +82,6 @@
     </div>
   </div>
 </section>
-{% endif %}
 {% schema %}
 {
   "name": "Video Slider",
