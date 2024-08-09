@@ -188,7 +188,7 @@ flex-direction:column;
   background-color: rgba(28,44,58, var(--alpha-button-background));
  }
  /*  */
- body.contact form{
+ body.contact form,body.legal form{
   width: 100%;
  }
  @media (min-width:750px) {
