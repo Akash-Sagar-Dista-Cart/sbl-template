@@ -2,8 +2,8 @@
 .slick-initialized{
   padding: 0 45px !important;
 }
-.drawer{
-      z-index: 10000000000 !important;
+body.overflow-hidden #shopify-chat{
+     display:none!important;
 }
 button.video-slider-arrow {
     background: transparent;
