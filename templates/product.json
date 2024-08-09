@@ -189,7 +189,7 @@
         "product_video_Yp7U6V"
       ],
       "settings": {
-        "heading": "",
+        "heading": "{{ product.metafields.custom.vedio_slider.value.section_heading.value }}",
         "heading_size": "h2",
         "color_scheme": "",
         "padding_top": 0,
