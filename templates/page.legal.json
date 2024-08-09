@@ -23,7 +23,14 @@
         "heading_MJH4i6": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Contact our International team at –<\/strong>",
+            "heading": "Legal Policy",
+            "heading_size": "h2"
+          }
+        },
+        "heading_3FBYni": {
+          "type": "heading",
+          "settings": {
+            "heading": "Report Infringement",
             "heading_size": "h2"
           }
         },
@@ -34,13 +41,6 @@
             "text_style": "subtitle"
           }
         },
-        "heading_3FBYni": {
-          "type": "heading",
-          "settings": {
-            "heading": "Consultation Form",
-            "heading_size": "h2"
-          }
-        },
         "contact_form_jjdnK9": {
           "type": "contact-form",
           "settings": {
@@ -49,8 +49,8 @@
       },
       "block_order": [
         "heading_MJH4i6",
-        "text_raEmMe",
         "heading_3FBYni",
+        "text_raEmMe",
         "contact_form_jjdnK9"
       ],
       "settings": {
