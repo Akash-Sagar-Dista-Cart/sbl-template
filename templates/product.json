@@ -62,26 +62,6 @@
             "page": "product-features"
           }
         },
-        "collapsible-row-0": {
-          "type": "collapsible_tab",
-          "disabled": true,
-          "settings": {
-            "heading": "Materials and care",
-            "icon": "leaf",
-            "content": "",
-            "page": "materials-and-care"
-          }
-        },
-        "collapsible-row-2": {
-          "type": "collapsible_tab",
-          "disabled": true,
-          "settings": {
-            "heading": "Merchandising tips",
-            "icon": "check_mark",
-            "content": "",
-            "page": "merchandising-tips"
-          }
-        },
         "variant_picker_hVbQUR": {
           "type": "variant_picker",
           "settings": {
@@ -117,8 +97,6 @@
         "sku_EhcjQ9",
         "description",
         "collapsible-row-1",
-        "collapsible-row-0",
-        "collapsible-row-2",
         "variant_picker_hVbQUR",
         "quantity_selector_93g6Uw",
         "share",
@@ -211,7 +189,7 @@
         "product_video_Yp7U6V"
       ],
       "settings": {
-        "heading": "How We Helped Our Customers",
+        "heading": "",
         "heading_size": "h2",
         "color_scheme": "",
         "padding_top": 0,
