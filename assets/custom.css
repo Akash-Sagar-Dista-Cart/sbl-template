@@ -2,7 +2,7 @@
 .slick-initialized{
   padding: 0 45px !important;
 }
-body.overflow-hidden #shopify-chat{
+body.overflow-hidden #shopify-chat,.overflow-hidden-tablet #shopify-chat{
      display:none!important;
 }
 button.video-slider-arrow {
