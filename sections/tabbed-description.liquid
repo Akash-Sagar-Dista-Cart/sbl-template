@@ -72,9 +72,10 @@
                       {%- assign block_text_id = 'icon-' | append: i | append: '-text' -%}
                       {%- assign block_icon = block.settings[block_icon_id] | img_url: '150x' -%}
                       {%- assign block_text = block.settings[block_text_id] -%}
-
+{% if block_icon != blank %}
                       <div class="img-wrapper"><img src="{{block_icon}}"></div>
                       <span>{{ block_text }}</span>
+                      {% endif %}
                     </div>
                   {%- endfor -%}
                 </div>
