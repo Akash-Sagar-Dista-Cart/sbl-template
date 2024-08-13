@@ -340,7 +340,7 @@
             "icon-8": "{{ product.metafields.custom.ingredients.value.icon_8.value }}",
             "icon-8-text": "{{ product.metafields.custom.ingredients.value.icon_text_8.value }}",
             "icon-9": "{{ product.metafields.custom.ingredients.value.icon_9.value }}",
-            "icon-9-text": "",
+            "icon-9-text": "{{ product.metafields.custom.ingredients.value.icon_text_9.value }}",
             "icon-10": "{{ product.metafields.custom.ingredients.value.icon_10.value }}",
             "icon-10-text": "{{ product.metafields.custom.ingredients.value.icon_text_10.value }}",
             "icon-11": "{{ product.metafields.custom.ingredients.value.icon_11.value }}",
