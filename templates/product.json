@@ -321,7 +321,7 @@
           "type": "benefits",
           "settings": {
             "title": "Ingredients",
-            "content-title": "",
+            "content-title": "{{ product.metafields.custom.ingredients.value.title.value }}",
             "content-sub-title": "",
             "icon-1": "{{ product.metafields.custom.ingredients.value.icon_1.value }}",
             "icon-1-text": "{{ product.metafields.custom.ingredients.value.icon_text_1.value }}",
