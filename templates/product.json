@@ -330,7 +330,23 @@
             "icon-3": "{{ product.metafields.custom.ingredients.value.icon_3.value }}",
             "icon-3-text": "{{ product.metafields.custom.ingredients.value.icon_text_3.value }}",
             "icon-4": "{{ product.metafields.custom.ingredients.value.icon_4.value }}",
-            "icon-4-text": "{{ product.metafields.custom.ingredients.value.icon_text_4.value }}"
+            "icon-4-text": "{{ product.metafields.custom.ingredients.value.icon_text_4.value }}",
+            "icon-5": "{{ product.metafields.custom.ingredients.value.icon_5.value }}",
+            "icon-5-text": "{{ product.metafields.custom.ingredients.value.icon_text_5.value }}",
+            "icon-6": "{{ product.metafields.custom.ingredients.value.icon_6.value }}",
+            "icon-6-text": "{{ product.metafields.custom.ingredients.value.icon_text_6.value }}",
+            "icon-7": "{{ product.metafields.custom.ingredients.value.icon_7.value }}",
+            "icon-7-text": "{{ product.metafields.custom.ingredients.value.icon_text_7.value }}",
+            "icon-8": "{{ product.metafields.custom.ingredients.value.icon_8.value }}",
+            "icon-8-text": "{{ product.metafields.custom.ingredients.value.icon_text_8.value }}",
+            "icon-9": "{{ product.metafields.custom.ingredients.value.icon_9.value }}",
+            "icon-9-text": "",
+            "icon-10": "{{ product.metafields.custom.ingredients.value.icon_10.value }}",
+            "icon-10-text": "{{ product.metafields.custom.ingredients.value.icon_text_10.value }}",
+            "icon-11": "{{ product.metafields.custom.ingredients.value.icon_11.value }}",
+            "icon-11-text": "{{ product.metafields.custom.ingredients.value.icon_text_11.value }}",
+            "icon-12": "{{ product.metafields.custom.ingredients.value.icon_12.value }}",
+            "icon-12-text": "{{ product.metafields.custom.ingredients.value.icon_text_12.value }}"
           }
         },
         "img_text_block_UnY6Hw": {
