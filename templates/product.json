@@ -346,7 +346,11 @@
             "icon-11": "{{ product.metafields.custom.ingredients.value.icon_11.value }}",
             "icon-11-text": "{{ product.metafields.custom.ingredients.value.icon_text_11.value }}",
             "icon-12": "{{ product.metafields.custom.ingredients.value.icon_12.value }}",
-            "icon-12-text": "{{ product.metafields.custom.ingredients.value.icon_text_12.value }}"
+            "icon-12-text": "{{ product.metafields.custom.ingredients.value.icon_text_12.value }}",
+            "icon-13": "{{ product.metafields.custom.ingredients.value.icon_13.value }}",
+            "icon-13-text": "{{ product.metafields.custom.ingredients.value.icon_text_13.value }}",
+            "icon-14": "{{ product.metafields.custom.ingredients.value.icon_14.value }}",
+            "icon-14-text": "{{ product.metafields.custom.ingredients.value.icon_text_14.value }}"
           }
         },
         "img_text_block_UnY6Hw": {
