@@ -116,6 +116,17 @@
         "info": "t:settings_schema.typography.settings.type_header_font.info"
       },
       {
+        "type": "header",
+        "content": "Secondary Title"
+      },
+      {
+        "type": "font_picker",
+        "id": "type_header2_font",
+        "default": "assistant_n4",
+        "label": "t:settings_schema.typography.settings.type_header_font.label",
+        "info": "t:settings_schema.typography.settings.type_header_font.info"
+      },
+      {
         "type": "range",
         "id": "heading_scale",
         "min": 100,
