@@ -260,7 +260,7 @@
     "featured_blog_EmCUba": {
       "type": "featured-blog",
       "settings": {
-        "heading": "<strong>Our Blogs<\/strong>",
+        "heading": "Our Blogs",
         "heading_size": "h1",
         "blog": "health",
         "post_limit": 4,
