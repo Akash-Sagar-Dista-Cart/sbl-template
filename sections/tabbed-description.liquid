@@ -144,17 +144,18 @@
                   <h3>{{ block.settings['content-title'] }}</h3>
                   <span>{{ block.settings['content-sub-title'] }}</span>
                   <div class="benefits-container">
-                    {%- for i in (1..4) -%}
-                      <div class="icon-wrapper">
-                        {%- assign block_icon_id = 'icon-' | append: i -%}
-                        {%- assign block_text_id = 'icon-' | append: i | append: '-text' -%}
-                        {%- assign block_icon = block.settings[block_icon_id] | img_url: '150x' -%}
-                        {%- assign block_text = block.settings[block_text_id] -%}
-
-                        <div class="img-wrapper"><img src="{{block_icon}}"></div>
-                        <span>{{ block_text }}</span>
-                      </div>
-                    {%- endfor -%}
+                    {%- for i in (1..14) -%}
+                    <div class="icon-wrapper">
+                      {%- assign block_icon_id = 'icon-' | append: i -%}
+                      {%- assign block_text_id = 'icon-' | append: i | append: '-text' -%}
+                      {%- assign block_icon = block.settings[block_icon_id] | img_url: '150x' -%}
+                      {%- assign block_text = block.settings[block_text_id] -%}
+{% if block.settings[block_icon_id] != blank %}
+                      <div class="img-wrapper"><img src="{{block_icon}}"></div>
+                      <span>{{ block_text }}</span>
+                      {% endif %}
+                    </div>
+                  {%- endfor -%}
                   </div>
                 {% else %}
                   {{ block.settings.content }}
