@@ -111,6 +111,17 @@
         <label class="field__label" for="ContactForm-phone">{{ 'templates.contact.form.phone' | t }}</label>
       </div>
       <div class="field">
+        <div class="form-group  ">
+        <label for="request-type">What would you like to discuss?</label>
+        <select id="request-type" name="contact[request_type]" class="field_input">
+          <option>Health</option>
+          <option>Business</option>
+          <option>Media/PR</option>
+          <option>Others</option>
+        </select>
+      </div>
+      </div>
+      <div class="field">
         <textarea
           rows="10"
           id="ContactForm-body"
