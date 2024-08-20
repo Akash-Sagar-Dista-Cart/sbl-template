@@ -262,7 +262,7 @@
       "settings": {
         "heading": "<strong>Our Blogs<\/strong>",
         "heading_size": "h1",
-        "blog": "news",
+        "blog": "health",
         "post_limit": 4,
         "columns_desktop": 3,
         "color_scheme": "",
