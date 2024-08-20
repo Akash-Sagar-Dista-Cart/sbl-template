@@ -37,8 +37,16 @@
         "heading_3FBYni": {
           "type": "heading",
           "settings": {
-            "heading": "Consultation Form",
+            "heading": "Get in touch",
             "heading_size": "h2"
+          }
+        },
+        "caption_zc9MwT": {
+          "type": "caption",
+          "settings": {
+            "caption": "Our friendly team would love to hear from you.",
+            "text_style": "subtitle",
+            "text_size": "medium"
           }
         },
         "contact_form_jjdnK9": {
@@ -51,6 +59,7 @@
         "heading_MJH4i6",
         "text_raEmMe",
         "heading_3FBYni",
+        "caption_zc9MwT",
         "contact_form_jjdnK9"
       ],
       "settings": {
