@@ -9,6 +9,50 @@
 */
 {
   "sections": {
+    "vedio_text_section_JnPEny": {
+      "type": "vedio-text-section",
+      "blocks": {
+        "heading_KLbYaD": {
+          "type": "heading",
+          "settings": {
+            "heading": "Elevate your health",
+            "heading_size": "h1"
+          }
+        },
+        "text_cWMQpB": {
+          "type": "text",
+          "settings": {
+            "text": "<p><\/p><p>• India's #1 trusted Nutraceutical brand for disease remission.<br\/>• Treated over 3 lakh + people in just three years and counting.<br\/>• Over 85% returning customer rate making us #1 in D2C brands.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_CtUxJ6": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop Products",
+            "button_link": "shopify:\/\/collections\/all",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_KLbYaD",
+        "text_cWMQpB",
+        "button_CtUxJ6"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video_url": "https:\/\/youtu.be\/waWU8wxu1GU",
+        "cover_image": "shopify:\/\/shop_images\/Miduty_Day_2_18_May_5922_2_copy_1.jpg",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "image_banner": {
       "type": "image-banner",
       "blocks": {
@@ -43,6 +87,7 @@
         "text",
         "button"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/32170.jpg",
         "image_2": "shopify:\/\/shop_images\/com.png",
@@ -403,23 +448,10 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
-    },
-    "video_wPjwKM": {
-      "type": "video",
-      "settings": {
-        "heading": "Video",
-        "heading_size": "h1",
-        "enable_video_looping": false,
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "description": "",
-        "full_width": false,
-        "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
+    "vedio_text_section_JnPEny",
     "image_banner",
     "featured_collection1",
     "vedio_slider_section_hJERAb",
@@ -429,7 +461,6 @@
     "multirow_EeR9qY",
     "multicolumn_FMXnRJ",
     "custom_liquid_h76mbp",
-    "newsletter_FbFWQy",
-    "video_wPjwKM"
+    "newsletter_FbFWQy"
   ]
 }
