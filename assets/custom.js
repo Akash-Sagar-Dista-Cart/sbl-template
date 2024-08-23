@@ -142,9 +142,7 @@ class Tabs {
 }
 
 // Initialize the Tabs class
-document.addEventListener('DOMContentLoaded', () => {
-  new Tabs('.tabs-selector');
-});
+
 
 // test
 // mega menu Js
