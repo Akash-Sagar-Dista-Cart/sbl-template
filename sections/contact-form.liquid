@@ -30,6 +30,7 @@
       endif
     -%}
     {%- form 'contact', id: 'ContactForm', class: contact_form_class -%}
+    <input type="hidden" name="datetime" value="{{ "now" | date: "%Y-%m-%d %H:%M" }}">
       {%- if form.posted_successfully? -%}
         <h2 class="form-status form-status-list form__message" tabindex="-1" autofocus>
           {% render 'icon-success' %}
@@ -136,14 +137,30 @@
         </label>
       </div>
       <div class="contact__button">
-        <button type="submit" class="button">
+        <button id="form_submit" type="submit" class="button">
           {{ 'templates.contact.form.send' | t }}
         </button>
       </div>
     {%- endform -%}
   </div>
 </div>
+<script src="{{ 'jquery.serialize-object.min.js' | asset_url }}" ></script>
+<script>
+var $form = $('form#ContactForm'),
+    url = 'https://script.google.com/macros/s/AKfycbzQWFeBuzqiWqYjV55vVXOft1ulhLhbCxVTUUNRAhFTQh9JlUq13m593fW4FIrZgYNP/exec'
 
+$('#ContactForm').on('submit', function(e) { // updated this so it only submit data when form is submitted successfully. Previously we were triggering this even when user click on submit button.
+  // delete this is you want to send data to admin email address.
+  var jqxhr = $.ajax({
+    url: url,
+    method: "GET",
+    dataType: "json",
+    data: $form.serializeObject()
+  }).success(
+    // do something
+  );
+})
+</script>
 {% schema %}
 {
   "name": "t:sections.contact-form.name",
