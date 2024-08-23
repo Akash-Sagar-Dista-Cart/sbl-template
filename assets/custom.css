@@ -213,3 +213,9 @@ flex-direction:column;
     flex-direction: column;
    }
  }
+ .form-group select{
+  font-size: 16px;
+  height: 4.5rem;
+  border-radius: 8px;
+  padding: 0 15px;
+ }
