@@ -12,7 +12,10 @@
             {% for block in section.blocks %}
               <li class="tab-item">
               {% assign tabicon = block.settings.tab-icon | img_url: '60x' %}
-               <img src="{{ tabicon}}"> <a href="#{{ block.id }}" class="{% if forloop.first %}active{% endif %}">{{ block.settings.title }}</a>
+               {% if block.settings.tab-icon != blank %}
+                <img src="{{ tabicon}}"> 
+               {% endif %}
+               <a href="#{{ block.id }}" class="{% if forloop.first %}active{% endif %}">{{ block.settings.title }}</a>
               </li>
             {% endfor %}
           </ul>
@@ -93,8 +96,11 @@
         <div class="color-{{ section.settings.color_scheme }} gradient">
           <ul class="tab-navigation page-width">
             {% for block in section.blocks %}
+             {% assign tabicon = block.settings.tab-icon | img_url: '60x' %}
               <li class="tab-item">
-                <a href="#{{ block.id }}" class="">{{ block.settings.title }}</a>
+              {% if block.settings.tab-icon != blank %}
+                <img src="{{ tabicon}}"> 
+               {% endif %}  <a href="#{{ block.id }}" class="">{{ block.settings.title }}</a>
               </li>
 
               <div
