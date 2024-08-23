@@ -71,7 +71,7 @@ $('#Slider-template--17056210583733__multicolumn2').slick({
 class Tabs {
   constructor(selector) {
       this.selector = selector;
-      this.tabs = document.querySelectorAll(`${selector} .tab-item a`);
+      this.tabs = document.querySelectorAll(`${selector} .tab-item`);
       this.previouslyActiveTab = null;
 
       this.init();
@@ -85,7 +85,7 @@ class Tabs {
 
   handleClick(event) {
       event.preventDefault();
-      const target = event.currentTarget.getAttribute('href').substring(1);
+      const target = event.currentTarget.querySelector('a').getAttribute('href').substring(1);
       const tabPanes = document.querySelectorAll(`${this.selector} .tab-pane`);
       const activeTabs = document.querySelectorAll(`#${target}`);
 
