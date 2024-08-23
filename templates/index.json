@@ -370,40 +370,6 @@
         "padding_bottom": 52
       }
     },
-    "newsletter_FbFWQy": {
-      "type": "newsletter",
-      "blocks": {
-        "heading_zxmTmk": {
-          "type": "heading",
-          "settings": {
-            "heading": "Unlock a healthier you with Miduty!",
-            "heading_size": "h1"
-          }
-        },
-        "paragraph_drUtMb": {
-          "type": "paragraph",
-          "settings": {
-            "text": "<p>Get personalized health tips, exclusive discounts, and sneak peeks at new products, all delivered straight to your inbox.<br\/><br\/>It's our duty, Miduty!<\/p>"
-          }
-        },
-        "email_form_tjzwdP": {
-          "type": "email_form",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "heading_zxmTmk",
-        "paragraph_drUtMb",
-        "email_form_tjzwdP"
-      ],
-      "settings": {
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "vedio_text_section_JnPEny": {
       "type": "vedio-text-section",
       "blocks": {
@@ -446,6 +412,40 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "newsletter_FbFWQy": {
+      "type": "newsletter",
+      "blocks": {
+        "heading_zxmTmk": {
+          "type": "heading",
+          "settings": {
+            "heading": "Unlock a healthier you with Miduty!",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph_drUtMb": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Get personalized health tips, exclusive discounts, and sneak peeks at new products, all delivered straight to your inbox.<br\/><br\/>It's our duty, Miduty!<\/p>"
+          }
+        },
+        "email_form_tjzwdP": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "heading_zxmTmk",
+        "paragraph_drUtMb",
+        "email_form_tjzwdP"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -458,7 +458,7 @@
     "multirow_EeR9qY",
     "multicolumn_FMXnRJ",
     "custom_liquid_h76mbp",
-    "newsletter_FbFWQy",
-    "vedio_text_section_JnPEny"
+    "vedio_text_section_JnPEny",
+    "newsletter_FbFWQy"
   ]
 }
