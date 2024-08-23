@@ -321,6 +321,7 @@
           "type": "benefits",
           "settings": {
             "title": "Ingredients",
+            "tab-icon": "shopify:\/\/shop_images\/spices_2508834.png",
             "content-title": "{{ product.metafields.custom.ingredients.value.title.value }}",
             "content-sub-title": "",
             "icon-1": "{{ product.metafields.custom.ingredients.value.icon_1.value }}",
