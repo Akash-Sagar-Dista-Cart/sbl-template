@@ -376,22 +376,22 @@
         "heading_KLbYaD": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
+            "heading": "Elevate your health",
             "heading_size": "h1"
           }
         },
         "text_cWMQpB": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>• India's #1 trusted Nutraceutical brand for disease remission.<br\/>• Treated over 3 lakh + people in just three years and counting.<br\/>• Over 85% returning customer rate making us #1 in D2C brands.<\/p>",
             "text_style": "body"
           }
         },
         "button_CtUxJ6": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": "",
+            "button_label": "Shop Products",
+            "button_link": "shopify:\/\/collections\/all",
             "button_style_secondary": false
           }
         }
@@ -402,10 +402,11 @@
         "button_CtUxJ6"
       ],
       "settings": {
-        "heading": "Video",
+        "heading": "",
         "heading_size": "h1",
         "enable_video_looping": false,
         "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "cover_image": "shopify:\/\/shop_images\/Miduty_Day_2_18_May_5922_2_copy_1.jpg",
         "description": "",
         "full_width": false,
         "color_scheme": "",
