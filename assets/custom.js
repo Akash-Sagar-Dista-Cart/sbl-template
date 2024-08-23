@@ -85,26 +85,26 @@ class Tabs {
 
   handleClick(event) {
       event.preventDefault();
-      const target = event.currentTarget.querySelector('a').getAttribute('href').substring(1);
+
+      // Identify the closest tab item in case the click was on an image or icon
+      const tabItem = event.currentTarget.closest('.tab-item');
+
+      const target = tabItem.querySelector('a').getAttribute('href').substring(1);
       const tabPanes = document.querySelectorAll(`${this.selector} .tab-pane`);
       const activeTabs = document.querySelectorAll(`#${target}`);
 
       if (window.innerWidth <= 480) {
-          // Check if the clicked tab is the same as the previously active tab
-          if (this.previouslyActiveTab === event.currentTarget) {
-              // If so, close the tab
-              this.deactivateTab(event.currentTarget);
-              this.previouslyActiveTab = null; // Reset previously active tab
-              return; // Exit the function early
+          if (this.previouslyActiveTab === tabItem) {
+              this.deactivateTab(tabItem);
+              this.previouslyActiveTab = null;
+              return;
           }
       }
 
-      // Otherwise, activate the clicked tab
       this.deactivateAllTabs();
-      this.activateTab(event.currentTarget, activeTabs);
+      this.activateTab(tabItem, activeTabs);
 
-      // Set the previously active tab to the current tab
-      this.previouslyActiveTab = event.currentTarget;
+      this.previouslyActiveTab = tabItem;
   }
 
   deactivateAllTabs() {
@@ -122,19 +122,17 @@ class Tabs {
       });
   }
 
-  deactivateTab(tab) {
-      tab.classList.remove('active');
-      tab.parentElement.classList.remove('active');
-      const target = tab.getAttribute('href').substring(1);
+  deactivateTab(tabItem) {
+      tabItem.classList.remove('active');
+      const target = tabItem.querySelector('a').getAttribute('href').substring(1);
       document.querySelectorAll(`#${target}`).forEach(tab => {
           tab.style.display = 'none';
           tab.classList.remove('active');
       });
   }
 
-  activateTab(tab, activeTabs) {
-      tab.classList.add('active');
-      tab.parentElement.classList.add('active');
+  activateTab(tabItem, activeTabs) {
+      tabItem.classList.add('active');
 
       activeTabs.forEach(tab => {
           tab.style.display = 'block';
@@ -142,6 +140,12 @@ class Tabs {
       });
   }
 }
+
+// Initialize the Tabs class
+document.addEventListener('DOMContentLoaded', () => {
+  new Tabs('.tabs-selector');
+});
+
 // test
 // mega menu Js
 class NavigationMenu {
