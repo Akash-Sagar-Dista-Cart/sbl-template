@@ -227,9 +227,13 @@ document.addEventListener('DOMContentLoaded', function() {
       width: calc(100% - 40px);
       margin:20px;
   }
-
+.tab-item *{
+  display:block;
+}
   .tab-item {
-      display: inline-block;
+      display: flex;
+justify-content:center;
+align-items:center;
       padding: 20px 15px;
       line-height: 1;
       transition: all 0.3s;
