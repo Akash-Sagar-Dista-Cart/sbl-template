@@ -38,7 +38,7 @@
   {%- endif %}
 {%- endcapture -%}
 
-<div class="color-{{ section.settings.color_scheme }} gradient">
+<div class="color-{{ section.settings.color_scheme }} gradient section-{{ section.id }}-padding">
 
 <div class="grid grid--1-col grid--2-col-tablet {% if section.settings.full_width %} page-width {% endif %}">
 <div class="grid__item">
@@ -79,7 +79,7 @@
               {%- endcase -%}
             {%- endfor -%}
 </div>
-  <div class="grid__item video-section isolate{% unless section.settings.full_width %} page-width{% endunless %} section-{{ section.id }}-padding">
+  <div class="grid__item video-section isolate ">
     <div >
       {%- unless section.settings.heading == blank -%}
         <div class="title-wrapper title-wrapper--no-top-margin{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
