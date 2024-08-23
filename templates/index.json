@@ -15,14 +15,14 @@
         "heading_KLbYaD": {
           "type": "heading",
           "settings": {
-            "heading": "Elevate your health",
+            "heading": "",
             "heading_size": "h1"
           }
         },
         "text_cWMQpB": {
           "type": "text",
           "settings": {
-            "text": "<p><\/p><p>• India's #1 trusted Nutraceutical brand for disease remission.<br\/>• Treated over 3 lakh + people in just three years and counting.<br\/>• Over 85% returning customer rate making us #1 in D2C brands.<\/p>",
+            "text": "<h1>Elevate your health<\/h1><p><\/p><p>• India's #1 trusted Nutraceutical brand for disease remission.<\/p><p><br\/>• Treated over 3 lakh + people in just three years and counting.<\/p><p><br\/>• Over 85% returning customer rate making us #1 in D2C brands.<\/p>",
             "text_style": "body"
           }
         },
