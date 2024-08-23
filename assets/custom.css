@@ -203,3 +203,13 @@ flex-direction:column;
   flex: 1;
  }
  }
+
+ /*  */
+ #shopify-section-template--17056210583733__multicolumn_FMXnRJ li{
+  flex:1;
+ }
+ @media (max-width:480px) {
+  #shopify-section-template--17056210583733__multicolumn_FMXnRJ ul{
+    flex-direction: column;
+   }
+ }
