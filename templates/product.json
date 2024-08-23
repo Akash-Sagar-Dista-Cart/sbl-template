@@ -203,6 +203,7 @@
           "type": "Faq",
           "settings": {
             "title": "What’s it for?",
+            "tab-icon": "shopify:\/\/shop_images\/search_3888598.png",
             "content": "",
             "heading-1": "{{ product.metafields.custom.what_s_it_for.value.question_1.value }}",
             "heading-2": "{{ product.metafields.custom.what_s_it_for.value.question_2.value }}",
@@ -230,6 +231,7 @@
           "type": "text",
           "settings": {
             "title": "Description",
+            "tab-icon": "shopify:\/\/shop_images\/web_16734064.png",
             "content": "{{ product.metafields.custom.new_long_description | metafield_tag }}"
           }
         },
@@ -238,6 +240,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Clinical-Studies.png",
             "title": "Clinical Studies",
+            "tab-icon": "shopify:\/\/shop_images\/science-book_1095379.png",
             "heading": "<strong>Scientific\/Clinical Studies<\/strong>",
             "heading_size": "h1",
             "caption": "",
@@ -359,6 +362,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/facts_f261567f-e0cf-4736-bab1-e1f9374843f7.png",
             "title": "Unknown Facts",
+            "tab-icon": "shopify:\/\/shop_images\/did-you-know_5359884.png",
             "heading": "",
             "heading_size": "h1",
             "caption": "",
@@ -382,6 +386,7 @@
           "type": "Faq",
           "settings": {
             "title": "FAQs",
+            "tab-icon": "shopify:\/\/shop_images\/faqs_11618921.png",
             "content": "",
             "heading-1": "{{ product.metafields.custom.faqs.value.question_1.value }}",
             "heading-2": "{{ product.metafields.custom.faqs.value.question_2.value }}",
