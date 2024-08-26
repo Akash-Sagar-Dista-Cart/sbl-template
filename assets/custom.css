@@ -213,6 +213,7 @@ flex-direction:column;
  @media (max-width:749px) {
   .page.contact .image-with-text__text-item:last-child{
     order: -1;
+    padding-top: 0;
      }
  }
  @media (max-width:480px) {
