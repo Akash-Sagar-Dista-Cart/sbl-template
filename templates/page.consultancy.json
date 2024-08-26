@@ -1,0 +1,100 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "image_with_text_7yG93B": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_MJH4i6": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "<strong>Contact our International team at –<\/strong>",
+            "heading_size": "h2"
+          }
+        },
+        "text_raEmMe": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<ul><li><h4>Whatsapp your queries at <a href=\"tel:+91-7652922771\" title=\"tel:+91-7652922771\">+91-7652922771<\/a> or <a href=\"tel:+91 95019 80115\" title=\"tel:+91 95019 80115\">+91 95019 80115<\/a><\/h4><\/li><li><h4>or Email us at –<a href=\"mailto:international@miduty.in\"> international@miduty.in<\/a><\/h4><\/li><\/ul>",
+            "text_style": "subtitle"
+          }
+        },
+        "heading_3FBYni": {
+          "type": "heading",
+          "settings": {
+            "heading": "Get in touch",
+            "heading_size": "h2"
+          }
+        },
+        "caption_zc9MwT": {
+          "type": "caption",
+          "settings": {
+            "caption": "Our friendly team would love to hear from you.",
+            "text_style": "subtitle",
+            "text_size": "medium"
+          }
+        },
+        "contact_form_jjdnK9": {
+          "type": "contact-form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "heading_MJH4i6",
+        "text_raEmMe",
+        "heading_3FBYni",
+        "caption_zc9MwT",
+        "contact_form_jjdnK9"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Talk_To_Our_Experts_v2_fc3419de-14f5-4a09-bf6c-6b0f954ec7fb-632x1024_1_1_1.png",
+        "height": "large",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 28,
+        "padding_bottom": 36
+      }
+    },
+    "form": {
+      "type": "contact-form",
+      "disabled": true,
+      "settings": {
+        "heading": "Questions or comments? Get in touch and we'll be happy to help.",
+        "heading_size": "h2",
+        "color_scheme": "scheme-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_7yG93B",
+    "form"
+  ]
+}
