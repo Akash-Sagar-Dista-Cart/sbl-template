@@ -98,34 +98,17 @@
         "heading_t88UYJ": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
+            "heading": "Consultation Form",
             "heading_size": "h1"
-          }
-        },
-        "text_WN6GYn": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "text_style": "body"
-          }
-        },
-        "button_rFUked": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
           }
         }
       },
       "block_order": [
-        "heading_t88UYJ",
-        "text_WN6GYn",
-        "button_rFUked"
+        "heading_t88UYJ"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Talk_To_Our_Experts_v2_fc3419de-14f5-4a09-bf6c-6b0f954ec7fb-632x1024_1_1_1.png",
-        "height": "adapt",
+        "height": "small",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "top",
