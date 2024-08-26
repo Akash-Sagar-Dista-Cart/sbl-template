@@ -202,11 +202,18 @@ flex-direction:column;
  #Slider-template--17056210583733__multicolumn_FMXnRJ .multicolumn-list__item{
   flex: 1;
  }
+ 
  }
 
  /*  */
  #shopify-section-template--17056210583733__multicolumn_FMXnRJ li{
   flex:1;
+ }
+
+ @media (max-width:749px) {
+  .page.contact .image-with-text__text-item:last-child{
+    order: -1;
+     }
  }
  @media (max-width:480px) {
   #shopify-section-template--17056210583733__multicolumn_FMXnRJ ul{
