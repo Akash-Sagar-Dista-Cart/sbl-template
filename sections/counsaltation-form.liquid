@@ -223,6 +223,7 @@
               </div>
         </div>
         <div class="grid__item">
+        <div class="media">
 {%- if section.settings.image != blank -%}
               {%- if section.settings.image_behavior == 'ambient' or section.settings.image_behavior == 'zoom-in' -%}
                 {%- assign widths = '198, 432, 642, 900, 1284, 1800' -%}
@@ -245,6 +246,7 @@
             {%- else -%}
               {{ 'detailed-apparel-1' | placeholder_svg_tag: 'placeholder-svg' }}
             {%- endif -%}
+            </div>
         </div>
     </div>
 
