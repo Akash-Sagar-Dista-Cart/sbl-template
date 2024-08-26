@@ -215,6 +215,9 @@ flex-direction:column;
     order: -1;
     padding-top: 0;
      }
+  .page.contact .contact__button .button{
+    width: 100%;
+     }
  }
  @media (max-width:480px) {
   #shopify-section-template--17056210583733__multicolumn_FMXnRJ ul{
