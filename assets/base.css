@@ -1696,7 +1696,7 @@ details[open] > .share-button__fallback {
 }
 
 .field__input,.field__label1,
-.customer .field input {
+.customer .field input ,.checkbox-custom{
   flex-grow: 1;
   text-align: left;
   padding: 1.5rem;

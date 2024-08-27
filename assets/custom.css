@@ -206,6 +206,18 @@ flex-direction:column;
  }
 
  /*  */
+ label.custom-checkbox-main {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  align-items: flex-start;
+  line-height: 1;
+  margin-bottom: 8px;
+}
+.field__label1.checkbox-custom {
+  display: flex;
+  flex-direction: column;
+}
  #shopify-section-template--17056210583733__multicolumn_FMXnRJ li{
   flex:1;
  }
