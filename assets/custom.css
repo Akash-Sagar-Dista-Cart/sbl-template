@@ -218,6 +218,9 @@ flex-direction:column;
   display: flex;
   flex-direction: column;
 }
+.checkbox-custom input[type=checkbox] {
+margin-top: 0;
+}
  #shopify-section-template--17056210583733__multicolumn_FMXnRJ li{
   flex:1;
  }
