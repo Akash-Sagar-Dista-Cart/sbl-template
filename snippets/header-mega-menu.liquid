@@ -33,10 +33,10 @@
                 <ul
                   class="mega-menu__list page-width{% if link.levels == 1 %} mega-menu__list--condensed{% endif %}"
                   role="list"
-                >
+                > 
                   {%- for childlink in link.links -%}
                     <li class="child-link">
-                    <div class="child-link-lable">
+                    <div class="child-link-lable  {% if forloop.first %}menu-active{% endif %}">
                     <a
                         id="HeaderMenu-{{ link.handle }}-{{ childlink.handle }}"
                         href="{{ childlink.url }}"

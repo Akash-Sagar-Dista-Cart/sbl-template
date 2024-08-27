@@ -172,12 +172,14 @@ class NavigationMenu {
     this.navItems.forEach(otherItem => {
       if (otherItem !== newItem) {
         otherItem.querySelector('.menu-container-last').style.display = 'none';
+        otherItem.classList.remove('menu-active')
       }
     });
 
     // Toggle the clicked submenu
     const submenu = newItem.querySelector('.menu-container-last');
     submenu.style.display = submenu.style.display === 'flex' ? 'none' : 'flex';
+    newItem.classList.add('menu-active')
 
     // Update the currently open item
     this.currentOpenItem = submenu.style.display === 'flex' ? newItem : null;
@@ -221,11 +223,11 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 
   document.querySelectorAll('.header__menu-item').forEach(item => {
-    console.log('item')
-    console.log(item)
+    // console.log('item')
+    // console.log(item)
     let parent = item.closest('.mega-menu');
-    console.log('parent')
-    console.log(parent)
+    // console.log('parent')
+    // console.log(parent)
     if(parent !== null){
       let megaMenuContent = parent.querySelector('.mega-menu__content');
   

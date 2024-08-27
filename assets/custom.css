@@ -264,4 +264,12 @@ margin-top: 0;
  .child-link-lable{
   display: flex !important;
   justify-content: space-between;
+  height: 44px;
+  align-items: center;
+ }
+ .mega-menu__content{
+  background: #fff;
+ }
+ .menu-active{
+  background: #ccc;
  }
