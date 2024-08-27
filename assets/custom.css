@@ -251,6 +251,7 @@ margin-top: 0;
  .header__menu-item{
   color: rgb(var(--color-foreground));
  }
- .mega-menu__link--level-2{
-  
+ 
+ .mega-menu__link{
+  text-decoration: underline;
  }
