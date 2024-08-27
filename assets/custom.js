@@ -156,7 +156,7 @@ class NavigationMenu {
 
   setupEventListeners() {
     this.navItems.forEach(item => {
-      const label = item.querySelector('.mega-menu__link--level-2').querySelector('.icon');
+      const label = item.querySelector('.child-link-lable').querySelector('.icon');
       label.addEventListener('click', () => this.toggleMenu(item));
     });
   }
