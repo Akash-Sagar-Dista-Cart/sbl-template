@@ -252,6 +252,6 @@ margin-top: 0;
   color: rgb(var(--color-foreground));
  }
  
- .mega-menu__link,details[open]>.header__menu-item,.header__menu-item:hover span{
+ .mega-menu__link,details[open]>.header__menu-item,.header__menu-item:hover span,.header__active-menu-item{
   text-decoration: none !important;
  }
