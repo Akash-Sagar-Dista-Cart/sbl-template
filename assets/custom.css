@@ -256,7 +256,7 @@ margin-top: 0;
  .header__menu-item:hover span,.header__active-menu-item,.header__menu-item a{
   text-decoration: none !important;
  }
- .child-link-lable .icon{
+ .child-link-lable .custome-arrow{
   width: 18px;
   margin-right: 15px;
   transform: rotate(272deg);
