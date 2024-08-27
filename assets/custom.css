@@ -278,3 +278,6 @@ margin-top: 0;
  .menu-container-last .mega-menu__link{
   padding-top: 0;
  }
+ .mega-menu__link--level-3{
+  font-weight: 700;
+ }
