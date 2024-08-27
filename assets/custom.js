@@ -220,7 +220,11 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 
   document.querySelectorAll('.header__menu-item').forEach(item => {
+    console.log('item')
+    console.log(item)
     let parent = item.closest('.mega-menu');
+    console.log('parent')
+    console.log(parent)
     let megaMenuContent = parent.querySelector('.mega-menu__content');
   
     parent.addEventListener('mouseenter', function() {
