@@ -225,7 +225,8 @@ document.addEventListener('DOMContentLoaded', function() {
     let parent = item.closest('.mega-menu');
     console.log('parent')
     console.log(parent)
-    let megaMenuContent = parent.querySelector('.mega-menu__content');
+    if(parent !== null){
+      let megaMenuContent = parent.querySelector('.mega-menu__content');
   
     parent.addEventListener('mouseenter', function() {
       megaMenuContent.style.display = 'block';
@@ -234,6 +235,7 @@ document.addEventListener('DOMContentLoaded', function() {
     parent.addEventListener('mouseleave', function() {
       megaMenuContent.style.display = 'none';
     });
+    }
   });
 });
 ///
