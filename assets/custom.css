@@ -271,5 +271,5 @@ margin-top: 0;
   background: #fff;
  }
  .menu-active{
-  background: #ccc;
+  background: rgba(0,0,0,.1)!important;
  }
