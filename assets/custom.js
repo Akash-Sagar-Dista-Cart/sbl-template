@@ -230,6 +230,7 @@ document.addEventListener('DOMContentLoaded', function() {
       let megaMenuContent = parent.querySelector('.mega-menu__content');
   
     parent.addEventListener('mouseenter', function() {
+      document.querySelector("#Details-HeaderMenu-2").setAttribute('open', '')
       megaMenuContent.style.display = 'block';
     });
   
