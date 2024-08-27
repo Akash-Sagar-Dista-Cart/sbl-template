@@ -286,7 +286,7 @@ margin-top: 0;
   font-weight: 600;
  }
  @media (min-width:750px) {
-  .video-inner-block h3{
+  .video-inner-block h3,.blog_card__heading{
     font-weight: 500;
     font-size: 23px;
     line-height: 34px;
