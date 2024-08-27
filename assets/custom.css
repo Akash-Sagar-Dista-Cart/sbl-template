@@ -246,3 +246,11 @@ margin-top: 0;
   border-radius: 8px;
   padding: 0 15px;
  }
+
+ /* custome font style */
+ .header__menu-item{
+  color: rgb(var(--color-foreground));
+ }
+ .mega-menu__link--level-2{
+  
+ }

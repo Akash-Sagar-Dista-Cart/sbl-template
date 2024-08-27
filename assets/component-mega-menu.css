@@ -26,7 +26,6 @@
 
 .mega-menu__list {
   display: grid;
-  gap: 1.8rem 4rem;
   grid-template-columns: repeat(6, minmax(0, 1fr));
   list-style: none;
 }
@@ -40,10 +39,6 @@
   text-decoration: none;
   transition: text-decoration var(--duration-short) ease;
   word-wrap: break-word;
-}
-
-.mega-menu__link--level-2 {
-  font-weight: bold;
 }
 
 .header--top-center .mega-menu__list {
