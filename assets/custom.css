@@ -287,8 +287,8 @@ margin-top: 0;
  }
  @media (min-width:750px) {
   .video-inner-block h3,.article-card .card__heading{
-    font-weight: 500;
-    font-size: 23px;
+    font-weight: 500 !important;
+    font-size: 23px !important;
     line-height: 34px;
   }
   #Slider-template--17056210583733__multicolumn2 h3{
