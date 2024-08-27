@@ -76,13 +76,19 @@ document.querySelectorAll('[id^="Details-"] summary').forEach((summary) => {
     summary.setAttribute('aria-controls', summary.nextElementSibling.id);
   }
 
-  summary.addEventListener('click', (event) => {
+  const toggleExpanded = (event) => {
     event.currentTarget.setAttribute('aria-expanded', !event.currentTarget.closest('details').hasAttribute('open'));
-  });
+  };
+
+  summary.addEventListener('click', toggleExpanded);
+
+  // Add hover event listener to apply the same functionality as click
+  summary.addEventListener('mouseover', toggleExpanded);
 
   if (summary.closest('header-drawer, menu-drawer')) return;
   summary.parentElement.addEventListener('keyup', onKeyUpEscape);
 });
+
 
 const trapFocusHandlers = {};
 
