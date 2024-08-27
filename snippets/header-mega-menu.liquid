@@ -35,8 +35,8 @@
                   role="list"
                 > 
                   {%- for childlink in link.links -%}
-                    <li class="child-link">
-                    <div class="child-link-lable  {% if forloop.first %}menu-active{% endif %}">
+                    <li class="child-link {% if forloop.first %}menu-active{% endif %}">
+                    <div class="child-link-lable  ">
                     <a
                         id="HeaderMenu-{{ link.handle }}-{{ childlink.handle }}"
                         href="{{ childlink.url }}"
