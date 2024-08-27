@@ -220,16 +220,13 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 
   document.querySelectorAll('.header__menu-item').forEach(item => {
-    let parent = item.parentElement;
     let megaMenuContent = parent.querySelector('.mega-menu__content');
   
     parent.addEventListener('mouseenter', function() {
-      parent.classList.add('static');
       megaMenuContent.style.display = 'block';
     });
   
     parent.addEventListener('mouseleave', function() {
-      parent.classList.remove('static');
       megaMenuContent.style.display = 'none';
     });
   });
