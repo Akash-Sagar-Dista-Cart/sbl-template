@@ -235,7 +235,7 @@ document.addEventListener('DOMContentLoaded', function() {
   
     parent.addEventListener('mouseleave', function() {
       megaMenuContent.style.display = 'none';
-      document.querySelector("#Details-HeaderMenu-2").setAttribute('open')
+      document.querySelector("#Details-HeaderMenu-2").setAttribute('open', '')
     });
     }
   });
