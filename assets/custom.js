@@ -156,30 +156,31 @@ class NavigationMenu {
 
   setupEventListeners() {
     this.navItems.forEach(item => {
-      const label = item.querySelector('.child-link-lable').querySelector('.icon');
+      const label = item.querySelector('.child-link-lable');
       label.addEventListener('click', () => this.toggleMenu(item));
     });
   }
 
   toggleMenu(item) {
     // If the clicked item is the currently open item, do nothing
-    if (this.currentOpenItem === item) {
+    let newItem = item.closest('.child-link')
+    if (this.currentOpenItem === newItem) {
       return;
     }
 
     // Close all other submenus
     this.navItems.forEach(otherItem => {
-      if (otherItem !== item) {
+      if (otherItem !== newItem) {
         otherItem.querySelector('.menu-container-last').style.display = 'none';
       }
     });
 
     // Toggle the clicked submenu
-    const submenu = item.querySelector('.menu-container-last');
+    const submenu = newItem.querySelector('.menu-container-last');
     submenu.style.display = submenu.style.display === 'flex' ? 'none' : 'flex';
 
     // Update the currently open item
-    this.currentOpenItem = submenu.style.display === 'flex' ? item : null;
+    this.currentOpenItem = submenu.style.display === 'flex' ? newItem : null;
   }
 }
 
