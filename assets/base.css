@@ -1695,7 +1695,7 @@ details[open] > .share-button__fallback {
   flex-wrap: wrap;
 }
 
-.field__input,
+.field__input,.field__label1,
 .customer .field input {
   flex-grow: 1;
   text-align: left;
