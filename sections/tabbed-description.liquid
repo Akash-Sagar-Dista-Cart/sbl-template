@@ -217,7 +217,13 @@ transition: transform 0.3s ease;
       flex-direction: column;
         max-width: 180px;
   }
-
+@media(max-width:750px){
+   .tab-benefits .icon-wrapper {
+      display: flex;
+      flex-direction: column;
+        max-width: calc(33.33% - 7.5px);
+  }
+}
   .benefits-container {
       display: flex;
       margin-top:15px;
