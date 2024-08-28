@@ -315,3 +315,6 @@ margin-top: 0;
  #request-type{
   background-color: transparent;
  }
+ .video-section__media{
+  border: 0;
+ }
