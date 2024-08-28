@@ -89,8 +89,8 @@
                 <span class="pipe-divider">{{ article.published_at | time_tag: format: 'date' }}</span>
               {%- endif -%}
               {% assign words_per_minute = 200 %} <!-- Average reading speed -->
-{% assign word_count = article.content | strip_html | number_of_words %}
-{% assign reading_time = word_count | divided_by: words_per_minute | ceil %}
+{% assign word_count = article.content | strip_html | split: ' '  %}
+{% assign reading_time = word_count.size | divided_by: words_per_minute | ceil %}
 
 {% if reading_time == 1 %}
   <span class="read-time">{{ reading_time }} minute read</span>
@@ -137,8 +137,8 @@
                 <span class="pipe-divider">{{ article.published_at | time_tag: format: 'date' }}</span>
               {%- endif -%}
               {% assign words_per_minute = 200 %} <!-- Average reading speed -->
-{% assign word_count = article.content | strip_html | number_of_words %}
-{% assign reading_time = word_count | divided_by: words_per_minute | ceil %}
+{% assign word_count = article.content | strip_html | split: ' '  %}
+{% assign reading_time = word_count.size | divided_by: words_per_minute | ceil %}
 
 {% if reading_time == 1 %}
   <span class="read-time">{{ reading_time }} minute read</span>
