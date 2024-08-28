@@ -83,12 +83,20 @@
 
             <div class="article-card__info caption-with-letter-spacing h5">
             {%- if show_author -%}
-                <span class="author-name"> {{ article.author }}</span>
+                <div><span class="author-name"> {{ article.author }}</span></div>
               {%- endif -%}
               {%- if show_date -%}
                 <span class="pipe-divider">{{ article.published_at | time_tag: format: 'date' }}</span>
               {%- endif -%}
-              
+              {% assign words_per_minute = 200 %} <!-- Average reading speed -->
+{% assign word_count = article.content | strip_html | number_of_words %}
+{% assign reading_time = word_count | divided_by: words_per_minute | ceil %}
+
+{% if reading_time == 1 %}
+  <span class="read-time">{{ reading_time }} minute read</span>
+{% else %}
+  <span class="read-time">{{ reading_time }} minutes read</span>
+{% endif %}
             </div>
             {%- if show_excerpt -%}
               {%- if article.excerpt.size > 0 or article.content.size > 0 -%}
@@ -122,12 +130,22 @@
             </a>
           </h3>
           <div class="article-card__info caption-with-letter-spacing h5">
-           {%- if show_author -%}
-                <span class="author-name"> {{ article.author }}</span>
+          {%- if show_author -%}
+                <div><span class="author-name"> {{ article.author }}</span></div>
               {%- endif -%}
               {%- if show_date -%}
                 <span class="pipe-divider">{{ article.published_at | time_tag: format: 'date' }}</span>
               {%- endif -%}
+              {% assign words_per_minute = 200 %} <!-- Average reading speed -->
+{% assign word_count = article.content | strip_html | number_of_words %}
+{% assign reading_time = word_count | divided_by: words_per_minute | ceil %}
+
+{% if reading_time == 1 %}
+  <span class="read-time">{{ reading_time }} minute read</span>
+{% else %}
+  <span class="read-time">{{ reading_time }} minutes read</span>
+{% endif %}
+
           </div>
           {%- if show_excerpt -%}
             {%- if article.excerpt.size > 0 or article.content.size > 0 -%}
