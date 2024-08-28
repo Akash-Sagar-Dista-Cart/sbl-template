@@ -3606,4 +3606,8 @@ details-disclosure > details {
 .newsletter__wrapper p{
   font-size: 14px;
 }
+form a{
+  color: inherit;
+  text-decoration: underline !important;
+}
 /* custome style Added */
