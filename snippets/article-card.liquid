@@ -80,13 +80,15 @@
                 {{ article.title | truncate: 50 | escape }}
               </a>
             </h3>
+
             <div class="article-card__info caption-with-letter-spacing h5">
+            {%- if show_author -%}
+                <span class="author-name"> {{ article.author }}</span>
+              {%- endif -%}
               {%- if show_date -%}
-                <span class="circle-divider">{{ article.published_at | time_tag: format: 'date' }}</span>
+                <span class="pipe-divider">{{ article.published_at | time_tag: format: 'date' }}</span>
               {%- endif -%}
-              {%- if show_author -%}
-                <span>{{ article.author }}</span>
-              {%- endif -%}
+              
             </div>
             {%- if show_excerpt -%}
               {%- if article.excerpt.size > 0 or article.content.size > 0 -%}
@@ -120,12 +122,12 @@
             </a>
           </h3>
           <div class="article-card__info caption-with-letter-spacing h5">
-            {%- if show_date -%}
-              <span class="circle-divider">{{ article.published_at | time_tag: format: 'date' }}</span>
-            {%- endif -%}
-            {%- if show_author -%}
-              <span>{{ article.author }}</span>
-            {%- endif -%}
+           {%- if show_author -%}
+                <span class="author-name"> {{ article.author }}</span>
+              {%- endif -%}
+              {%- if show_date -%}
+                <span class="pipe-divider">{{ article.published_at | time_tag: format: 'date' }}</span>
+              {%- endif -%}
           </div>
           {%- if show_excerpt -%}
             {%- if article.excerpt.size > 0 or article.content.size > 0 -%}

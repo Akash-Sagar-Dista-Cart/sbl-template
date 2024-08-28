@@ -524,7 +524,13 @@ a:not([href]) {
   content: '\2022';
   margin: 0 1.3rem 0 1.5rem;
 }
-
+.pipe-divider::after {
+  content: '|';
+  margin: 0 1.3rem 0 1.5rem;
+}
+.pipe-divider:last-of-type::after {
+  display: none;
+}
 .circle-divider:last-of-type::after {
   display: none;
 }
