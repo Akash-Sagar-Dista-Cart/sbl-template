@@ -307,3 +307,8 @@ margin-top: 0;
  a{
   text-decoration: none !important;
  }
+ .article-card__info{
+  color: #1c2c3a80;
+  font-size: 15px;
+  font-weight: 500;
+ }
