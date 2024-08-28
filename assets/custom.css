@@ -318,3 +318,7 @@ margin-top: 0;
  .video-section__media{
   border: 0;
  }
+ .author-name{
+  font-size: 18px;
+  color: #141516;
+}
