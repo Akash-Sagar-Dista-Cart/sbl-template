@@ -304,3 +304,6 @@ margin-top: 0;
  .card-information .price{
   margin-bottom: 10px;
  }
+ a{
+  text-decoration: none !important;
+ }
