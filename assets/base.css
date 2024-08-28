@@ -3599,4 +3599,10 @@ details-disclosure > details {
   background: #1c2c3a;
     color: #fff;
 }
+.newsletter__wrapper h2{
+  font-size: 25px;
+}
+.newsletter__wrapper p{
+  font-size: 14px;
+}
 /* custome style Added */
