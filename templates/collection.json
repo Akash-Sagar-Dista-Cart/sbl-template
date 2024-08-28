@@ -85,7 +85,7 @@
         "button_dTqdnY": {
           "type": "button",
           "settings": {
-            "button_label": "View All",
+            "button_label": "View All Products",
             "button_link": "shopify:\/\/collections\/all",
             "button_style_secondary": false,
             "button_label_2": "",
