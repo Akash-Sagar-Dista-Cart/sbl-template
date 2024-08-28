@@ -3610,4 +3610,7 @@ form a{
   color: inherit;
   text-decoration: underline !important;
 }
+body.page.contact,body.page.contact .form__label{
+  font-size: 14px;
+}
 /* custome style Added */
