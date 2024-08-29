@@ -200,6 +200,10 @@ transition: transform 0.3s ease;
 .aarow-toggler{
   margin-left:auto;
 }
+.accordion__content{
+  padding: 1.5rem 0;
+  margin:0;
+}
 .tab-item.active svg{
   transform: rotate(180deg);
 }
@@ -304,14 +308,18 @@ align-items:center;
     margin:0;
   }
   .tab-pane summary{
-    padding-top:0;
-    border-bottom:1px solid rgb(var(--color-foreground))
+        border-bottom: .5px solid rgba(0, 0, 0, .1);
   }
   .tab-content {
       clear: both;
       padding: 20px;
   }
-
+.accordion__content{
+      font-weight: 500;
+    font-size: 18px;
+    color: #14151680;
+    padding: 20px 0;
+}
   .tab-pane {
       display: none;
       width: 100%;
