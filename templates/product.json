@@ -215,8 +215,8 @@
             "heading-8": "",
             "heading-9": "",
             "heading-10": "",
-            "row_content-1": "<p>{{ product.metafields.custom.what_s_it_for.value.answer_1.value }}<\/p>",
-            "row_content-2": "<p>{{ product.metafields.custom.what_s_it_for.value.answer_1.value }}<\/p>",
+            "row_content-1": "{{ product.metafields.custom.what_s_it_for.value.answer_1 | metafield_tag }}",
+            "row_content-2": "{{ product.metafields.custom.what_s_it_for.value.answer_2 | metafield_tag }}",
             "row_content-3": "",
             "row_content-4": "",
             "row_content-5": "",
@@ -527,6 +527,7 @@
       "block_order": [
         "faq_dJBp6a"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "scheme-1"
       }
