@@ -661,23 +661,7 @@
               <span>{{a}}</span>
               {% endfor %}
               </div>
-           <div class="text-badge-wrapper">
-            {% if block.settings.heading_1 != blank %}
-              <span>{{block.settings.heading_1}}</span>
-            {% endif %}
-            {% if block.settings.heading_2 != blank %}
-              <span>{{block.settings.heading_2}}</span>
-            {% endif %}
-            {% if block.settings.heading_3 != blank %}
-              <span>{{block.settings.heading_3}}</span>
-            {% endif %}
-            {% if block.settings.heading_4 != blank %}
-              <span>{{block.settings.heading_4}}</span>
-            {% endif %}
-            {% if block.settings.heading_5 != blank %}
-              <span>{{block.settings.heading_5}}</span>
-            {% endif %}
-           </div>
+           
               {%- when 'icon-with-text' -%}
                 {% render 'icon-with-text', block: block %}
             {%- endcase -%}
