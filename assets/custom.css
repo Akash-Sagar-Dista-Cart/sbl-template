@@ -323,3 +323,9 @@ margin-top: 0;
   color: #141516;
   font-weight: 500;
 }
+.product__title{
+  margin-top: 0 ;
+}
+.text-badge-wrapper{
+  margin-bottom: 10px;
+}
