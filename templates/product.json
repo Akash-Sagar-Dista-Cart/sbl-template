@@ -215,8 +215,8 @@
             "heading-8": "",
             "heading-9": "",
             "heading-10": "",
-            "row_content-1": "{{ product.metafields.custom.what_s_it_for.value.answer_1.value }}",
-            "row_content-2": "{{ product.metafields.custom.what_s_it_for.value.answer_1.value }}",
+            "row_content-1": "<p>{{ product.metafields.custom.what_s_it_for.value.answer_1.value }}<\/p>",
+            "row_content-2": "<p>{{ product.metafields.custom.what_s_it_for.value.answer_1.value }}<\/p>",
             "row_content-3": "",
             "row_content-4": "",
             "row_content-5": "",
@@ -398,8 +398,8 @@
             "heading-8": "{{ product.metafields.custom.faqs.value.question_8.value }}",
             "heading-9": "{{ product.metafields.custom.faqs.value.question_9.value }}",
             "heading-10": "{{ product.metafields.custom.faqs.value.question_10.value }}",
-            "row_content-1": "{{ product.metafields.custom.faqs.value.ans_1.value }}",
-            "row_content-2": "{{ product.metafields.custom.faqs.value.ans_2.value }}",
+            "row_content-1": "<p>{{ product.metafields.custom.faqs.value.ans_1.value }}<\/p>",
+            "row_content-2": "<p>{{ product.metafields.custom.faqs.value.ans_2.value }}<\/p>",
             "row_content-3": "{{ product.metafields.custom.faqs.value.ans_3.value }}",
             "row_content-4": "{{ product.metafields.custom.faqs.value.ans_4.value }}",
             "row_content-5": "{{ product.metafields.custom.faqs.value.ans_5.value }}",
@@ -491,6 +491,45 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "tabbed_description_GdFbcA": {
+      "type": "tabbed-description",
+      "blocks": {
+        "faq_dJBp6a": {
+          "type": "Faq",
+          "settings": {
+            "title": "fAQ",
+            "tab-icon": "shopify:\/\/shop_images\/question_4641271.png",
+            "content": "",
+            "heading-1": "{{ product.metafields.custom.what_s_it_for.value.question_1.value }}",
+            "heading-2": "{{ product.metafields.custom.what_s_it_for.value.question_2.value }}",
+            "heading-3": "",
+            "heading-4": "",
+            "heading-5": "",
+            "heading-6": "",
+            "heading-7": "",
+            "heading-8": "",
+            "heading-9": "",
+            "heading-10": "",
+            "row_content-1": "{{ product.metafields.custom.what_s_it_for.value.answer_1 | metafield_tag }}",
+            "row_content-2": "{{ product.metafields.custom.what_s_it_for.value.answer_2 | metafield_tag }}",
+            "row_content-3": "",
+            "row_content-4": "",
+            "row_content-5": "",
+            "row_content-6": "",
+            "row_content-7": "",
+            "row_content-8": "",
+            "row_content-9": "",
+            "row_content-10": ""
+          }
+        }
+      },
+      "block_order": [
+        "faq_dJBp6a"
+      ],
+      "settings": {
+        "color_scheme": ""
+      }
     }
   },
   "order": [
@@ -501,6 +540,7 @@
     "tabbed_description_zXGKxn",
     "related-products",
     "rich_text_pgB9rM",
-    "1721723840083d7530"
+    "1721723840083d7530",
+    "tabbed_description_GdFbcA"
   ]
 }
