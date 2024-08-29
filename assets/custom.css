@@ -316,7 +316,7 @@ margin-top: 0;
   background-color: transparent;
  }
  .video-section__media{
-  border: 0;
+  border: 0 !important;
  }
  .author-name{
   font-size: 18px;
