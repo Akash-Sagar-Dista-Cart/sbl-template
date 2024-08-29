@@ -316,7 +316,7 @@ margin-top: 0;
   background-color: transparent;
  }
  .video-section__media{
-  border: 0 !important;
+  border: 0 ;
  }
  .author-name{
   font-size: 18px;
@@ -324,7 +324,7 @@ margin-top: 0;
   font-weight: 500;
 }
 .product__title{
-  margin-top: 0 ;
+  margin-top: 0 !important;
 }
 .text-badge-wrapper{
   margin-bottom: 10px;
