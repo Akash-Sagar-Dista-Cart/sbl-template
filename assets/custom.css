@@ -32,9 +32,7 @@ button.video-slider-arrow {
   width: 45px;
   height: 45px;
 }
-button.video-slider-prev{
-  transform: translate(-45px, -50%);
-}
+
 
 button.video-slider-arrow.video-slider-next.slick-arrow {
     right: 0;
