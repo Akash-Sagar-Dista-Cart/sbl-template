@@ -372,3 +372,6 @@ margin-top: 0;
 .image-with-text__text h1{
   margin-bottom: 20px;
 }
+.article-card__excerpt{
+  margin-bottom: 0 !important;
+}
