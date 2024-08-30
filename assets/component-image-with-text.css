@@ -337,10 +337,6 @@
   }
 }
 
-.image-with-text__content > * + * {
-  margin-top: 2rem;
-}
-
 .image-with-text__content > .image-with-text__text:empty ~ a {
   margin-top: 2rem;
 }

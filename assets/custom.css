@@ -252,6 +252,10 @@ margin-top: 0;
   .page.contact .contact__button .button{
     width: 100%;
      }
+     .image-with-text__content{
+      padding-top: 0 !important;
+      padding-bottom: 0 !important;
+     }
  }
  @media (max-width:480px) {
   #shopify-section-template--17056210583733__multicolumn_FMXnRJ ul{
@@ -361,4 +365,7 @@ margin-top: 0;
 }
 .descrition-short p ,.card--card .quick-add{
   margin: 0 !important;
+}
+.image-with-text__text h1{
+  margin-bottom: 20px;
 }
