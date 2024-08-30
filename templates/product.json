@@ -290,8 +290,8 @@
         "button_eh6dcX": {
           "type": "button",
           "settings": {
-            "button_label": "",
-            "button_link": "",
+            "button_label": "Show More",
+            "button_link": "#",
             "button_style_secondary": false
           }
         }
