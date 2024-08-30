@@ -329,3 +329,12 @@ margin-top: 0;
 .text-badge-wrapper{
   margin-bottom: 10px;
 }
+.show-more-content {
+  max-height: 100px; /* Set the initial visible height */
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.show-more-content.expanded {
+  max-height: none;
+}

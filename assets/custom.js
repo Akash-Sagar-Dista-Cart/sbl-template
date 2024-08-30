@@ -244,7 +244,29 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 });
 ///
+// Show more 
 
+document.addEventListener('DOMContentLoaded', function () {
+  const showMoreBtn = document.querySelector('#shopify-section-template--17056211271861__image_with_text_EEwMDe .button--primary'); // Select the button
+  const showMoreContent = document.querySelector('#shopify-section-template--17056211271861__image_with_text_EEwMDe .image-with-text__text'); // Select the content container
 
+  // Add the class to limit the height
+  showMoreContent.classList.add('show-more-content');
+
+  // Add event listener to the button
+  showMoreBtn.addEventListener('click', function (e) {
+    e.preventDefault();
+    
+    // Toggle the class to expand/collapse content
+    showMoreContent.classList.toggle('expanded');
+    
+    // Toggle button text
+    if (showMoreContent.classList.contains('expanded')) {
+      showMoreBtn.textContent = 'Show Less';
+    } else {
+      showMoreBtn.textContent = 'Show More';
+    }
+  });
+});
 
 // mega menu Js
