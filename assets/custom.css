@@ -29,10 +29,12 @@ button.video-slider-arrow {
   background: #fff;
   border: 1px solid;
   border-radius: 50%;
-  width: 45px;
-  height: 45px;
+  width: 30px;
+  height: 30px;
 }
-
+.video-slider-arrow svg{
+  width: 20px;
+}
 
 button.video-slider-arrow.video-slider-next.slick-arrow {
     right: 0;
