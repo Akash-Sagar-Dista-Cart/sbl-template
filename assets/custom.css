@@ -1,6 +1,8 @@
 /*Videos section*/
-.slick-initialized{
-  padding: 0 45px !important;
+@media (min-width:750px) {
+  .slick-initialized{
+    padding: 0 45px !important;
+  }
 }
 body.overflow-hidden #shopify-chat,.overflow-hidden-tablet #shopify-chat{
      display:none!important;
