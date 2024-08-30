@@ -21,6 +21,8 @@ $(document).ready(function(){
       settings: {
         slidesToShow: 2,
         slidesToScroll: 1,
+        centerMode: true,
+        centerPadding: '40px',
         dots: false
       }
     },
@@ -29,6 +31,8 @@ $(document).ready(function(){
       settings: {
         slidesToShow: 1,
         slidesToScroll: 1,
+        centerMode: true,
+        centerPadding: '40px',
         dots: false
       }
     }
@@ -55,6 +59,8 @@ $('#Slider-template--17056210583733__multicolumn2').slick({
       settings: {
         slidesToShow: 2,
         slidesToScroll: 1,
+        centerMode: true,
+        centerPadding: '40px'
       }
     },
     {
@@ -62,6 +68,8 @@ $('#Slider-template--17056210583733__multicolumn2').slick({
       settings: {
         slidesToShow: 1,
         slidesToScroll: 1,
+        centerMode: true,
+        centerPadding: '40px'
       }
     }
   ]
