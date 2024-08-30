@@ -338,3 +338,9 @@ margin-top: 0;
 .show-more-content.expanded {
   max-height: none;
 }
+.descrition-short{
+  font-size: 15px;
+}
+.descrition-short p ,.card--card .quick-add{
+  margin: 0;
+}
