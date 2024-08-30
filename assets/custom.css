@@ -34,6 +34,7 @@ button.video-slider-arrow {
 }
 .video-slider-arrow svg{
   width: 20px;
+  height: 20px;
 }
 
 button.video-slider-arrow.video-slider-next.slick-arrow {
