@@ -3,6 +3,9 @@
   .slick-initialized{
     padding: 0 45px !important;
   }
+  .video-inner-block {
+    margin: 5px;
+}
 }
 body.overflow-hidden #shopify-chat,.overflow-hidden-tablet #shopify-chat{
      display:none!important;
@@ -19,9 +22,7 @@ button.video-slider-arrow {
 button.video-slider-prev{
   transform: translate(-45px, -50%);
 }
-.video-inner-block {
-    margin: 5px;
-}
+
 button.video-slider-arrow.video-slider-next.slick-arrow {
     right: 0;
 }
