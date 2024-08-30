@@ -342,5 +342,5 @@ margin-top: 0;
   font-size: 15px;
 }
 .descrition-short p ,.card--card .quick-add{
-  margin: 0;
+  margin: 0 !important;
 }
