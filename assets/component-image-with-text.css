@@ -344,7 +344,7 @@
 .image-with-text__content > :first-child:is(.image-with-text__heading),
 .image-with-text__text--caption + .image-with-text__heading,
 .image-with-text__text--caption:first-child {
-  margin-top: 0;
+  margin-top: 10px;
 }
 
 .image-with-text__content :last-child:is(.image-with-text__heading),
