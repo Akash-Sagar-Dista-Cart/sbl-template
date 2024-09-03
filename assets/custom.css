@@ -424,6 +424,9 @@ ul.article--share--container {
   margin: 0 !important;
   padding: 2rem 0;
 }
+.article--share--container li{
+list-style: none;
+} 
 @media screen and (max-width: 768px) {
   ul.article--share--container {
       padding: 6px;
