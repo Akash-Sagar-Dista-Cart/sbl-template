@@ -3620,4 +3620,7 @@ body.page.contact,body.page.contact .form__label,body.page.contact .field__label
   margin: 0;
   margin-bottom: 1rem;
 }
+.about-us .multirow__inner > .image-with-text{
+padding-bottom: 20px;
+}
 /* custome style Added */
