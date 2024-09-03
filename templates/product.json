@@ -324,7 +324,7 @@
           "type": "benefits",
           "settings": {
             "title": "Ingredients",
-            "tab-icon": "shopify:\/\/shop_images\/spices_2508834.png",
+            "tab-icon": "shopify:\/\/shop_images\/international_ingrdients.svg",
             "content-title": "{{ product.metafields.custom.ingredients.value.title.value }}",
             "content-sub-title": "",
             "icon-1": "{{ product.metafields.custom.ingredients.value.icon_1.value }}",
@@ -362,7 +362,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/facts_f261567f-e0cf-4736-bab1-e1f9374843f7.png",
             "title": "Unknown Facts",
-            "tab-icon": "shopify:\/\/shop_images\/did-you-know_5359884.png",
+            "tab-icon": "shopify:\/\/shop_images\/international_facts.svg",
             "heading": "",
             "heading_size": "h1",
             "caption": "",
@@ -386,7 +386,7 @@
           "type": "Faq",
           "settings": {
             "title": "FAQs",
-            "tab-icon": "shopify:\/\/shop_images\/faqs_11618921.png",
+            "tab-icon": "shopify:\/\/shop_images\/international_FAQ.svg",
             "content": "",
             "heading-1": "{{ product.metafields.custom.faqs.value.question_1.value }}",
             "heading-2": "{{ product.metafields.custom.faqs.value.question_2.value }}",
