@@ -435,6 +435,10 @@ p.liste-para-ak {
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 1px;
+  line-height: 1.5;
+  margin: 0;
+  margin-bottom: 1rem;
+  
 }
 ul.article--share--container {
   gap: 4rem;
