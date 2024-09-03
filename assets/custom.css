@@ -388,6 +388,10 @@ margin-top: 0;
   padding-bottom: 0;
   padding-left: 0 !important;
 }
+li.content-for-text{
+  margin-right: 10rem;
+
+}
 p.liste-para-ak {
   font-size: 16px;
 }
@@ -413,6 +417,7 @@ ul.article--share--container {
   display: flex;
   justify-content: end;
   list-style-type: none;
+  align-items: center;
   padding-left: 0;
   margin: 0;
 }
