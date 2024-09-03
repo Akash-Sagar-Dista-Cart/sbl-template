@@ -3613,4 +3613,7 @@ form a{
 body.page.contact,body.page.contact .form__label,body.page.contact .field__label{
   font-size: 14px;
 }
+.about-us .image-with-text__heading{
+  margin-bottom: 20px;
+}
 /* custome style Added */
