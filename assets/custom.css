@@ -381,3 +381,45 @@ margin-top: 0;
 .slider-button{
   height: 20px !important;
 }
+
+/* article style */
+.article--share.container {
+  max-width: 100%;
+  padding-bottom: 0;
+  padding-left: 0 !important;
+}
+p.liste-para-ak {
+  font-size: 16px;
+}
+li.article--share-icon a {
+  background: #fff;
+  border-radius: 50%;
+  padding: 12px;
+  display: inline-block;
+  outline: 0;
+}
+li.article--share-icon a svg {
+  width: 40px;
+  height: 40px;
+  fill: currentColor
+}
+a.youtube svg path {
+  fill: red !important;
+}
+@media screen and (max-width: 768px) {
+  ul.article--share--container {
+      padding: 6px;
+      gap: 6px;
+  }
+  li.article--share-icon a {
+    padding: 6px;
+}
+  li.content-for-text {
+    margin-right: 6px;
+}
+li.article--share-icon a svg {
+  width: 30px;
+  height: 30px;
+}
+}
+/* article style */
