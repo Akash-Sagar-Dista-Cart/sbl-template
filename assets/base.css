@@ -3616,4 +3616,8 @@ body.page.contact,body.page.contact .form__label,body.page.contact .field__label
 .about-us .image-with-text__heading{
   margin-bottom: 20px;
 }
+.about-us p{
+  margin: 0;
+  margin-bottom: 1rem;
+}
 /* custome style Added */
