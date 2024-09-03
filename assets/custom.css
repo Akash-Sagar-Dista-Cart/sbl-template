@@ -401,6 +401,7 @@ li.article--share-icon a {
   padding: 12px;
   display: inline-block;
   outline: 0;
+  line-height: 0;
 }
 li.article--share-icon a svg {
   width: 40px;
@@ -427,6 +428,17 @@ ul.article--share--container {
 .article--share--container li{
 list-style: none;
 } 
+p.liste-para-ak {
+  font-size: 24px;
+  font-weight: 500;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+ul.article--share--container {
+  gap: 4rem;
+}
 @media screen and (max-width: 768px) {
   ul.article--share--container {
       padding: 6px;
