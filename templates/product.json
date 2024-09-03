@@ -203,7 +203,7 @@
           "type": "Faq",
           "settings": {
             "title": "What’s it for?",
-            "tab-icon": "shopify:\/\/shop_images\/search_3888598.png",
+            "tab-icon": "shopify:\/\/shop_images\/icon_ingrdients.svg",
             "content": "",
             "heading-1": "{{ product.metafields.custom.what_s_it_for.value.question_1.value }}",
             "heading-2": "{{ product.metafields.custom.what_s_it_for.value.question_2.value }}",
@@ -231,7 +231,7 @@
           "type": "text",
           "settings": {
             "title": "Description",
-            "tab-icon": "shopify:\/\/shop_images\/web_16734064.png",
+            "tab-icon": "shopify:\/\/shop_images\/icon_facts.svg",
             "content": "{{ product.metafields.custom.new_long_description | metafield_tag }}"
           }
         },
@@ -240,7 +240,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Clinical-Studies.png",
             "title": "Clinical Studies",
-            "tab-icon": "shopify:\/\/shop_images\/science-book_1095379.png",
+            "tab-icon": "shopify:\/\/shop_images\/icon_FAQ.svg",
             "heading": "<strong>Scientific\/Clinical Studies<\/strong>",
             "heading_size": "h1",
             "caption": "",
