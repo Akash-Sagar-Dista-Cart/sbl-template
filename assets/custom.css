@@ -406,6 +406,16 @@ li.article--share-icon a svg {
 a.youtube svg path {
   fill: red !important;
 }
+ul.article--share--container {
+  background: #1c2c3a;
+}
+ul.article--share--container {
+  display: flex;
+  justify-content: end;
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+}
 @media screen and (max-width: 768px) {
   ul.article--share--container {
       padding: 6px;
