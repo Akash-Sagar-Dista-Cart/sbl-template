@@ -3623,4 +3623,9 @@ body.page.contact,body.page.contact .form__label,body.page.contact .field__label
 .about-us .multirow__inner > .image-with-text{
 padding-bottom: 20px;
 }
+@media (max-width:750px) {
+  .about-us .multirow__inner > .image-with-text{
+    padding-bottom: 40px;
+    }
+}
 /* custome style Added */
