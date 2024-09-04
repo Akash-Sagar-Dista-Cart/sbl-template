@@ -86,6 +86,13 @@
             "show_dynamic_checkout": false,
             "show_gift_card_recipient": true
           }
+        },
+        "dealeasy_app_block_HyTRKG": {
+          "type": "shopify:\/\/apps\/dealeasy\/blocks\/app-block\/e47a8634-0496-480d-9e46-6f7fafd34b30",
+          "settings": {
+            "lb-product-handle": "",
+            "lb-product-id": ""
+          }
         }
       },
       "block_order": [
@@ -100,7 +107,8 @@
         "variant_picker_hVbQUR",
         "quantity_selector_93g6Uw",
         "share",
-        "buy_buttons_fjt8a3"
+        "buy_buttons_fjt8a3",
+        "dealeasy_app_block_HyTRKG"
       ],
       "settings": {
         "enable_sticky_info": true,
