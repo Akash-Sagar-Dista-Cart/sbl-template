@@ -392,9 +392,7 @@ li.content-for-text{
   margin-right: 10rem;
 
 }
-p.liste-para-ak {
-  font-size: 16px;
-}
+
 li.article--share-icon a {
   background: #fff;
   border-radius: 50%;
@@ -447,6 +445,9 @@ ul.article--share--container {
   ul.article--share--container {
       padding: 6px;
       gap: 6px;
+  }
+  p.liste-para-ak {
+    font-size: 16px;
   }
   li.article--share-icon a {
     padding: 6px;
