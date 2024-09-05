@@ -370,19 +370,31 @@
     <script src="{{ 'custom.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'jquery.serialize-object.min.js' | asset_url }}" ></script>
 <script>
-var $form = $('form#ContactForm'),
+var $form = $('.page.contact form#ContactForm'),
     url = 'https://script.google.com/macros/s/AKfycbzQWFeBuzqiWqYjV55vVXOft1ulhLhbCxVTUUNRAhFTQh9JlUq13m593fW4FIrZgYNP/exec'
 
-$('#ContactForm').on('submit', function(e) { // updated this so it only submit data when form is submitted successfully. Previously we were triggering this even when user click on submit button.
+$('.page.contact #ContactForm').on('submit', function(e) { // updated this so it only submit data when form is submitted successfully. Previously we were triggering this even when user click on submit button.
   // delete this is you want to send data to admin email address.
-  var jqxhr = $.ajax({
+  $.ajax({
     url: url,
     method: "GET",
     dataType: "json",
     data: $form.serializeObject()
-  }).success(
-    // do something
-  );
+  });
+})
+</script>
+<script>
+var $form = $('.page.consultancy form#ContactForm'),
+    url = 'https://script.google.com/macros/s/AKfycbzQWFeBuzqiWqYjV55vVXOft1ulhLhbCxVTUUNRAhFTQh9JlUq13m593fW4FIrZgYNP/exec'
+
+$('.page.consultancy #ContactForm').on('submit', function(e) { // updated this so it only submit data when form is submitted successfully. Previously we were triggering this even when user click on submit button.
+  // delete this is you want to send data to admin email address.
+  $.ajax({
+    url: url,
+    method: "GET",
+    dataType: "json",
+    data: $form.serializeObject()
+  });
 })
 </script>
   <!-- WPD Start -->
