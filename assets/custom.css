@@ -1,8 +1,5 @@
 /*Videos section*/
 @media (min-width:750px) {
-  .slick-initialized{
-    padding: 0 45px !important;
-  }
   .video-inner-block {
     margin: 5px;
 }
