@@ -231,8 +231,9 @@
         "column_WdJe9R": {
           "type": "column",
           "settings": {
-            "title": "50+",
-            "text": "<p>HEALTH EXPERTS<\/p>",
+            "image": "shopify:\/\/shop_images\/download_3.png",
+            "title": "",
+            "text": "<p>Safe<\/p>",
             "link_label": "",
             "link": ""
           }
