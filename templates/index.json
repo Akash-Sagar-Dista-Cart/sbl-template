@@ -79,8 +79,8 @@
         "column11": {
           "type": "column",
           "settings": {
-            "title": "<strong>Manufactured in our labs<\/strong>",
-            "text": "<p>Most of our ingredients are made in our partner labs with patents under the observations of our research scientist<\/p>",
+            "title": "Sonia Bajaj",
+            "text": "<p>My husband was treated for a stone in the urinary tract with SBL's Homeopathic medicine no surgery was required. Thanks to my doctor Dr. Nirmal Pangtey<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -120,7 +120,7 @@
         "column14"
       ],
       "settings": {
-        "title": "Advantages & USP",
+        "title": "Testimonial",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "square",
