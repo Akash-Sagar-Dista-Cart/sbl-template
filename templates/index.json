@@ -9,6 +9,42 @@
 */
 {
   "sections": {
+    "slideshow_EradJD": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_gUXn8z": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Artboard-1.png",
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_gUXn8z"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "slider_visual": "dots",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
     "vedio_text_section_JnPEny": {
       "type": "vedio-text-section",
       "blocks": {
@@ -40,12 +76,12 @@
         "text_cWMQpB",
         "button_CtUxJ6"
       ],
+      "disabled": true,
       "settings": {
         "heading": "",
         "heading_size": "h1",
         "enable_video_looping": false,
         "video_url": "https:\/\/youtu.be\/waWU8wxu1GU",
-        "cover_image": "shopify:\/\/shop_images\/image_5_1.png",
         "description": "",
         "full_width": false,
         "color_scheme": "",
@@ -157,7 +193,6 @@
         "column11": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1_Advantages_USP.png",
             "title": "<strong>Manufactured in our labs<\/strong>",
             "text": "<p>Most of our ingredients are made in our partner labs with patents under the observations of our research scientist<\/p>",
             "link_label": "",
@@ -167,7 +202,6 @@
         "column12": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/custom_resized_0a928d0e-fc6d-4c3e-9098-4cc7533f037e_1.png",
             "title": "<strong>Right Strength to stop the progression of diseases<\/strong>",
             "text": "<p>The Dosages are selected carefully after Clinical trials for their maximum efficacy<\/p>",
             "link_label": "",
@@ -177,7 +211,6 @@
         "column13": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/3_Advantages_USP.png",
             "title": "<strong>Preservative free<\/strong>",
             "text": "<p>We use rosemary extract as a preservative, as compare to harmful chemicals<\/p>",
             "link_label": "",
@@ -187,7 +220,6 @@
         "column14": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/4_Advantages_USP.png",
             "title": "<strong>Plant cellulose<\/strong>",
             "text": "<p>We use expensive plant cellulose capsules, as compared to cheap fish shell capsules<\/p>",
             "link_label": "",
@@ -224,7 +256,6 @@
         "row_ik6V4L": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/consultant.png",
             "caption": "",
             "heading": "<strong>Need help achieving your health goals?<\/strong>",
             "text": "<p>Schedule or consult with us today.<\/p>",
@@ -275,7 +306,6 @@
         "row_HEWe3K": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/custom_resized_1_a6e47a97-5c2b-4fbc-8ed5-7624c28c8c07.png",
             "caption": "",
             "heading": "<strong>Our Philosophy<\/strong>",
             "text": "<p><em><strong>\"Absolutely no disease can build a home in a healthy body, mind, and heart\"<\/strong><\/em>forms the cornerstone of Miduty.<br\/><br\/>And that’s why we aim to reverse diseases from the root for everlasting results.<br\/><br\/>At Miduty, we’re all about making your life happier, healthier, and more fulfilling through nutritious food and healthy lifestyle changes, regardless of your hectic schedule.<\/p>",
@@ -401,6 +431,7 @@
     }
   },
   "order": [
+    "slideshow_EradJD",
     "vedio_text_section_JnPEny",
     "featured_collection1",
     "vedio_slider_section_hJERAb",
