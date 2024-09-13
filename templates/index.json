@@ -109,8 +109,9 @@
         "column14": {
           "type": "column",
           "settings": {
-            "title": "<strong>Plant cellulose<\/strong>",
-            "text": "<p>We use expensive plant cellulose capsules, as compared to cheap fish shell capsules<\/p>",
+            "image": "shopify:\/\/shop_images\/surgeon-wearing-face-mask.jpg",
+            "title": "Abhishek",
+            "text": "<p>Yes definitely, homeopathy has played an important role in fighting & curing this killing virus not only for me but for many others in my known, I would like to say a big thank you and my salute to my Doctor Shashank Mohta for help & supporting me in this difference.<\/p>",
             "link_label": "",
             "link": ""
           }
