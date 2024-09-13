@@ -211,6 +211,9 @@ flex-direction:column;
  body.contact form,body.legal form{
   width: 100%;
  }
+#Slider-template--16799490867288__multicolumn_FMXnRJ .multicolumn-list__item{
+  width:25%;
+ }
  @media (min-width:750px) {
   /* about us page  */
  #Slider-template--17121796554933__multicolumn_yrdtRA{
