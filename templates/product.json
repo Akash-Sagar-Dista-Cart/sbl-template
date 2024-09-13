@@ -197,7 +197,7 @@
         "product_video_Yp7U6V"
       ],
       "settings": {
-        "heading": "{{ product.metafields.custom.vedio_slider.value.section_heading.value }}",
+        "heading": "",
         "heading_size": "h2",
         "color_scheme": "",
         "padding_top": 0,
@@ -211,7 +211,6 @@
           "type": "Faq",
           "settings": {
             "title": "What’s it for?",
-            "tab-icon": "shopify:\/\/shop_images\/icon_ingrdients.svg",
             "content": "",
             "heading-1": "",
             "heading-2": "",
@@ -239,14 +238,12 @@
           "type": "text",
           "settings": {
             "title": "Description",
-            "tab-icon": "shopify:\/\/shop_images\/icon_facts.svg",
             "content": ""
           }
         },
         "img_text_block_MMhgXg": {
           "type": "img-text-block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Clinical-Studies.png",
             "title": "Clinical Studies",
             "tab-icon": "shopify:\/\/shop_images\/icon_FAQ.svg",
             "heading": "<strong>Scientific\/Clinical Studies<\/strong>",
