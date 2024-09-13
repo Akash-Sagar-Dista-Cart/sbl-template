@@ -23,11 +23,6 @@
           "settings": {
           }
         },
-        "judge_me_reviews_preview_badge_VftXwx": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-          }
-        },
         "custom_liquid_h93UU4": {
           "type": "custom_liquid",
           "settings": {
@@ -86,19 +81,11 @@
             "show_dynamic_checkout": false,
             "show_gift_card_recipient": true
           }
-        },
-        "dealeasy_app_block_HyTRKG": {
-          "type": "shopify:\/\/apps\/dealeasy\/blocks\/app-block\/e47a8634-0496-480d-9e46-6f7fafd34b30",
-          "settings": {
-            "lb-product-handle": "",
-            "lb-product-id": ""
-          }
         }
       },
       "block_order": [
         "product_text_badge_Fda6RA",
         "title",
-        "judge_me_reviews_preview_badge_VftXwx",
         "custom_liquid_h93UU4",
         "price",
         "sku_EhcjQ9",
@@ -107,8 +94,7 @@
         "variant_picker_hVbQUR",
         "quantity_selector_93g6Uw",
         "share",
-        "buy_buttons_fjt8a3",
-        "dealeasy_app_block_HyTRKG"
+        "buy_buttons_fjt8a3"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -245,7 +231,6 @@
           "type": "img-text-block",
           "settings": {
             "title": "Clinical Studies",
-            "tab-icon": "shopify:\/\/shop_images\/icon_FAQ.svg",
             "heading": "<strong>Scientific\/Clinical Studies<\/strong>",
             "heading_size": "h1",
             "caption": "",
@@ -464,15 +449,21 @@
     },
     "1721723840083d7530": {
       "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "172621054619b4112b": {
+      "type": "apps",
       "blocks": {
-        "judge_me_reviews_review_widget_yLgxNM": {
+        "judge_me_reviews_review_widget_RaVhmj": {
           "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
           }
         }
       },
       "block_order": [
-        "judge_me_reviews_review_widget_yLgxNM"
+        "judge_me_reviews_review_widget_RaVhmj"
       ],
       "settings": {
         "include_margins": true
@@ -487,6 +478,7 @@
     "tabbed_description_zXGKxn",
     "related-products",
     "rich_text_pgB9rM",
-    "1721723840083d7530"
+    "1721723840083d7530",
+    "172621054619b4112b"
   ]
 }
