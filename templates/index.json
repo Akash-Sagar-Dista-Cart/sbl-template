@@ -377,12 +377,19 @@
           "settings": {
             "collection": "body-care"
           }
+        },
+        "featured_collection_AjQ69m": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "cleansing"
+          }
         }
       },
       "block_order": [
         "featured_collection_zeWH9i",
         "featured_collection_Am6GFt",
-        "featured_collection_bP4WQY"
+        "featured_collection_bP4WQY",
+        "featured_collection_AjQ69m"
       ],
       "settings": {
         "title": "Handpicked Collections",
