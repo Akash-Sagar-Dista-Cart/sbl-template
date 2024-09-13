@@ -226,6 +226,7 @@ flex-direction:column;
  #Slider-template--17121796554933__multicolumn_yrdtRA .multicolumn-list__item ,
  #Slider-template--16799490867288__multicolumn_FMXnRJ .multicolumn-list__item{
   flex: 1;
+   text-align:center;
  }
  
  }
