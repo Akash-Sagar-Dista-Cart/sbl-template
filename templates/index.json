@@ -73,53 +73,6 @@
         "padding_bottom": 0
       }
     },
-    "collection_list_khcdzx": {
-      "type": "collection-list",
-      "blocks": {
-        "featured_collection_zeWH9i": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "ayurvedic-products"
-          }
-        },
-        "featured_collection_Am6GFt": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "bath-shower"
-          }
-        },
-        "featured_collection_bP4WQY": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "body-care"
-          }
-        },
-        "featured_collection_AjQ69m": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "cleansing"
-          }
-        }
-      },
-      "block_order": [
-        "featured_collection_zeWH9i",
-        "featured_collection_Am6GFt",
-        "featured_collection_bP4WQY",
-        "featured_collection_AjQ69m"
-      ],
-      "settings": {
-        "title": "Handpicked Collections",
-        "heading_size": "h1",
-        "image_ratio": "square",
-        "columns_desktop": 4,
-        "color_scheme": "",
-        "show_view_all": false,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "multicolumn2": {
       "type": "multicolumn",
       "blocks": {
@@ -184,6 +137,53 @@
         "columns_mobile": "1",
         "swipe_on_mobile": true,
         "padding_top": 12,
+        "padding_bottom": 36
+      }
+    },
+    "collection_list_khcdzx": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_zeWH9i": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "ayurvedic-products"
+          }
+        },
+        "featured_collection_Am6GFt": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bath-shower"
+          }
+        },
+        "featured_collection_bP4WQY": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "body-care"
+          }
+        },
+        "featured_collection_AjQ69m": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "cleansing"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_zeWH9i",
+        "featured_collection_Am6GFt",
+        "featured_collection_bP4WQY",
+        "featured_collection_AjQ69m"
+      ],
+      "settings": {
+        "title": "Handpicked Collections",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
         "padding_bottom": 36
       }
     },
@@ -408,8 +408,8 @@
   "order": [
     "slideshow_EradJD",
     "featured_collection1",
-    "collection_list_khcdzx",
     "multicolumn2",
+    "collection_list_khcdzx",
     "multirow_VTtPLi",
     "featured_blog_EmCUba",
     "multirow_EeR9qY",
