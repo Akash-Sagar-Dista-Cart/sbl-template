@@ -197,9 +197,10 @@
         "row_HEWe3K": {
           "type": "row",
           "settings": {
+            "image": "shopify:\/\/shop_images\/doctors-medical-gear.jpg",
             "caption": "",
-            "heading": "<strong>Our Philosophy<\/strong>",
-            "text": "<p><em><strong>\"Absolutely no disease can build a home in a healthy body, mind, and heart\"<\/strong><\/em>forms the cornerstone of Miduty.<br\/><br\/>And that’s why we aim to reverse diseases from the root for everlasting results.<br\/><br\/>At Miduty, we’re all about making your life happier, healthier, and more fulfilling through nutritious food and healthy lifestyle changes, regardless of your hectic schedule.<\/p>",
+            "heading": "Homoeopathic Approach",
+            "text": "<p>At SBL we believe there's a better way to feel better with homoeopathic. <\/p><p>Discover this holistic system of medicine and all the benefits it can offer to you.<\/p><p><\/p>",
             "button_label": "",
             "button_link": ""
           }
