@@ -153,47 +153,6 @@
         "disabled": false,
         "settings": {
         }
-      },
-      "10436698916776057164": {
-        "type": "shopify:\/\/apps\/appstle-subscription\/blocks\/appstle-subscription-helper\/fe257d39-6f88-4f35-ab08-bd437e3aa94e",
-        "disabled": false,
-        "settings": {
-        }
-      },
-      "15683396631634586217": {
-        "type": "shopify:\/\/apps\/inbox\/blocks\/chat\/841fc607-4181-4ad1-842d-e24d7f8bad6b",
-        "disabled": false,
-        "settings": {
-          "button_color": "#000000",
-          "secondary_color": "#ffffff",
-          "ternary_color": "#6a6a6a",
-          "button_icon": "chat_bubble",
-          "button_text": "no_text",
-          "button_horizontal_position": "bottom_right",
-          "button_vertical_position": "higher",
-          "greeting_message": ""
-        }
-      },
-      "8746983209849429782": {
-        "type": "shopify:\/\/apps\/dealeasy\/blocks\/app-embed\/e47a8634-0496-480d-9e46-6f7fafd34b30",
-        "disabled": false,
-        "settings": {
-          "dealeasy_public_access_token": "7819569dd576fc822f112d62f1f6c795",
-          "using_translated_handles": false,
-          "custom_script_and_style": "<script><\/script>\n<style><\/style>"
-        }
-      },
-      "16477348613150133823": {
-        "type": "shopify:\/\/apps\/unlimited-bundles\/blocks\/script-app-block\/d33d0f48-dee0-42a0-b156-2a5dce91814a",
-        "disabled": false,
-        "settings": {
-          "reload_on_line_item_properties": false,
-          "disable_reload_on_cart_update": false,
-          "disable_cart_attribute_tracker": false,
-          "disable_facebook_events": false,
-          "enable_reload_on_bundle_auto_match": false,
-          "use_h2_header": false
-        }
       }
     },
     "color_schemes": {
