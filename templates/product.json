@@ -267,14 +267,14 @@
         "heading_eTmhQr": {
           "type": "heading",
           "settings": {
-            "heading": "",
+            "heading": "HOMEOPATHY",
             "heading_size": "h2"
           }
         },
         "text_tnaf9z": {
           "type": "text",
           "settings": {
-            "text": "",
+            "text": "<ul><li> It treats the patient according to the symptoms<\/li><li> It is non-toxic and does not have potent side effects<\/li><li> Helps to eliminate the problem from the root<\/li><li> Stimulates the immune system which in turn helps to heal the patient naturally<\/li><li> Does not suppress the symptoms<\/li><li> Homeopathy is a holistic method of treatment and works by treating the person and not a particular organ or part<\/li><\/ul>",
             "text_style": "body"
           }
         },
@@ -293,6 +293,7 @@
         "button_eh6dcX"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/3_1.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
