@@ -468,3 +468,7 @@ li.article--share-icon a svg {
 }
 }
 /* article style */
+
+.header--has-menu .link{
+  font-size:1.8rem;
+}
