@@ -45,50 +45,6 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
-    "vedio_text_section_JnPEny": {
-      "type": "vedio-text-section",
-      "blocks": {
-        "heading_KLbYaD": {
-          "type": "heading",
-          "settings": {
-            "heading": "",
-            "heading_size": "h1"
-          }
-        },
-        "text_cWMQpB": {
-          "type": "text",
-          "settings": {
-            "text": "<h1>Elevate your health<\/h1><p><\/p><p>• India's #1 trusted Nutraceutical brand for disease remission.<\/p><p><br\/>• Treated over 3 lakh + people in just three years and counting.<\/p><p><br\/>• Over 85% returning customer rate making us #1 in D2C brands.<\/p>",
-            "text_style": "body"
-          }
-        },
-        "button_CtUxJ6": {
-          "type": "button",
-          "settings": {
-            "button_label": "Shop Products",
-            "button_link": "shopify:\/\/collections\/all",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_KLbYaD",
-        "text_cWMQpB",
-        "button_CtUxJ6"
-      ],
-      "disabled": true,
-      "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "enable_video_looping": false,
-        "video_url": "https:\/\/youtu.be\/waWU8wxu1GU",
-        "description": "",
-        "full_width": false,
-        "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "featured_collection1": {
       "type": "featured-collection",
       "settings": {
@@ -115,76 +71,6 @@
         "swipe_on_mobile": true,
         "padding_top": 12,
         "padding_bottom": 0
-      }
-    },
-    "vedio_slider_section_hJERAb": {
-      "type": "vedio-slider-section",
-      "blocks": {
-        "youtube_video_PV9Yeh": {
-          "type": "youtube_video",
-          "settings": {
-            "video_url": "https:\/\/youtu.be\/DJmJSSeGSa8",
-            "title": "Anu Got Help In Dark Spots & Wrinkles"
-          }
-        },
-        "youtube_video_UXEYhy": {
-          "type": "youtube_video",
-          "settings": {
-            "video_url": "https:\/\/youtu.be\/yGRXCFk9S1k",
-            "title": "Bela Got Relief From Mood Swings, Hot Flashes, And Blood Clots"
-          }
-        },
-        "youtube_video_zeJbA8": {
-          "type": "youtube_video",
-          "settings": {
-            "video_url": "https:\/\/youtu.be\/ybM2e0tjjyE",
-            "title": "Anu Got Help In Dark Spots & Wrinkles"
-          }
-        },
-        "youtube_video_JkAyLW": {
-          "type": "youtube_video",
-          "settings": {
-            "video_url": "https:\/\/youtu.be\/14tv4q7vUcI",
-            "title": "Anu Increased Hemoglobin Levels With Blood Builder"
-          }
-        },
-        "youtube_video_aA4BHk": {
-          "type": "youtube_video",
-          "settings": {
-            "video_url": "https:\/\/youtu.be\/Q2Laivp84j0",
-            "title": "Bhawana Got Relief From Seasonal Allergies And Skin Rashes"
-          }
-        },
-        "youtube_video_xfTrci": {
-          "type": "youtube_video",
-          "settings": {
-            "video_url": "https:\/\/youtu.be\/tt1if_A2COU",
-            "title": "Vinita Solved Her Hand Numbness Problem"
-          }
-        },
-        "youtube_video_AQwrVY": {
-          "type": "youtube_video",
-          "settings": {
-            "video_url": "https:\/\/youtu.be\/tXy9BMfDBq4",
-            "title": "Leena's Weight Loss Journey"
-          }
-        }
-      },
-      "block_order": [
-        "youtube_video_PV9Yeh",
-        "youtube_video_UXEYhy",
-        "youtube_video_zeJbA8",
-        "youtube_video_JkAyLW",
-        "youtube_video_aA4BHk",
-        "youtube_video_xfTrci",
-        "youtube_video_AQwrVY"
-      ],
-      "settings": {
-        "heading": "How We Helped Our Customers",
-        "heading_size": "h1",
-        "color_scheme": "",
-        "padding_top": 12,
-        "padding_bottom": 36
       }
     },
     "multicolumn2": {
@@ -432,9 +318,7 @@
   },
   "order": [
     "slideshow_EradJD",
-    "vedio_text_section_JnPEny",
     "featured_collection1",
-    "vedio_slider_section_hJERAb",
     "multicolumn2",
     "multirow_VTtPLi",
     "featured_blog_EmCUba",
