@@ -99,8 +99,9 @@
         "column13": {
           "type": "column",
           "settings": {
-            "title": "<strong>Preservative free<\/strong>",
-            "text": "<p>We use rosemary extract as a preservative, as compare to harmful chemicals<\/p>",
+            "image": "shopify:\/\/shop_images\/woman-doctor-with-gloves.jpg",
+            "title": "Swapnil",
+            "text": "<p>I suffered from Covid and took only SBL's dilution & now I am fit n fine absolutely and living a healthy life<\/p>",
             "link_label": "",
             "link": ""
           }
