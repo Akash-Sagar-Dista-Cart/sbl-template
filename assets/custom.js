@@ -225,7 +225,6 @@ document.addEventListener('DOMContentLoaded', function() {
   }
   
   // Initialize the ShowMoreContent class
-  new NavigationMenu('.mega-menu__list');
   if(document.getElementById('showMoreBtn') != null ){
     new ShowMoreContent('showMoreBtn', '.more-content','.descrition-first');
   }
