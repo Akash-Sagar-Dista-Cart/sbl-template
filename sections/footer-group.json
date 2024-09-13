@@ -22,6 +22,7 @@
         },
         "link_list": {
           "type": "link_list",
+          "disabled": true,
           "settings": {
             "heading": "",
             "menu": "footer"
@@ -34,20 +35,11 @@
             "menu": "footer-2"
           }
         },
-        "image_agLyR7": {
-          "type": "image",
+        "link_list_9bxVdU": {
+          "type": "link_list",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Footer-Badge-01_d52f0ca0-43c1-4bee-b2fe-abea77030bf5_1.png",
-            "image_width": 150,
-            "alignment": ""
-          }
-        },
-        "image_ReATLz": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Footer-Badge-02_f7edda0d-12f0-4050-aafd-39b9b4a5ba1f_1.png",
-            "image_width": 550,
-            "alignment": ""
+            "heading": "Products",
+            "menu": "test-menu"
           }
         }
       },
@@ -55,8 +47,7 @@
         "brand_information_Fpxkz4",
         "link_list",
         "link_list_AfQyYt",
-        "image_agLyR7",
-        "image_ReATLz"
+        "link_list_9bxVdU"
       ],
       "settings": {
         "color_scheme": "scheme-4",
