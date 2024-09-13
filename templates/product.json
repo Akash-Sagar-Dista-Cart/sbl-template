@@ -15,7 +15,7 @@
         "product_text_badge_Fda6RA": {
           "type": "product-text-badge",
           "settings": {
-            "text-list": "{{product.metafields.custom.tag_list}}"
+            "text-list": ""
           }
         },
         "title": {
@@ -132,57 +132,57 @@
         "product_video_bzTMXH": {
           "type": "product_video",
           "settings": {
-            "video_url_1": "{{ product.metafields.custom.vedio_slider.value.vedio_13.value }}",
-            "title_1": "{{ product.metafields.custom.vedio_slider.value.heading_1.value }}"
+            "video_url_1": "",
+            "title_1": ""
           }
         },
         "product_video_4B7Bnc": {
           "type": "product_video",
           "settings": {
-            "video_url_1": "{{ product.metafields.custom.vedio_slider.value.vedio_12.value }}",
-            "title_1": "{{ product.metafields.custom.vedio_slider.value.heading_2.value }}"
+            "video_url_1": "",
+            "title_1": ""
           }
         },
         "product_video_BA4Mfb": {
           "type": "product_video",
           "settings": {
-            "video_url_1": "{{ product.metafields.custom.vedio_slider.value.vedio_14.value }}",
-            "title_1": "{{ product.metafields.custom.vedio_slider.value.heading_3.value }}"
+            "video_url_1": "",
+            "title_1": ""
           }
         },
         "product_video_XiWqGw": {
           "type": "product_video",
           "settings": {
-            "video_url_1": "{{ product.metafields.custom.vedio_slider.value.vedio_15.value }}",
-            "title_1": "{{ product.metafields.custom.vedio_slider.value.heading_4.value }}"
+            "video_url_1": "",
+            "title_1": ""
           }
         },
         "product_video_jpHF3a": {
           "type": "product_video",
           "settings": {
-            "video_url_1": "{{ product.metafields.custom.vedio_slider.value.vedio_16.value }}",
-            "title_1": "{{ product.metafields.custom.vedio_slider.value.heading_5.value }}"
+            "video_url_1": "",
+            "title_1": ""
           }
         },
         "product_video_Cyy83k": {
           "type": "product_video",
           "settings": {
-            "video_url_1": "{{ product.metafields.custom.vedio_slider.value.vedio_6.value }}",
-            "title_1": "{{ product.metafields.custom.vedio_slider.value.heading_6.value }}"
+            "video_url_1": "",
+            "title_1": ""
           }
         },
         "product_video_EfALbA": {
           "type": "product_video",
           "settings": {
-            "video_url_1": "{{ product.metafields.custom.vedio_slider.value.vedio_7.value }}",
-            "title_1": "{{ product.metafields.custom.vedio_slider.value.heading_7.value }}"
+            "video_url_1": "",
+            "title_1": ""
           }
         },
         "product_video_Yp7U6V": {
           "type": "product_video",
           "settings": {
-            "video_url_1": "{{ product.metafields.custom.vedio_slider.value.vedio_8.value }}",
-            "title_1": "{{ product.metafields.custom.vedio_slider.value.heading_8.value }}"
+            "video_url_1": "",
+            "title_1": ""
           }
         }
       },
@@ -213,8 +213,8 @@
             "title": "What’s it for?",
             "tab-icon": "shopify:\/\/shop_images\/icon_ingrdients.svg",
             "content": "",
-            "heading-1": "{{ product.metafields.custom.what_s_it_for.value.question_1.value }}",
-            "heading-2": "{{ product.metafields.custom.what_s_it_for.value.question_2.value }}",
+            "heading-1": "",
+            "heading-2": "",
             "heading-3": "",
             "heading-4": "",
             "heading-5": "",
@@ -223,8 +223,8 @@
             "heading-8": "",
             "heading-9": "",
             "heading-10": "",
-            "row_content-1": "{{ product.metafields.custom.what_s_it_for.value.answer_1 | metafield_tag }}",
-            "row_content-2": "{{ product.metafields.custom.what_s_it_for.value.answer_2 | metafield_tag }}",
+            "row_content-1": "",
+            "row_content-2": "",
             "row_content-3": "",
             "row_content-4": "",
             "row_content-5": "",
@@ -240,7 +240,7 @@
           "settings": {
             "title": "Description",
             "tab-icon": "shopify:\/\/shop_images\/icon_facts.svg",
-            "content": "{{ product.metafields.custom.new_long_description | metafield_tag }}"
+            "content": ""
           }
         },
         "img_text_block_MMhgXg": {
@@ -254,7 +254,7 @@
             "caption": "",
             "text_style": "subtitle",
             "text_size": "large",
-            "text": "{{ product.metafields.custom.clinical_studies.value.content | metafield_tag }}",
+            "text": "",
             "button_label": "",
             "button_link": "",
             "button_style_secondary": false,
@@ -284,14 +284,14 @@
         "heading_eTmhQr": {
           "type": "heading",
           "settings": {
-            "heading": "{{ product.metafields.custom.why_choose.value.heading.value }}",
+            "heading": "",
             "heading_size": "h2"
           }
         },
         "text_tnaf9z": {
           "type": "text",
           "settings": {
-            "text": "{{ product.metafields.custom.why_choose.value.content | metafield_tag }}",
+            "text": "",
             "text_style": "body"
           }
         },
@@ -310,7 +310,6 @@
         "button_eh6dcX"
       ],
       "settings": {
-        "image": "{{ product.metafields.custom.why_choose.value.image.value }}",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -332,51 +331,34 @@
           "type": "benefits",
           "settings": {
             "title": "Ingredients",
-            "tab-icon": "shopify:\/\/shop_images\/international_ingrdients.svg",
-            "content-title": "{{ product.metafields.custom.ingredients.value.title.value }}",
+            "content-title": "",
             "content-sub-title": "",
-            "icon-1": "{{ product.metafields.custom.ingredients.value.icon_1.value }}",
-            "icon-1-text": "{{ product.metafields.custom.ingredients.value.icon_text_1.value }}",
-            "icon-2": "{{ product.metafields.custom.ingredients.value.icon_2.value }}",
-            "icon-2-text": "{{ product.metafields.custom.ingredients.value.icon_text_2.value }}",
-            "icon-3": "{{ product.metafields.custom.ingredients.value.icon_3.value }}",
-            "icon-3-text": "{{ product.metafields.custom.ingredients.value.icon_text_3.value }}",
-            "icon-4": "{{ product.metafields.custom.ingredients.value.icon_4.value }}",
-            "icon-4-text": "{{ product.metafields.custom.ingredients.value.icon_text_4.value }}",
-            "icon-5": "{{ product.metafields.custom.ingredients.value.icon_5.value }}",
-            "icon-5-text": "{{ product.metafields.custom.ingredients.value.icon_text_5.value }}",
-            "icon-6": "{{ product.metafields.custom.ingredients.value.icon_6.value }}",
-            "icon-6-text": "{{ product.metafields.custom.ingredients.value.icon_text_6.value }}",
-            "icon-7": "{{ product.metafields.custom.ingredients.value.icon_7.value }}",
-            "icon-7-text": "{{ product.metafields.custom.ingredients.value.icon_text_7.value }}",
-            "icon-8": "{{ product.metafields.custom.ingredients.value.icon_8.value }}",
-            "icon-8-text": "{{ product.metafields.custom.ingredients.value.icon_text_8.value }}",
-            "icon-9": "{{ product.metafields.custom.ingredients.value.icon_9.value }}",
-            "icon-9-text": "{{ product.metafields.custom.ingredients.value.icon_text_9.value }}",
-            "icon-10": "{{ product.metafields.custom.ingredients.value.icon_10.value }}",
-            "icon-10-text": "{{ product.metafields.custom.ingredients.value.icon_text_10.value }}",
-            "icon-11": "{{ product.metafields.custom.ingredients.value.icon_11.value }}",
-            "icon-11-text": "{{ product.metafields.custom.ingredients.value.icon_text_11.value }}",
-            "icon-12": "{{ product.metafields.custom.ingredients.value.icon_12.value }}",
-            "icon-12-text": "{{ product.metafields.custom.ingredients.value.icon_text_12.value }}",
-            "icon-13": "{{ product.metafields.custom.ingredients.value.icon_13.value }}",
-            "icon-13-text": "{{ product.metafields.custom.ingredients.value.icon_text_13.value }}",
-            "icon-14": "{{ product.metafields.custom.ingredients.value.icon_14.value }}",
-            "icon-14-text": "{{ product.metafields.custom.ingredients.value.icon_text_14.value }}"
+            "icon-1-text": "",
+            "icon-2-text": "",
+            "icon-3-text": "",
+            "icon-4-text": "",
+            "icon-5-text": "",
+            "icon-6-text": "",
+            "icon-7-text": "",
+            "icon-8-text": "",
+            "icon-9-text": "",
+            "icon-10-text": "",
+            "icon-11-text": "",
+            "icon-12-text": "",
+            "icon-13-text": "",
+            "icon-14-text": ""
           }
         },
         "img_text_block_UnY6Hw": {
           "type": "img-text-block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/facts_f261567f-e0cf-4736-bab1-e1f9374843f7.png",
             "title": "Unknown Facts",
-            "tab-icon": "shopify:\/\/shop_images\/international_facts.svg",
             "heading": "",
             "heading_size": "h1",
             "caption": "",
             "text_style": "subtitle",
             "text_size": "small",
-            "text": "{{ product.metafields.custom.unknown_facts | metafield_tag }}",
+            "text": "",
             "button_label": "",
             "button_link": "",
             "button_style_secondary": false,
@@ -394,28 +376,27 @@
           "type": "Faq",
           "settings": {
             "title": "FAQs",
-            "tab-icon": "shopify:\/\/shop_images\/international_FAQ.svg",
             "content": "",
-            "heading-1": "{{ product.metafields.custom.faqs.value.question_1.value }}",
-            "heading-2": "{{ product.metafields.custom.faqs.value.question_2.value }}",
-            "heading-3": "{{ product.metafields.custom.faqs.value.question_3.value }}",
-            "heading-4": "{{ product.metafields.custom.faqs.value.question_4.value }}",
-            "heading-5": "{{ product.metafields.custom.faqs.value.question_5.value }}",
-            "heading-6": "{{ product.metafields.custom.faqs.value.question_6.value }}",
-            "heading-7": "{{ product.metafields.custom.faqs.value.question_7.value }}",
-            "heading-8": "{{ product.metafields.custom.faqs.value.question_8.value }}",
-            "heading-9": "{{ product.metafields.custom.faqs.value.question_9.value }}",
-            "heading-10": "{{ product.metafields.custom.faqs.value.question_10.value }}",
-            "row_content-1": "<p>{{ product.metafields.custom.faqs.value.ans_1.value }}<\/p>",
-            "row_content-2": "<p>{{ product.metafields.custom.faqs.value.ans_2.value }}<\/p>",
-            "row_content-3": "{{ product.metafields.custom.faqs.value.ans_3.value }}",
-            "row_content-4": "{{ product.metafields.custom.faqs.value.ans_4.value }}",
-            "row_content-5": "{{ product.metafields.custom.faqs.value.ans_5.value }}",
-            "row_content-6": "{{ product.metafields.custom.faqs.value.ans_6.value }}",
-            "row_content-7": "{{ product.metafields.custom.faqs.value.ans_7.value }}",
-            "row_content-8": "{{ product.metafields.custom.faqs.value.ans_8.value }}",
-            "row_content-9": "{{ product.metafields.custom.faqs.value.ans_9.value }}",
-            "row_content-10": "{{ product.metafields.custom.faqs.value.ans_10.value }}"
+            "heading-1": "",
+            "heading-2": "",
+            "heading-3": "",
+            "heading-4": "",
+            "heading-5": "",
+            "heading-6": "",
+            "heading-7": "",
+            "heading-8": "",
+            "heading-9": "",
+            "heading-10": "",
+            "row_content-1": "",
+            "row_content-2": "",
+            "row_content-3": "",
+            "row_content-4": "",
+            "row_content-5": "",
+            "row_content-6": "",
+            "row_content-7": "",
+            "row_content-8": "",
+            "row_content-9": "",
+            "row_content-10": ""
           }
         }
       },
@@ -452,21 +433,21 @@
         "heading_UGXpDN": {
           "type": "heading",
           "settings": {
-            "heading": "<span style=\"text-decoration:underline\"><strong>PALAK NOTES IS NOW MIDUTY<\/strong><\/span>",
+            "heading": "",
             "heading_size": "h1"
           }
         },
         "heading_WUPiWP": {
           "type": "heading",
           "settings": {
-            "heading": "New Era! Continued Dedication!",
+            "heading": "",
             "heading_size": "h2"
           }
         },
         "text_3hcKDn": {
           "type": "text",
           "settings": {
-            "text": "<p>Pain that went untreated gave rise to the brand Palak Notes. Pre-COVID, we began to evolve, and over the past three years (and counting), we have dedicated our entire self to learning about the pain and health issues that society suffers. We had a modest beginning, but today we have a large family. <\/p><p><\/p><p>So, in order to adapt to these changes over time, we have decided to create a new brand identity that reflects our team and potential customers. We are now known as MIDUTY. Our vision for the current era is presented and projected through this new identity.<\/p>"
+            "text": ""
           }
         }
       },
@@ -499,46 +480,6 @@
       "settings": {
         "include_margins": true
       }
-    },
-    "tabbed_description_GdFbcA": {
-      "type": "tabbed-description",
-      "blocks": {
-        "faq_dJBp6a": {
-          "type": "Faq",
-          "settings": {
-            "title": "fAQ",
-            "tab-icon": "shopify:\/\/shop_images\/question_4641271.png",
-            "content": "",
-            "heading-1": "{{ product.metafields.custom.what_s_it_for.value.question_1.value }}",
-            "heading-2": "{{ product.metafields.custom.what_s_it_for.value.question_2.value }}",
-            "heading-3": "",
-            "heading-4": "",
-            "heading-5": "",
-            "heading-6": "",
-            "heading-7": "",
-            "heading-8": "",
-            "heading-9": "",
-            "heading-10": "",
-            "row_content-1": "{{ product.metafields.custom.what_s_it_for.value.answer_1 | metafield_tag }}",
-            "row_content-2": "{{ product.metafields.custom.what_s_it_for.value.answer_2 | metafield_tag }}",
-            "row_content-3": "",
-            "row_content-4": "",
-            "row_content-5": "",
-            "row_content-6": "",
-            "row_content-7": "",
-            "row_content-8": "",
-            "row_content-9": "",
-            "row_content-10": ""
-          }
-        }
-      },
-      "block_order": [
-        "faq_dJBp6a"
-      ],
-      "disabled": true,
-      "settings": {
-        "color_scheme": "scheme-1"
-      }
     }
   },
   "order": [
@@ -549,7 +490,6 @@
     "tabbed_description_zXGKxn",
     "related-products",
     "rich_text_pgB9rM",
-    "1721723840083d7530",
-    "tabbed_description_GdFbcA"
+    "1721723840083d7530"
   ]
 }
