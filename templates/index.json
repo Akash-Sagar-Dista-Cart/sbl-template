@@ -228,39 +228,74 @@
     "multicolumn_FMXnRJ": {
       "type": "multicolumn",
       "blocks": {
-        "column_WdJe9R": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/download_3.png",
-            "title": "",
-            "text": "<p>Safe<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_PkPRz7": {
-          "type": "column",
-          "settings": {
-            "title": "80%",
-            "text": "<p>RETURNING CUSTOMERS<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
         "column_HFERK3": {
           "type": "column",
           "settings": {
-            "title": "800K",
-            "text": "<p>USERS HELPED<\/p>",
+            "image": "shopify:\/\/shop_images\/download_5.png",
+            "title": "Effective",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_tfMthR": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/download_3.png",
+            "title": "Safe",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_ACbecr": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/download_4.png",
+            "title": "Natural",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_6e6XJh": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/download_6.png",
+            "title": "Indian Made",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_QtyfTA": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/download_7.png",
+            "title": "GMP Certified",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_qdnnMB": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/download_8.png",
+            "title": "ISO Certified",
+            "text": "",
             "link_label": "",
             "link": ""
           }
         }
       },
       "block_order": [
-        "column_WdJe9R",
-        "column_PkPRz7",
-        "column_HFERK3"
+        "column_HFERK3",
+        "column_tfMthR",
+        "column_ACbecr",
+        "column_6e6XJh",
+        "column_QtyfTA",
+        "column_qdnnMB"
       ],
       "settings": {
         "title": "",
