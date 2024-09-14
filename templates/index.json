@@ -185,13 +185,20 @@
           "settings": {
             "collection": "popular-picks"
           }
+        },
+        "featured_collection_hr99q3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "accessories"
+          }
         }
       },
       "block_order": [
         "featured_collection_zeWH9i",
         "featured_collection_Am6GFt",
         "featured_collection_bP4WQY",
-        "featured_collection_AjQ69m"
+        "featured_collection_AjQ69m",
+        "featured_collection_hr99q3"
       ],
       "settings": {
         "title": "Handpicked Collections",
