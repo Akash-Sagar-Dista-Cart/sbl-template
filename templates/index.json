@@ -197,7 +197,7 @@
         "title": "Handpicked Collections",
         "heading_size": "h1",
         "image_ratio": "square",
-        "columns_desktop": 6,
+        "columns_desktop": 5,
         "color_scheme": "scheme-2",
         "show_view_all": false,
         "columns_mobile": "1",
