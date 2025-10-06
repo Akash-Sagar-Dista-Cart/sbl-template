@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "slideshow_EradJD": {
@@ -15,7 +15,7 @@
         "slide_nWbWi6": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Artboard-1.png",
+            "image": "shopify://shop_images/Artboard-1.png",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
@@ -33,7 +33,7 @@
         "slide_KDeACm": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Artboard-1.png",
+            "image": "shopify://shop_images/Artboard-1.png",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
@@ -98,9 +98,9 @@
         "column11": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/a-doctor-smiles-while-holding-her-clipboard.jpg",
+            "image": "shopify://shop_images/a-doctor-smiles-while-holding-her-clipboard.jpg",
             "title": "Sonia Bajaj",
-            "text": "<p>My husband was treated for a stone in the urinary tract with SBL's Homeopathic medicine no surgery was required. Thanks to my doctor Dr. Nirmal Pangtey<\/p>",
+            "text": "<p>My husband was treated for a stone in the urinary tract with SBL's Homeopathic medicine no surgery was required. Thanks to my doctor Dr. Nirmal Pangtey</p>",
             "link_label": "",
             "link": ""
           }
@@ -108,9 +108,9 @@
         "column12": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/doctor-looking-at-clipboard.jpg",
+            "image": "shopify://shop_images/doctor-looking-at-clipboard.jpg",
             "title": "Shantilal Patel",
-            "text": "<p>I am very much satisfied with the SBL Homeopathy online consulting. Dr. Manju understood my ailment and prescribed homeopathic medicine through updates case paper work that was clear & easy to follow.<\/p>",
+            "text": "<p>I am very much satisfied with the SBL Homeopathy online consulting. Dr. Manju understood my ailment and prescribed homeopathic medicine through updates case paper work that was clear & easy to follow.</p>",
             "link_label": "",
             "link": ""
           }
@@ -118,9 +118,9 @@
         "column13": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/woman-doctor-with-gloves.jpg",
+            "image": "shopify://shop_images/woman-doctor-with-gloves.jpg",
             "title": "Swapnil",
-            "text": "<p>I suffered from Covid and took only SBL's dilution & now I am fit n fine absolutely and living a healthy life<\/p>",
+            "text": "<p>I suffered from Covid and took only SBL's dilution & now I am fit n fine absolutely and living a healthy life</p>",
             "link_label": "",
             "link": ""
           }
@@ -128,9 +128,9 @@
         "column14": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/surgeon-wearing-face-mask.jpg",
+            "image": "shopify://shop_images/surgeon-wearing-face-mask.jpg",
             "title": "Abhishek",
-            "text": "<p>Yes definitely, homeopathy has played an important role in fighting & curing this killing virus not only for me but for many others in my known, I would like to say a big thank you and my salute to my Doctor Shashank Mohta for help & supporting me in this difference.<\/p>",
+            "text": "<p>Yes definitely, homeopathy has played an important role in fighting & curing this killing virus not only for me but for many others in my known, I would like to say a big thank you and my salute to my Doctor Shashank Mohta for help & supporting me in this difference.</p>",
             "link_label": "",
             "link": ""
           }
@@ -219,12 +219,12 @@
         "row_ik6V4L": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/male-doctor-holding-out-stethoscope.jpg",
+            "image": "shopify://shop_images/male-doctor-holding-out-stethoscope.jpg",
             "caption": "",
-            "heading": "<strong>Need help achieving your health goals?<\/strong>",
-            "text": "<p>Schedule or consult with us today.<\/p>",
+            "heading": "<strong>Need help achieving your health goals?</strong>",
+            "text": "<p>Schedule or consult with us today.</p>",
             "button_label": "Consult Now For free",
-            "button_link": "shopify:\/\/pages\/consultancy"
+            "button_link": "shopify://pages/consultancy"
           }
         }
       },
@@ -270,10 +270,10 @@
         "row_HEWe3K": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/doctors-medical-gear.jpg",
+            "image": "shopify://shop_images/doctors-medical-gear.jpg",
             "caption": "",
             "heading": "Homoeopathic Approach",
-            "text": "<p>At SBL we believe there's a better way to feel better with homoeopathic. <\/p><p>Discover this holistic system of medicine and all the benefits it can offer to you.<\/p><p><\/p>",
+            "text": "<p>At SBL we believe there's a better way to feel better with homoeopathic. </p><p>Discover this holistic system of medicine and all the benefits it can offer to you.</p><p></p>",
             "button_label": "",
             "button_link": ""
           }
@@ -304,7 +304,7 @@
         "column_HFERK3": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/download_5.png",
+            "image": "shopify://shop_images/download_5.png",
             "title": "Effective",
             "text": "",
             "link_label": "",
@@ -314,7 +314,7 @@
         "column_tfMthR": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/download_3.png",
+            "image": "shopify://shop_images/download_3.png",
             "title": "Safe",
             "text": "",
             "link_label": "",
@@ -324,7 +324,7 @@
         "column_ACbecr": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/download_4.png",
+            "image": "shopify://shop_images/download_4.png",
             "title": "Natural",
             "text": "",
             "link_label": "",
@@ -334,7 +334,7 @@
         "column_6e6XJh": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/download_6.png",
+            "image": "shopify://shop_images/download_6.png",
             "title": "Indian Made",
             "text": "",
             "link_label": "",
@@ -344,7 +344,7 @@
         "column_QtyfTA": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/download_7.png",
+            "image": "shopify://shop_images/download_7.png",
             "title": "GMP Certified",
             "text": "",
             "link_label": "",
@@ -354,7 +354,7 @@
         "column_qdnnMB": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/download_8.png",
+            "image": "shopify://shop_images/download_8.png",
             "title": "ISO Certified",
             "text": "",
             "link_label": "",
@@ -369,6 +369,9 @@
         "column_6e6XJh",
         "column_QtyfTA",
         "column_qdnnMB"
+      ],
+      "custom_css": [
+        ".multicolumn-list__item {flex: 1; text-align: center; }"
       ],
       "settings": {
         "title": "",
@@ -391,7 +394,7 @@
       "type": "custom-liquid",
       "disabled": true,
       "settings": {
-        "custom_liquid": "<section class=\"charity-block\">\n         <div class=\"container page-width\">\n              <div class=\"row align-items-center\">\n                   <div class=\"col-12 col-md-6 pr-lg-5\">\n                      <h2 class=\"heading2\">Feeding 200+ dogs everyday and counting<\/h2>\n                          <p class=\"sectio-description\">Feeding 200+ dogs everyday and counting\nAlong with this, Miduty has always been at the front when it comes to giving back to society. We believe that humanity extends beyond humans to every living being in nature. Dogs, found on nearly every street in India, are one such creature. Contributing to animal welfare through this initiative was the most feasible way for us to make an impact.\n<br><br>\n'Ross Serves' is an initiative where a special team from Miduty feeds 300+ stray dogs daily. Till now, we have fed over 41,000 dogs. This initiative got its name after Mr. Pranav's pet dog 'Ross'. In line with our Corporate Social Responsibility, Miduty also facilitates in-house doctors who work on the sterilization of dogs to help control the stray dog population.\n<br><br>\nMiduty hopes to serve as many stray dogs as possible.\n                  <\/div>\n                  <div class=\"col-12 col-md-6\">\n                     \n                        <div><iframe class=\"instagram-media instagram-media-rendered\" id=\"instagram-embed-0\" src=\"https:\/\/www.instagram.com\/tv\/CZD8jyGpjsz\/embed\/captioned\/?cr=1&amp;v=14&amp;wp=540&amp;rd=https%3A%2F%2Fmiduty.in&amp;rp=%2F#%7B%22ci%22%3A0%2C%22os%22%3A3492.8999996185303%2C%22ls%22%3A1469.8999996185303%2C%22le%22%3A2903.2999997138977%7D\" allowtransparency=\"true\" allowfullscreen=\"true\" frameborder=\"0\" height=\"706\" data-instgrm-payload-id=\"instagram-media-payload-0\" scrolling=\"no\" style=\"background: white; max-width: 540px; width: calc(100% - 2px); border-radius: 3px; border: 1px solid rgb(219, 219, 219); box-shadow: none; display: block; margin: 0px 0px 12px; min-width: 326px; padding: 0px;\"><\/iframe> <script async=\"\" src=\"\/\/www.instagram.com\/embed.js\"><\/script><\/div>\n                      \n                      \n                  <\/div>    \n              <\/div>    \n         <\/div> \n     <\/section>",
+        "custom_liquid": "<section class=\"charity-block\">\n         <div class=\"container page-width\">\n              <div class=\"row align-items-center\">\n                   <div class=\"col-12 col-md-6 pr-lg-5\">\n                      <h2 class=\"heading2\">Feeding 200+ dogs everyday and counting</h2>\n                          <p class=\"sectio-description\">Feeding 200+ dogs everyday and counting\nAlong with this, Miduty has always been at the front when it comes to giving back to society. We believe that humanity extends beyond humans to every living being in nature. Dogs, found on nearly every street in India, are one such creature. Contributing to animal welfare through this initiative was the most feasible way for us to make an impact.\n<br><br>\n'Ross Serves' is an initiative where a special team from Miduty feeds 300+ stray dogs daily. Till now, we have fed over 41,000 dogs. This initiative got its name after Mr. Pranav's pet dog 'Ross'. In line with our Corporate Social Responsibility, Miduty also facilitates in-house doctors who work on the sterilization of dogs to help control the stray dog population.\n<br><br>\nMiduty hopes to serve as many stray dogs as possible.\n                  </div>\n                  <div class=\"col-12 col-md-6\">\n                     \n                        <div><iframe class=\"instagram-media instagram-media-rendered\" id=\"instagram-embed-0\" src=\"https://www.instagram.com/tv/CZD8jyGpjsz/embed/captioned/?cr=1&amp;v=14&amp;wp=540&amp;rd=https%3A%2F%2Fmiduty.in&amp;rp=%2F#%7B%22ci%22%3A0%2C%22os%22%3A3492.8999996185303%2C%22ls%22%3A1469.8999996185303%2C%22le%22%3A2903.2999997138977%7D\" allowtransparency=\"true\" allowfullscreen=\"true\" frameborder=\"0\" height=\"706\" data-instgrm-payload-id=\"instagram-media-payload-0\" scrolling=\"no\" style=\"background: white; max-width: 540px; width: calc(100% - 2px); border-radius: 3px; border: 1px solid rgb(219, 219, 219); box-shadow: none; display: block; margin: 0px 0px 12px; min-width: 326px; padding: 0px;\"></iframe> <script async=\"\" src=\"//www.instagram.com/embed.js\"></script></div>\n                      \n                      \n                  </div>    \n              </div>    \n         </div> \n     </section>",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
@@ -410,13 +413,12 @@
         "paragraph_drUtMb": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Get personalized health tips, exclusive discounts, and sneak peeks at new products, all delivered straight to your inbox.<\/p>"
+            "text": "<p>Get personalized health tips, exclusive discounts, and sneak peeks at new products, all delivered straight to your inbox.</p>"
           }
         },
         "email_form_tjzwdP": {
           "type": "email_form",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
